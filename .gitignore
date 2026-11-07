@@ -1,0 +1,21 @@
+.DS_STORE
+.env
+.snowpack
+build
+node_modules
+public/definitions
+dist
+dist-ssr
+
+# MORGRIE local tooling, dependency cache and verification logs
+/.tools/
+/.local/
+
+# Private resource packs and source-export/build scratch must stay outside public source.
+.env.*
+!.env.example
+/private-assets/
+/restricted-assets/
+/public-source/
+/release-artifacts/
+*.log

@@ -1,0 +1,116 @@
+[
+  {
+    "name": "@the-via/reader",
+    "version": "1.14.4",
+    "repository": "https://github.com/the-via/reader",
+    "commit": "c26009992a7a2e9776720ebf5644a50f8e92c7a5",
+    "url": "https://codeload.github.com/the-via/reader/zip/c26009992a7a2e9776720ebf5644a50f8e92c7a5",
+    "archive": "third_party/source-archives/reader-1.14.4-c2600999.zip",
+    "sha256": "2e960061fde758218ff1c4ee9358d25b99b9755090dacb6898e7ce8f7dc706a7",
+    "bytes": 80568,
+    "status": "reviewed-original-upstream-source-archive",
+    "review": {
+      "files": 50,
+      "sha256Verified": true,
+      "packageName": "@the-via/reader",
+      "packageVersion": "1.14.4",
+      "versionMatches": true,
+      "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "hasSrc": true,
+      "unsafePaths": [],
+      "gitMetadata": [],
+      "sensitiveFilenames": [],
+      "secretPatternMatches": [],
+      "personalPathFiles": [],
+      "filesContainingEmailAddresses": [
+        "package.json"
+      ],
+      "staticAssets": []
+    }
+  },
+  {
+    "name": "@the-via/reader",
+    "version": "1.14.3",
+    "repository": "https://github.com/the-via/reader",
+    "commit": "12d1e5fbbfbb1e68bc154a7109e352a6e23d845e",
+    "url": "https://codeload.github.com/the-via/reader/zip/12d1e5fbbfbb1e68bc154a7109e352a6e23d845e",
+    "archive": "third_party/source-archives/reader-1.14.3-12d1e5fb.zip",
+    "sha256": "ba870cf393f986e990f0f006bf69a9b6bc6f6801147f8b01cc88379b3458d86c",
+    "bytes": 79703,
+    "status": "reviewed-original-upstream-source-archive",
+    "review": {
+      "files": 50,
+      "sha256Verified": true,
+      "packageName": "@the-via/reader",
+      "packageVersion": "1.14.3",
+      "versionMatches": true,
+      "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "hasSrc": true,
+      "unsafePaths": [],
+      "gitMetadata": [],
+      "sensitiveFilenames": [],
+      "secretPatternMatches": [],
+      "personalPathFiles": [],
+      "filesContainingEmailAddresses": [
+        "package.json"
+      ],
+      "staticAssets": []
+    }
+  },
+  {
+    "name": "@the-via/pelpi",
+    "version": "0.0.3",
+    "repository": "https://github.com/the-via/pelpi",
+    "commit": "1a239b5c316a33f9f7b95db66b403e471afeb338",
+    "url": "https://codeload.github.com/the-via/pelpi/zip/1a239b5c316a33f9f7b95db66b403e471afeb338",
+    "archive": "third_party/source-archives/pelpi-0.0.3-1a239b5c.zip",
+    "sha256": "d82a5d8e4cdd9066a709763c0e69cdc2f10ad707328521b1f94bfe73771c33e2",
+    "bytes": 61595,
+    "status": "reviewed-original-upstream-source-archive",
+    "review": {
+      "files": 11,
+      "sha256Verified": true,
+      "packageName": "@the-via/pelpi",
+      "packageVersion": "0.0.3",
+      "versionMatches": true,
+      "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "hasSrc": true,
+      "unsafePaths": [],
+      "gitMetadata": [],
+      "sensitiveFilenames": [],
+      "secretPatternMatches": [],
+      "personalPathFiles": [],
+      "filesContainingEmailAddresses": [
+        "package.json"
+      ],
+      "staticAssets": []
+    }
+  },
+  {
+    "name": "via-keyboards",
+    "version": "0.1.0",
+    "repository": "https://github.com/the-via/keyboards",
+    "commit": "79ae8d2f8799fb526afe38a1400f0ecc0712aed2",
+    "url": "https://codeload.github.com/the-via/keyboards/zip/79ae8d2f8799fb526afe38a1400f0ecc0712aed2",
+    "archive": "third_party/source-archives/keyboards-79ae8d2f.zip",
+    "sha256": "444b5f88d8106d15feae0f2c91a809c0a791dab328a378644d7deeccf40e27ed",
+    "bytes": 4125724,
+    "status": "reviewed-original-upstream-source-archive",
+    "review": {
+      "files": 3517,
+      "sha256Verified": true,
+      "packageName": "via-keyboards",
+      "packageVersion": "0.1.0",
+      "versionMatches": true,
+      "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "hasSrc": true,
+      "unsafePaths": [],
+      "gitMetadata": [],
+      "sensitiveFilenames": [],
+      "secretPatternMatches": [],
+      "personalPathFiles": [],
+      "filesContainingEmailAddresses": [],
+      "staticAssets": []
+    }
+  }
+]

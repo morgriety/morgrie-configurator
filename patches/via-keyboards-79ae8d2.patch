@@ -1,0 +1,40 @@
+diff --git a/scripts/build-all.ts b/scripts/build-all.ts
+index 1989f3dcff2fa342ff96fcc1411f099705227736..1618f440c62ef23facb23a15a00cdc887540520a 100644
+--- a/scripts/build-all.ts
++++ b/scripts/build-all.ts
+@@ -2,12 +2,13 @@ import fs from 'fs-extra';
+ import {buildNames} from './build-names';
+ import {buildDefinitions} from './build-definitions';
+ import {ErrorLogger} from './error-log';
++import {getOutputPath} from './get-path';
+ 
+ async function build() {
+   const logger = new ErrorLogger();
+ 
+   try {
+-    await fs.remove('dist');
++    await fs.remove(getOutputPath());
+     await logger.clearLogFile();
+ 
+     const v3ConvertedDefinitions = await buildDefinitions(logger);
+diff --git a/scripts/get-path.ts b/scripts/get-path.ts
+index d261cb4eb3e77983ed64682ba39cdbde535f0d51..586ce02490601f3460f735b947d485a8d7045c3a 100644
+--- a/scripts/get-path.ts
++++ b/scripts/get-path.ts
+@@ -1,10 +1,14 @@
+ import path from 'path';
+ export function getDefinitionsPath(version = 'v2') {
+-  return path.join(
++  const upstreamPath = path.join(
+     __dirname,
+     '..',
+     version === 'v2' ? 'src/**/*.json' : `${version}/**/*.json`
+-  );
++  ).split(path.sep).join('/');
++  const localRoot = process.env.VIA_LOCAL_DEFINITIONS;
++  return localRoot
++    ? [upstreamPath, path.join(localRoot, version, '**/*.json').split(path.sep).join('/')]
++    : upstreamPath;
+ }
+ export function getOutputPath() {
+   return path.resolve(process.argv[2] || 'dist');

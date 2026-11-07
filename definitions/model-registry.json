@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "models": [
+    {
+      "modelDefinitionId": "morgrie-air68",
+      "vendorId": 65534,
+      "productId": 108,
+      "productName": "RIE68",
+      "definitionVersion": "v3",
+      "source": "definitions/v3/morgrie/air68/Morgrie_Air68_via_v1_02_20250904.json",
+      "resourcePath": "v3/4294836332.json"
+    },
+    {
+      "modelDefinitionId": "morgrie-dos68",
+      "vendorId": 65534,
+      "productId": 108,
+      "productName": "DOS 68",
+      "definitionVersion": "v3",
+      "source": "definitions/models/morgrie/dos68/rkb68_via_v1_02_20261014.json",
+      "resourcePath": "models/morgrie-dos68-v3.json"
+    }
+  ]
+}

@@ -1,0 +1,460 @@
+import React, {useCallback, useEffect, useMemo, useRef, useState} from 'react';
+import {shallowEqual} from 'react-redux';
+import {TestKeyState} from 'src/types/types';
+import {getDarkenedColor} from 'src/utils/color-math';
+import {CSSVarObject, getComboKeyProps} from 'src/utils/keyboard-rendering';
+import {MorgrieScaleContext, paintMorgrieLegend} from '../morgrie-legend';
+import styled from 'styled-components';
+import {Keycap2DTooltip} from '../../inputs/tooltip';
+import {ComboKeycap} from './combo-keycap';
+import {EncoderKey} from './encoder';
+import {KeyFocusRing} from './key-focus-ring';
+import {
+  CanvasContainer,
+  morgrieFacePaint,
+  morgrieSelectedPaint,
+  morgrieWallPaint,
+  KeycapContainer,
+  TestOverlay,
+  TooltipContainer,
+} from './keycap-base';
+import {
+  KeycapState,
+  TwoStringKeycapProps,
+  DisplayMode,
+} from 'src/types/keyboard-rendering';
+
+const getMacroData = ({
+  macroExpression,
+  label,
+}: {
+  macroExpression?: string;
+  label: string;
+}) =>
+  label && label.length > 15
+    ? label
+    : macroExpression && macroExpression.length
+    ? macroExpression
+    : null;
+
+const paintDebugLines = (canvas: HTMLCanvasElement) => {
+  const context = canvas.getContext('2d');
+  if (context == null) {
+    return;
+  }
+  context.strokeStyle = 'magenta';
+  context.lineWidth = 1;
+  context.beginPath();
+  context.moveTo(0, 0);
+  context.lineTo(canvas.width, 0);
+  context.lineTo(canvas.width, canvas.height);
+  context.lineTo(0, canvas.height);
+  context.lineTo(0, 0);
+  context.stroke();
+};
+
+const paintKeycapLabel = (
+  canvas: HTMLCanvasElement,
+  legendColor: string,
+  label: any,
+) => {
+  const context = canvas.getContext('2d');
+  if (context == null) {
+    return;
+  }
+  const dpi = devicePixelRatio;
+  const [canvasWidth, canvasHeight] = [canvas.width, canvas.height];
+  canvas.width = canvasWidth * dpi;
+  canvas.height = canvasHeight * dpi;
+  canvas.style.width = `${canvasWidth}px`;
+  canvas.style.height = `${canvasHeight}px`;
+
+  context.scale(dpi, dpi);
+  const fontFamily =
+    'Fira Sans, Arial Rounded MT, Arial Rounded MT Bold, Arial';
+  // Margins from face edge to where text is drawn
+  const topLabelMargin = {x: 4, y: 4};
+  const bottomLabelMargin = {x: 4, y: 4};
+  const centerLabelMargin = {x: 3, y: 0};
+  const singleLabelMargin = {x: 4, y: 4};
+
+  // Define a clipping path for the top face, so text is not drawn on the side.
+  context.beginPath();
+  context.moveTo(0, 0);
+  context.lineTo(canvas.width, 0);
+  context.lineTo(canvas.width, canvas.height);
+  context.lineTo(0, canvas.height);
+  context.lineTo(0, 0);
+  context.clip();
+
+  context.fillStyle = legendColor;
+  if (label === undefined) {
+  } else if (label.topLabel && label.bottomLabel) {
+    let fontSize = 16;
+    let fontHeight = 0.75 * fontSize;
+    let topLabelOffset = label.offset[0] * fontHeight;
+    let bottomLabelOffset = label.offset[1] * fontHeight;
+    context.font = `bold ${fontSize}px ${fontFamily}`;
+    context.fillText(
+      label.topLabel,
+      topLabelMargin.x,
+      topLabelMargin.y + topLabelOffset + fontHeight,
+    );
+    context.fillText(
+      label.bottomLabel,
+      bottomLabelMargin.x,
+      canvasHeight - bottomLabelMargin.y - bottomLabelOffset,
+    );
+  } else if (label.centerLabel) {
+    let fontSize = 13 * label.size;
+    let fontHeight = 0.75 * fontSize;
+    let faceMidLeftY = canvasHeight / 2;
+    context.font = `bold ${fontSize}px ${fontFamily}`;
+    context.fillText(
+      label.label,
+      centerLabelMargin.x,
+      faceMidLeftY + 0.5 * fontHeight,
+    );
+    // return if label would have overflowed so that we know to show tooltip
+    return (
+      context.measureText(label.centerLabel).width >
+      canvasWidth - centerLabelMargin.x
+    );
+  } else if (typeof label.label === 'string') {
+    let fontSize = 22;
+    let fontHeight = 0.75 * fontSize;
+    context.font = `bold ${fontSize}px ${fontFamily}`;
+    context.fillText(
+      label.label,
+      singleLabelMargin.x,
+      singleLabelMargin.y + fontHeight,
+    );
+  }
+};
+
+const paintKeycap = (
+  canvas: HTMLCanvasElement,
+  textureWidth: number,
+  textureHeight: number,
+  legendColor: string,
+  label: any,
+) => {
+  const [canvasWidth, canvasHeight] = [
+    CSSVarObject.keyWidth,
+    CSSVarObject.keyHeight,
+  ];
+  canvas.width =
+    canvasWidth * textureWidth -
+    CSSVarObject.faceXPadding.reduce((x, y) => x + y, 0);
+  canvas.height =
+    canvasHeight * textureHeight -
+    CSSVarObject.faceYPadding.reduce((x, y) => x + y, 0);
+
+  const context = canvas.getContext('2d');
+  if (context == null) {
+    return;
+  }
+
+  // Fill the canvas with the keycap background color
+  //context.fillStyle = bgColor;
+  //context.fillRect(0, 0, canvas.width, canvas.height);
+
+  // Leaving this here for future maintenance.
+  // This draws lines around the keycap edge and the top face edge,
+  // *or* a clipped area within it when keycaps are large, vertical or odd shapes.
+  const debug = false;
+  if (debug) {
+    paintDebugLines(canvas);
+  }
+
+  return paintKeycapLabel(canvas, legendColor, label);
+};
+
+type KeyNavigationProps = React.HTMLAttributes<HTMLDivElement> & {
+  'data-key-index': number;
+};
+
+export const Keycap: React.FC<TwoStringKeycapProps & ReturnType<typeof getComboKeyProps> & {navigation?: KeyNavigationProps}> = React.memo((props) => {
+  const {
+    label,
+    color,
+    selected,
+    disabled,
+    mode,
+    rotation,
+    keyState,
+    shouldRotate,
+    textureWidth,
+    textureHeight,
+    skipFontCheck,
+    idx,
+  } = props;
+  const macroData = label && getMacroData(label);
+  const [overflowsTexture, setOverflowsTexture] = useState(false);
+  // Hold state for hovered and clicked events
+  const [hovered, hover] = useState(false);
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+
+  const morgrieScale = React.useContext(MorgrieScaleContext);
+  const mainRect = props.normalizedRects?.[0];
+  const faceWidth = (mainRect?.[2] ?? textureWidth) * CSSVarObject.keyXPos -
+    CSSVarObject.keyXSpacing - CSSVarObject.faceXPadding[0] - CSSVarObject.faceXPadding[1];
+  const faceHeight = (mainRect?.[3] ?? textureHeight) * CSSVarObject.keyYPos -
+    CSSVarObject.keyYSpacing - CSSVarObject.faceYPadding[0] - CSSVarObject.faceYPadding[1];
+  const redraw = useCallback(() => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+    if (morgrieScale) {
+      // Keep two layout pixels free at each outer edge, even on a 1u key.
+      const sideRoom = Math.max(0, Math.min(...CSSVarObject.faceXPadding) - 2);
+      setOverflowsTexture(paintMorgrieLegend(canvas, faceWidth, faceHeight, morgrieScale, label, sideRoom));
+    } else if (color && label &&
+      (document.fonts.check('bold 16px "Fira Sans"', label.label) || skipFontCheck)) {
+      canvas.style.marginLeft = '';
+      setOverflowsTexture(!!paintKeycap(canvas, textureWidth, textureHeight, color.t, label));
+    }
+  }, [
+    morgrieScale, faceWidth, faceHeight, textureWidth, textureHeight, label,
+    color, skipFontCheck, shouldRotate, props.clipPath,
+  ]);
+  useEffect(redraw, [redraw]);
+
+  const redrawRef = React.useRef(redraw);
+  redrawRef.current = redraw;
+  useEffect(() => {
+    const handler = () => redrawRef.current();
+    document.fonts.addEventListener('loadingdone', handler);
+    return () => {
+      document.fonts.removeEventListener('loadingdone', handler);
+    };
+  }, []);
+
+  // Set Z to half the total height so that keycaps are at the same level since the center
+  // is in the middle and each row has a different height
+  const [zDown, zUp] = [-8, 0];
+  const pressedState =
+    DisplayMode.Test === mode
+      ? TestKeyState.KeyDown === keyState
+        ? KeycapState.Pressed
+        : KeycapState.Unpressed
+      : hovered || selected
+      ? KeycapState.Pressed
+      : KeycapState.Unpressed;
+  const [keycapZ] =
+    pressedState === KeycapState.Pressed
+      ? [zDown, rotation[2]]
+      : [zUp, rotation[2] + Math.PI * Number(shouldRotate)];
+  const wasPressed = keyState === TestKeyState.KeyUp;
+  const keycapColor =
+    DisplayMode.Test === mode
+      ? pressedState === KeycapState.Unpressed
+        ? wasPressed
+          ? 'mediumvioletred'
+          : 'lightgrey'
+        : 'mediumvioletred'
+      : pressedState === KeycapState.Unpressed
+      ? 'lightgrey'
+      : 'lightgrey';
+  const keycapOpacity =
+    pressedState === KeycapState.Unpressed ? (wasPressed ? 0.4 : 0) : 0.6;
+
+  const [onClick, onPointerOver, onPointerOut, onPointerDown] = useMemo(() => {
+    const noop = () => {};
+    return disabled
+      ? [noop, noop, noop, noop]
+      : props.mode === DisplayMode.ConfigureColors
+      ? [
+          noop,
+          (evt: React.MouseEvent) => {
+            if (props.onPointerOver) {
+              props.onPointerOver(evt, idx);
+            }
+          },
+          noop,
+          (evt: React.MouseEvent) => {
+            if (props.onPointerDown) {
+              props.onPointerDown(evt, idx);
+            }
+          },
+        ]
+      : [
+          (evt: React.MouseEvent) => props.onClick(evt, idx),
+          (evt: React.MouseEvent) => {
+            if (props.onPointerOver) {
+              props.onPointerOver(evt, idx);
+            }
+            hover(true);
+          },
+          () => hover(false),
+          (evt: React.MouseEvent) => {
+            if (props.onPointerDown) {
+              props.onPointerDown(evt, idx);
+            }
+          },
+        ];
+  }, [
+    disabled,
+    props.onClick,
+    props.onPointerDown,
+    props.onPointerOver,
+    hover,
+    idx,
+    mode,
+  ]);
+  return shouldRotate ? (
+    <EncoderKey
+      navigation={props.navigation}
+      onClick={onClick}
+      size={textureWidth * CSSVarObject.keyWidth}
+      style={{
+        transform: `translate(${
+          props.position[0] -
+          (CSSVarObject.keyWidth * textureWidth - CSSVarObject.keyWidth) / 2
+        }px,${
+          (textureWidth * (CSSVarObject.keyHeight - CSSVarObject.keyWidth)) /
+            2 +
+          props.position[1] -
+          (CSSVarObject.keyHeight * textureHeight - CSSVarObject.keyHeight) / 2
+        }px) rotate(${-props.rotation[2]}rad)`,
+        borderRadius: 3,
+        color: props.color.c,
+      }}
+    />
+  ) : props.clipPath ? (
+    <ComboKeycap
+      {...props}
+      onClick={onClick}
+      onPointerDown={onPointerDown}
+      onPointerOver={onPointerOver}
+      onPointerOut={onPointerOut}
+      keycapZ={keycapZ}
+      keycapOpacity={keycapOpacity}
+      keycapColor={keycapColor}
+      canvasRef={canvasRef}
+      macroData={macroData}
+      overflowsTexture={overflowsTexture}
+      style={{
+        transform: `translate(${
+          CSSVarObject.keyWidth / 2 +
+          props.position[0] -
+          (CSSVarObject.keyXPos * textureWidth - CSSVarObject.keyXSpacing) / 2
+        }px,${
+          CSSVarObject.keyHeight / 2 +
+          props.position[1] -
+          (CSSVarObject.keyYPos * textureHeight - CSSVarObject.keyYSpacing) / 2
+        }px) rotate(${-props.rotation[2]}rad)`,
+        width: textureWidth * CSSVarObject.keyXPos - CSSVarObject.keyXSpacing,
+        height: textureHeight * CSSVarObject.keyYPos - CSSVarObject.keyYSpacing,
+      }}
+    />
+  ) : (
+    <>
+      <KeycapContainer
+        {...props.navigation}
+        onClick={onClick}
+        onPointerDown={onPointerDown}
+        onPointerOver={onPointerOver}
+        onPointerOut={onPointerOut}
+        style={{
+          transform: `translate(${
+            CSSVarObject.keyWidth / 2 +
+            props.position[0] -
+            (CSSVarObject.keyXPos * textureWidth - CSSVarObject.keyXSpacing) / 2
+          }px,${
+            CSSVarObject.keyHeight / 2 +
+            props.position[1] -
+            (CSSVarObject.keyYPos * textureHeight - CSSVarObject.keyYSpacing) /
+              2
+          }px) rotate(${-props.rotation[2]}rad)`,
+          width: textureWidth * CSSVarObject.keyXPos - CSSVarObject.keyXSpacing,
+          height:
+            textureHeight * CSSVarObject.keyYPos - CSSVarObject.keyYSpacing,
+          cursor: !disabled ? 'pointer' : 'initial',
+        }}
+      >
+        <GlowContainer
+          $selected={selected}
+          data-selected={selected || undefined}
+          style={{
+            animation: disabled || morgrieScale !== null
+              ? 'initial'
+              : selected
+              ? '.75s infinite alternate select-glow'
+              : '',
+            background: `var(--keycap-wall-paint, ${getDarkenedColor(props.color.c, 0.8)})`,
+            transform: `perspective(100px) translateZ(${keycapZ}px)`,
+            borderRadius: 3,
+            width:
+              textureWidth * CSSVarObject.keyXPos - CSSVarObject.keyXSpacing,
+            height:
+              textureHeight * CSSVarObject.keyYPos - CSSVarObject.keyYSpacing,
+          }}
+        >
+          {DisplayMode.Test === mode ? (
+            <TestOverlay
+              style={{
+                background: keycapColor,
+                opacity: keycapOpacity,
+              }}
+            ></TestOverlay>
+          ) : null}
+          <CanvasContainer style={{backgroundColor: props.color.c, height: '100%'}}>
+            <canvas ref={canvasRef} style={{}} />
+          </CanvasContainer>
+        </GlowContainer>
+        {props.navigation && <KeyFocusRing />}
+        {(macroData || overflowsTexture) && (
+          <TooltipContainer $rotate={rotation[2]}>
+            <Keycap2DTooltip>
+              {macroData || (label && label.tooltipLabel)}
+            </Keycap2DTooltip>
+          </TooltipContainer>
+        )}
+      </KeycapContainer>
+    </>
+  );
+}, shallowEqual);
+
+const GlowContainer = styled.div<{$selected: boolean}>`
+  box-sizing: border-box;
+  padding: 2px 6px 10px 6px;
+  transition: transform 0.2s ease-out;
+  box-shadow: inset -1px -1px 0 rgb(0 0 0 / 20%),
+    inset 1px 1px 0 rgb(255 255 255 / 20%);
+  & > ${CanvasContainer} {
+    border-radius: 4px;
+  }
+
+  [data-keyboard-material='morgrie-light'] & {
+    position: relative;
+    --keycap-wall-paint: transparent;
+    box-shadow: none;
+
+    &[data-selected] {
+      ${morgrieSelectedPaint}
+    }
+
+    & > ${CanvasContainer} {
+      border-radius: 5px;
+      ${morgrieFacePaint}
+    }
+
+    /* Inset only the painted shell; the canvas and hit area keep their geometry. */
+    &::before {
+      content: '';
+      position: absolute;
+      pointer-events: none;
+      z-index: -1;
+      inset: 0.75px;
+      border-radius: 5px;
+      ${morgrieWallPaint}
+    }
+  }
+
+  animation: ${(p) =>
+    p.$selected ? '.75s infinite alternate select-glow' : 'initial'};
+  &:hover {
+    transform: perspective(100px) translateZ(-5px);
+    animation: 0.5s 1 forwards select-glow;
+  }
+`;

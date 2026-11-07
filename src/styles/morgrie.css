@@ -1,0 +1,70 @@
+:root {
+  --mg-header: #212121;
+  --mg-sidebar: #f1f0ee;
+  --mg-canvas: #f3f1ef;
+  --mg-canvas-secondary: #efedeb;
+  --mg-editor: #f7f5f3;
+  --mg-nav-active: #e1e0de;
+  --mg-text: #212121;
+  --mg-text-secondary: #77736f;
+  --mg-border: #e2deda;
+  --mg-keycap: #e9e5e2;
+  --mg-keycap-highlight: #f1eeeb;
+  --mg-keyboard-frame: #d9d3cf;
+  --mg-keyboard-inner: #262424;
+  --mg-selected: #e9d7d0;
+  --mg-connected: #3dc965;
+  --mg-layer: #e5e4e2;
+  --mg-button-border: #dedbd8;
+  --mg-keycode-border: #dedbd8;
+  --mg-header-height: 76px;
+  --mg-sidebar-width: 240px;
+  --mg-workspace-height: 539px;
+  --mg-font: Inter, Arial, sans-serif;
+}
+
+/* Legacy controls inherit brand tokens here; keyboard palettes remain in Redux. */
+.mg-app {
+  --color_accent: var(--mg-text);
+  --color_inside-accent: var(--mg-editor);
+  --color_inside_accent: var(--mg-editor);
+  --color_label: var(--mg-text-secondary);
+  --color_label-highlighted: var(--mg-text);
+  --color_icon-highlighted: var(--mg-editor);
+  --color_icon_highlighted: var(--mg-editor);
+  --color_control: var(--mg-text-secondary);
+  --color_control-highlighted: var(--mg-text);
+  --color_control-disabled: var(--mg-nav-active);
+  --color_dark_grey: var(--mg-editor);
+  --border_color_cell: var(--mg-border);
+  --border_color_icon: var(--mg-button-border);
+  --bg_icon: var(--mg-nav-active);
+  --bg_icon-highlighted: var(--mg-text);
+  --bg_menu: var(--mg-sidebar);
+  --bg_control: var(--mg-nav-active);
+  --bg_control-highlighted: var(--mg-editor);
+  --bg_control-disabled: var(--mg-sidebar);
+  --bg_control_disabled: var(--mg-sidebar);
+  --bg_outside-accent: var(--mg-editor);
+  --bg_gradient: var(--mg-editor);
+  --gradient: var(--mg-editor);
+  height: 100%;
+  color: var(--mg-text);
+  background: var(--mg-editor);
+  font: 400 14px/22px var(--mg-font);
+  letter-spacing: 0;
+}
+.mg-app :where(button, input, select, textarea) {
+  font-family: var(--mg-font);
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.mg-app p { font-size: 14px; line-height: 22px; }
+.mg-app a { color: inherit; opacity: 1; }
+.mg-app button:disabled { cursor: not-allowed; opacity: .5; }
+.mg-app :focus-visible { outline: 2px solid var(--mg-text-secondary); outline-offset: 3px; }
+.mg-app h1, .mg-app h2, .mg-app h3 { color: var(--mg-text); }
+@media (max-height: 900px) { :root { --mg-workspace-height: 430px; } }
+@media (max-height: 800px) { :root { --mg-workspace-height: 390px; } }
+@media (max-width: 1050px) { :root { --mg-sidebar-width: 190px; } }
+@media (max-width: 720px) { :root { --mg-sidebar-width: 160px; } }

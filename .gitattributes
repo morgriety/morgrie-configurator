@@ -1,0 +1,8 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+# Preserve the supplied AIR68 JSON bytes across Windows checkouts.
+definitions/v3/morgrie/air68/Morgrie_Air68_via_v1_02_20250904.json text eol=lf
+# Preserve the supplied Spacetime65 definition bytes across Windows checkouts.
+definitions/v3/morgrie/spacetime65/rkb65_via_v1_01_20261020.json text eol=lf
+# Preserve the supplied DOS68 definition bytes across Windows checkouts.
+definitions/models/morgrie/dos68/rkb68_via_v1_02_20261014.json text eol=lf

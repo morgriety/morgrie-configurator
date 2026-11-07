@@ -1,0 +1,357 @@
+{
+  "upstream": "935106a990af39bdd1ade881c02366eac486240d",
+  "files": [
+    {
+      "path": "public/android-chrome-192x192.png",
+      "sha256": "680aab7cd2579012cc0fdf011f6e0034e03815f94486c61699d5070307659176",
+      "bytes": 7746,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "public/android-chrome-512x512.png",
+      "sha256": "e2406dab22231445b4e4a0463497466d809cc1d90e83474c9827d65322e7e263",
+      "bytes": 20544,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "public/apple-touch-icon.png",
+      "sha256": "e73ba27eca382b2d2bf67233a12527495fde0e3d4c1b2f26e08b172aca5628b7",
+      "bytes": 5885,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "public/assets/404.html",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "bytes": 2,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "public/browserconfig.xml",
+      "sha256": "4fbd84fac0ee65f57d0e65dd57573955ed5fdd082e83a6dc5bdcb03ed144c7ba",
+      "bytes": 255,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "public/favicon-16x16.png",
+      "sha256": "0d6f9aec50160925a2b7d82936e80f07588668372a3056095709ff2c2624c884",
+      "bytes": 506,
+      "disposition": "included",
+      "basis": "MORGRIE supplied official logo; reviewed deterministic teal favicon. See resources/morgrie-resource-overrides.json."
+    },
+    {
+      "path": "public/favicon-32x32.png",
+      "sha256": "740b65b46b49182ae919893d9ad454fe40a584ffb070b5c80001c168adc69065",
+      "bytes": 1192,
+      "disposition": "included",
+      "basis": "MORGRIE supplied official logo; reviewed deterministic teal favicon. See resources/morgrie-resource-overrides.json."
+    },
+    {
+      "path": "public/favicon.ico",
+      "sha256": "10f573f20aaf9be61d3863c6d86efbb5d386e6d221786ca99060941adc9f48dc",
+      "bytes": 3234,
+      "disposition": "included",
+      "basis": "MORGRIE supplied official logo; reviewed deterministic teal favicon. See resources/morgrie-resource-overrides.json."
+    },
+    {
+      "path": "public/fonts/GothamRounded-Bold.otf",
+      "sha256": "c1f708bc087c693b719d0983dcfa318fd30a68e00f6f2f0d572e40e00fb8de13",
+      "bytes": 127291,
+      "disposition": "excluded",
+      "basis": "Website-authorized restricted font; public redistribution not established"
+    },
+    {
+      "path": "public/fonts/GothamRounded-BoldItalic.otf",
+      "sha256": "553451b68f16a1cab10ee1280f0e72e8f6b60077d446227a2a9f821729e20c4f",
+      "bytes": 130912,
+      "disposition": "excluded",
+      "basis": "Website-authorized restricted font; public redistribution not established"
+    },
+    {
+      "path": "public/fonts/GothamRounded-Book.otf",
+      "sha256": "b249bb0dc7fefa3b241411870542836d07e5a650b54a7d17a2322025220a482d",
+      "bytes": 130412,
+      "disposition": "excluded",
+      "basis": "Website-authorized restricted font; public redistribution not established"
+    },
+    {
+      "path": "public/fonts/GothamRounded-BookItalic.otf",
+      "sha256": "f551ee24d56c44313138e2bbdb6dba9f76e8c8c8f47ccc40f9887f9a2e08c459",
+      "bytes": 134800,
+      "disposition": "excluded",
+      "basis": "Website-authorized restricted font; public redistribution not established"
+    },
+    {
+      "path": "public/fonts/GothamRounded-Light.otf",
+      "sha256": "a76af0de89a8526292d9fe9b8b00d39cab554ada249a74f29aeaabc04bdc64b4",
+      "bytes": 127508,
+      "disposition": "excluded",
+      "basis": "Website-authorized restricted font; public redistribution not established"
+    },
+    {
+      "path": "public/fonts/GothamRounded-LightItalic.otf",
+      "sha256": "0af6987e500ca71c0dc050c52352d2a595ae92edbe642ff3a7a42f0c151a0866",
+      "bytes": 126664,
+      "disposition": "excluded",
+      "basis": "Website-authorized restricted font; public redistribution not established"
+    },
+    {
+      "path": "public/fonts/GothamRounded-Medium.otf",
+      "sha256": "c4bcf6fc289dc683bada65d21456f0a45ff71173e7e8798d78c2b5c7efed2293",
+      "bytes": 133436,
+      "disposition": "excluded",
+      "basis": "Website-authorized restricted font; public redistribution not established"
+    },
+    {
+      "path": "public/fonts/GothamRounded-MediumItalic.otf",
+      "sha256": "bd78e8400b0d743af8abca2975eb828a2c13e5653de607501fe8e96cf74d14f4",
+      "bytes": 133559,
+      "disposition": "excluded",
+      "basis": "Website-authorized restricted font; public redistribution not established"
+    },
+    {
+      "path": "public/fonts/GothamRoundedBold_21016.ttf",
+      "sha256": "a310a4420dcab453ce6f408a32ce1ed639de321c96b47f54140c74feea74b764",
+      "bytes": 133644,
+      "disposition": "excluded",
+      "basis": "Website-authorized restricted font; public redistribution not established"
+    },
+    {
+      "path": "public/fonts/GothamRoundedBook_21018.ttf",
+      "sha256": "18964c80b28cca8aa17f5195778f968e933f0599b32850ac51642ed3c197d5f3",
+      "bytes": 136136,
+      "disposition": "excluded",
+      "basis": "Website-authorized restricted font; public redistribution not established"
+    },
+    {
+      "path": "public/fonts/GothamRoundedLight_21020.ttf",
+      "sha256": "d7ae5d51226e7dd3f15728cb67db87b159df64fe94b4a7a18a2ce1dff2f7528b",
+      "bytes": 131844,
+      "disposition": "excluded",
+      "basis": "Website-authorized restricted font; public redistribution not established"
+    },
+    {
+      "path": "public/fonts/GothamRoundedMedium_21022.ttf",
+      "sha256": "778d97da6e0d2f466f3d6e3a895654e1f11d735af087f55d6e7f98427f1534d5",
+      "bytes": 125675,
+      "disposition": "excluded",
+      "basis": "Website-authorized restricted font; public redistribution not established"
+    },
+    {
+      "path": "public/fonts/Symbola.ttf",
+      "sha256": "77e5defb1f4dd781fc0900f8d87249f9cd12a0b65e57ce1c0061d88a361252a4",
+      "bytes": 2169800,
+      "disposition": "included",
+      "basis": "Embedded redistribution permission"
+    },
+    {
+      "path": "public/fonts/blenderspacecap.glb",
+      "sha256": "407de2dd85f1cdd05d4cc2549870a1964890e0269eb826ae151c1e0ab71e5c28",
+      "bytes": 228344,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "public/github_oauth.html",
+      "sha256": "abc9467347fac40756464b48c632c103a7abfae1030673045210cc066875a523",
+      "bytes": 781,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "public/images/_0.gif",
+      "sha256": "350a82b8224881fb2af69fc0d75d6d3febd0688a52a1d2c541add707fc11451a",
+      "bytes": 175608,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "public/images/_1.gif",
+      "sha256": "e9f0895810138001561179e7ade9277ae6715a0e6b4c0a93e1b42ba820aed635",
+      "bytes": 123928,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "public/images/_10.gif",
+      "sha256": "5d00b68a95a0442adfa78c6316687dbb8a1374c4d5496e79475920976626d014",
+      "bytes": 134641,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "public/images/_2.gif",
+      "sha256": "181e447727dc782d5572f886673ba1648f627fdcaf277e6dbda545f8ec3856b8",
+      "bytes": 186157,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "public/images/_3.gif",
+      "sha256": "eb47e5647cb8e36dfb2302697e5c6ac3d8c333beff4b67ede33a33b171c31728",
+      "bytes": 104811,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "public/images/_4.gif",
+      "sha256": "85b3f5ec7661891fef9d6890d8447c904d315d30417583df221cd514571cd1e7",
+      "bytes": 241249,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "public/images/_5.gif",
+      "sha256": "e67e1b53488cc4b01923106e18aead596e812ba09b4b3a0ea01043fd92c3aca3",
+      "bytes": 141803,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "public/images/_6.gif",
+      "sha256": "249696c27e53f44ee7158cc1926c01170166297b78d017dd71ef44b4ce81051d",
+      "bytes": 165837,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "public/images/_7.gif",
+      "sha256": "4694e54e2ee8299946130134b178eb43adb1784ea3ef302f1c5a47c40bcd1dd0",
+      "bytes": 162744,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "public/images/_8.gif",
+      "sha256": "d662d2012d43e8b1fd2e7262acbcb3b89b18845b9354d588072b8edc28975102",
+      "bytes": 174677,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "public/images/_9.gif",
+      "sha256": "24ed41eead17880669f5ebb042887ddff0f75364111932187a70751e80b51304",
+      "bytes": 122350,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "public/images/chippy.png",
+      "sha256": "dd6cc202eaad4b042e78898227bb90f3fa4fa74a2925504f2ea4018a5fbca407",
+      "bytes": 71875,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "public/mstile-144x144.png",
+      "sha256": "7bff509cb21fb2d9e3ba6a7a5854c47bd11346bdd8ce593a199eacfdf40cdb7d",
+      "bytes": 5779,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "public/mstile-150x150.png",
+      "sha256": "66ea05ba149871f99394464fd5ecb54f141c97f967a41822ae5f940e299f42bb",
+      "bytes": 5700,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "public/mstile-310x150.png",
+      "sha256": "cae8fbf54f896759efca4b90868317d6b2a8e8021c1fd9b561f1edb2b9473f47",
+      "bytes": 6244,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "public/mstile-310x310.png",
+      "sha256": "6b1a22f8e29e3860ad5d64edd201dac8b13b2e9ecfaaa6feffa901d42bcbc923",
+      "bytes": 11916,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "public/mstile-70x70.png",
+      "sha256": "f68b03e4087d829bfcc5ff7ce8011f15cb3ae2ff473c7a07c7ea762cf841b75f",
+      "bytes": 4143,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "public/robots.txt",
+      "sha256": "e5ab0d231eeb01b4a982d1c79a6729cac9797ad15a69247e4f28ba6afc149b4c",
+      "bytes": 70,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "public/safari-pinned-tab.svg",
+      "sha256": "210b7659a1f760735fdd4bf8f8bd4ad1a53c79e3d6d7483c14fb5ce19f951413",
+      "bytes": 1751,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "public/site.webmanifest",
+      "sha256": "e5209bca07fc4b5b9f04e642d3df8e10d638808a0b52341024121d693deb1ec4",
+      "bytes": 545,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "src/assets/images/chippy_600.png",
+      "sha256": "902171c5ce364fc146c8106a01f56e20b75bf0dfddf90e27905df5e2de1bb6a7",
+      "bytes": 19712,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "src/assets/images/morgrie-logo.png",
+      "sha256": "105f6ef47587df1ac2655e01657517b820e9ebb32035659878e2ac969e5af97b",
+      "bytes": 86402,
+      "disposition": "included",
+      "basis": "MORGRIE supplied resource"
+    },
+    {
+      "path": "src/assets/images/squarey.svg",
+      "sha256": "e7d7c3a0e4b9362db397c9d8dbcf985110bc588e1cd32eb9dcdcb32d906c27a1",
+      "bytes": 2977,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "src/assets/models/cubey.glb",
+      "sha256": "495d68a6545d2d69917edda7928fc6e0d4c89d3d39c091b79279b5f29ed4359d",
+      "bytes": 174404,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "src/assets/models/keyboard_components.glb",
+      "sha256": "1a09821acb6c239a1b9fb02b5fbd8f00e265a1699afa8639f0d5e3f3e10f9ed0",
+      "bytes": 1052316,
+      "disposition": "included",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "src/assets/react.svg",
+      "sha256": "35ef61ed53b323ae94a16a8ec659b3d0af3880698791133f23b084085ab1c2e5",
+      "bytes": 4126,
+      "disposition": "excluded",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    },
+    {
+      "path": "src/logo.svg",
+      "sha256": "5145a50598fa49578714eb8673866313d0d6d5265f5490444bf186240e5616a3",
+      "bytes": 2329,
+      "disposition": "excluded",
+      "basis": "VIA fixed upstream GPL-3.0 project provenance (or documented MORGRIE modification)"
+    }
+  ],
+  "currentDevelopmentHead": "ebd59fe131124ec47798d4e4816a3c16dd3a14dc",
+  "historicalUpstreamComparison": "resources/upstream-resource-provenance.json is historical; current overrides are in morgrie-resource-overrides.json"
+}

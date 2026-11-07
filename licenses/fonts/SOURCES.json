@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Inter",
+    "license": "OFL-1.1",
+    "commit": "b0928647ba26c8d55548aa19feb2f7aeba622d4a",
+    "url": "https://raw.githubusercontent.com/google/fonts/b0928647ba26c8d55548aa19feb2f7aeba622d4a/ofl/inter/OFL.txt",
+    "path": "fonts/inter-OFL.txt",
+    "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+    "bytes": 4377,
+    "scope": "Existing external Google Fonts family reference; no font binary downloaded",
+    "note": "Pinned license-source revision only; not a claim that the unpinned Google Fonts CSS served binary uses this exact revision"
+  },
+  {
+    "name": "Fira Sans",
+    "license": "OFL-1.1",
+    "commit": "49fbebd3dc75d42fe72c4a3eef6524f8fcc335fd",
+    "url": "https://raw.githubusercontent.com/google/fonts/49fbebd3dc75d42fe72c4a3eef6524f8fcc335fd/ofl/firasans/OFL.txt",
+    "path": "fonts/firasans-OFL.txt",
+    "sha256": "8f24842e9174beda18a556c2ae7d54f5dc444340c19a3a9ef77e23bca366adbd",
+    "bytes": 4370,
+    "scope": "Existing external Google Fonts family reference; no font binary downloaded",
+    "note": "Pinned license-source revision only; not a claim that the unpinned Google Fonts CSS served binary uses this exact revision"
+  },
+  {
+    "name": "Fira Sans Condensed",
+    "license": "OFL-1.1",
+    "commit": "c19f2d37a7466e9da7b64aca5413f0ad5d584c3b",
+    "url": "https://raw.githubusercontent.com/google/fonts/c19f2d37a7466e9da7b64aca5413f0ad5d584c3b/ofl/firasanscondensed/OFL.txt",
+    "path": "fonts/firasanscondensed-OFL.txt",
+    "sha256": "8f24842e9174beda18a556c2ae7d54f5dc444340c19a3a9ef77e23bca366adbd",
+    "bytes": 4370,
+    "scope": "Existing external Google Fonts family reference; no font binary downloaded",
+    "note": "Pinned license-source revision only; not a claim that the unpinned Google Fonts CSS served binary uses this exact revision"
+  }
+]

@@ -1,0 +1,1766 @@
+{
+  "date": "2026-11-07",
+  "sourceHead": "ceb993ca31e6e948ae3520ccc52816daa2b48d13",
+  "sourceBunLockSha256": "a8a90d42d76e2b41c0b5fdabfac4bffe2b08c5adbb96629e7d3b22538de672e9",
+  "entries": [
+    {
+      "id": "@babel/runtime@7.20.1",
+      "name": "@babel/runtime",
+      "version": "7.20.1",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/babel--runtime-7.20.1/LICENSE",
+          "source": "node_modules/@babel/runtime/LICENSE",
+          "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+          "bytes": 1106
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel.git",
+        "directory": "packages/babel-runtime"
+      }
+    },
+    {
+      "id": "@babel/runtime@7.28.6",
+      "name": "@babel/runtime",
+      "version": "7.28.6",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/babel--runtime-7.28.6/LICENSE",
+          "source": "node_modules/i18next-browser-languagedetector/node_modules/@babel/runtime/LICENSE",
+          "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+          "bytes": 1106
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel.git",
+        "directory": "packages/babel-runtime"
+      }
+    },
+    {
+      "id": "@emotion/cache@11.10.5",
+      "name": "@emotion/cache",
+      "version": "11.10.5",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/emotion--cache-11.10.5/LICENSE",
+          "source": "node_modules/@emotion/cache/LICENSE",
+          "sha256": "6e8d23763cf7cb707ad8f6677aa502ebeca1dda447e6d6e57f6549c1625b9c4a",
+          "bytes": 1087
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "https://github.com/emotion-js/emotion/tree/main/packages/cache"
+    },
+    {
+      "id": "@emotion/hash@0.9.0",
+      "name": "@emotion/hash",
+      "version": "0.9.0",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/emotion--hash-0.9.0/LICENSE",
+          "source": "node_modules/@emotion/hash/LICENSE",
+          "sha256": "6e8d23763cf7cb707ad8f6677aa502ebeca1dda447e6d6e57f6549c1625b9c4a",
+          "bytes": 1087
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "https://github.com/emotion-js/emotion/tree/main/packages/hash"
+    },
+    {
+      "id": "@emotion/memoize@0.8.0",
+      "name": "@emotion/memoize",
+      "version": "0.8.0",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/emotion--memoize-0.8.0/LICENSE",
+          "source": "node_modules/@emotion/memoize/LICENSE",
+          "sha256": "6e8d23763cf7cb707ad8f6677aa502ebeca1dda447e6d6e57f6549c1625b9c4a",
+          "bytes": 1087
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "https://github.com/emotion-js/emotion/tree/main/packages/memoize"
+    },
+    {
+      "id": "@emotion/react@11.10.5",
+      "name": "@emotion/react",
+      "version": "11.10.5",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/emotion--react-11.10.5/LICENSE",
+          "source": "node_modules/@emotion/react/LICENSE",
+          "sha256": "6e8d23763cf7cb707ad8f6677aa502ebeca1dda447e6d6e57f6549c1625b9c4a",
+          "bytes": 1087
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "https://github.com/emotion-js/emotion/tree/main/packages/react"
+    },
+    {
+      "id": "@emotion/serialize@1.1.1",
+      "name": "@emotion/serialize",
+      "version": "1.1.1",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/emotion--serialize-1.1.1/LICENSE",
+          "source": "node_modules/@emotion/serialize/LICENSE",
+          "sha256": "6e8d23763cf7cb707ad8f6677aa502ebeca1dda447e6d6e57f6549c1625b9c4a",
+          "bytes": 1087
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "https://github.com/emotion-js/emotion/tree/main/packages/serialize"
+    },
+    {
+      "id": "@emotion/sheet@1.2.1",
+      "name": "@emotion/sheet",
+      "version": "1.2.1",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/emotion--sheet-1.2.1/LICENSE",
+          "source": "node_modules/@emotion/sheet/LICENSE",
+          "sha256": "6e8d23763cf7cb707ad8f6677aa502ebeca1dda447e6d6e57f6549c1625b9c4a",
+          "bytes": 1087
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "https://github.com/emotion-js/emotion/tree/main/packages/sheet"
+    },
+    {
+      "id": "@emotion/unitless@0.7.5",
+      "name": "@emotion/unitless",
+      "version": "0.7.5",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/emotion--unitless-0.7.5/LICENSE",
+          "source": "node_modules/@emotion/unitless/LICENSE",
+          "sha256": "6e8d23763cf7cb707ad8f6677aa502ebeca1dda447e6d6e57f6549c1625b9c4a",
+          "bytes": 1087
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "https://github.com/emotion-js/emotion/tree/master/packages/unitless"
+    },
+    {
+      "id": "@emotion/unitless@0.8.0",
+      "name": "@emotion/unitless",
+      "version": "0.8.0",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/emotion--unitless-0.8.0/LICENSE",
+          "source": "node_modules/@emotion/serialize/node_modules/@emotion/unitless/LICENSE",
+          "sha256": "6e8d23763cf7cb707ad8f6677aa502ebeca1dda447e6d6e57f6549c1625b9c4a",
+          "bytes": 1087
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "https://github.com/emotion-js/emotion/tree/main/packages/unitless"
+    },
+    {
+      "id": "@emotion/use-insertion-effect-with-fallbacks@1.0.0",
+      "name": "@emotion/use-insertion-effect-with-fallbacks",
+      "version": "1.0.0",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/emotion--use-insertion-effect-with-fallbacks-1.0.0/LICENSE",
+          "source": "node_modules/@emotion/use-insertion-effect-with-fallbacks/LICENSE",
+          "sha256": "6e8d23763cf7cb707ad8f6677aa502ebeca1dda447e6d6e57f6549c1625b9c4a",
+          "bytes": 1087
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "https://github.com/emotion-js/emotion/tree/main/packages/use-insertion-effect-with-fallbacks"
+    },
+    {
+      "id": "@emotion/utils@1.2.0",
+      "name": "@emotion/utils",
+      "version": "1.2.0",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/emotion--utils-1.2.0/LICENSE",
+          "source": "node_modules/@emotion/utils/LICENSE",
+          "sha256": "6e8d23763cf7cb707ad8f6677aa502ebeca1dda447e6d6e57f6549c1625b9c4a",
+          "bytes": 1087
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "https://github.com/emotion-js/emotion/tree/main/packages/utils"
+    },
+    {
+      "id": "@floating-ui/dom@1.0.7",
+      "name": "@floating-ui/dom",
+      "version": "1.0.7",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/floating-ui--dom-1.0.7/LICENSE",
+          "source": "node_modules/@floating-ui/dom/LICENSE",
+          "sha256": "46c97b198a78dc0befc1a823ba7bcdf993726a887d0215edcce575a61b947115",
+          "bytes": 1081
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/floating-ui/floating-ui.git",
+        "directory": "packages/dom"
+      }
+    },
+    {
+      "id": "@fortawesome/fontawesome-svg-core@6.3.0",
+      "name": "@fortawesome/fontawesome-svg-core",
+      "version": "6.3.0",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/fortawesome--fontawesome-svg-core-6.3.0/LICENSE.txt",
+          "source": "node_modules/@fortawesome/fontawesome-svg-core/LICENSE.txt",
+          "sha256": "0aa8f86525273b2efa4f40f4272a188e187704252170e979dc06879adf68d43c",
+          "bytes": 7427
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/FortAwesome/Font-Awesome"
+      }
+    },
+    {
+      "id": "@fortawesome/free-solid-svg-icons@6.3.0",
+      "name": "@fortawesome/free-solid-svg-icons",
+      "version": "6.3.0",
+      "license": "(CC-BY-4.0 AND MIT)",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/fortawesome--free-solid-svg-icons-6.3.0/LICENSE.txt",
+          "source": "node_modules/@fortawesome/free-solid-svg-icons/LICENSE.txt",
+          "sha256": "0aa8f86525273b2efa4f40f4272a188e187704252170e979dc06879adf68d43c",
+          "bytes": 7427
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/FortAwesome/Font-Awesome"
+      }
+    },
+    {
+      "id": "@fortawesome/react-fontawesome@0.2.0",
+      "name": "@fortawesome/react-fontawesome",
+      "version": "0.2.0",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/fortawesome--react-fontawesome-0.2.0/LICENSE.txt",
+          "source": "node_modules/@fortawesome/react-fontawesome/LICENSE.txt",
+          "sha256": "aaeca2af41f9d13e49205099914902115ca197cdae49f7d2b31bc5d6aa2bbd83",
+          "bytes": 1055
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/FortAwesome/react-fontawesome.git"
+      }
+    },
+    {
+      "id": "@juggle/resize-observer@3.4.0",
+      "name": "@juggle/resize-observer",
+      "version": "3.4.0",
+      "license": "Apache-2.0",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/juggle--resize-observer-3.4.0/LICENSE",
+          "source": "node_modules/@juggle/resize-observer/LICENSE",
+          "sha256": "293c905e2ec4f6c30c4684592898fd24215ac735f0601b07b158d1588c8a5af7",
+          "bytes": 11340
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/juggle/resize-observer.git"
+      }
+    },
+    {
+      "id": "@react-hook/latest@1.0.3",
+      "name": "@react-hook/latest",
+      "version": "1.0.3",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/react-hook--latest-1.0.3/LICENSE",
+          "source": "node_modules/@react-hook/latest/LICENSE",
+          "sha256": "231b4cc052f50f739d5a867d6868c4738f6149f70be3cfc430bc15c75466e626",
+          "bytes": 1067
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "github:jaredLunde/react-hook"
+    },
+    {
+      "id": "@react-hook/passive-layout-effect@1.2.1",
+      "name": "@react-hook/passive-layout-effect",
+      "version": "1.2.1",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/react-hook--passive-layout-effect-1.2.1/LICENSE",
+          "source": "node_modules/@react-hook/passive-layout-effect/LICENSE",
+          "sha256": "231b4cc052f50f739d5a867d6868c4738f6149f70be3cfc430bc15c75466e626",
+          "bytes": 1067
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "github:jaredLunde/react-hook"
+    },
+    {
+      "id": "@react-hook/resize-observer@1.2.6",
+      "name": "@react-hook/resize-observer",
+      "version": "1.2.6",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/react-hook--resize-observer-1.2.6/LICENSE",
+          "source": "node_modules/@react-hook/resize-observer/LICENSE",
+          "sha256": "231b4cc052f50f739d5a867d6868c4738f6149f70be3cfc430bc15c75466e626",
+          "bytes": 1067
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "github:jaredLunde/react-hook"
+    },
+    {
+      "id": "@react-spring/animated@9.6.1",
+      "name": "@react-spring/animated",
+      "version": "9.6.1",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/react-spring--animated-9.6.1/LICENSE",
+          "source": "node_modules/@react-three/drei/node_modules/@react-spring/three/node_modules/@react-spring/animated/LICENSE",
+          "sha256": "51863a051d919d260e725327cb58df68d04289919d90fa64283beb9c646a2b02",
+          "bytes": 1110
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "pmndrs/react-spring"
+    },
+    {
+      "id": "@react-spring/animated@9.7.5",
+      "name": "@react-spring/animated",
+      "version": "9.7.5",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/react-spring--animated-9.7.5/LICENSE",
+          "source": "node_modules/@react-spring/animated/LICENSE",
+          "sha256": "51863a051d919d260e725327cb58df68d04289919d90fa64283beb9c646a2b02",
+          "bytes": 1110
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "pmndrs/react-spring"
+    },
+    {
+      "id": "@react-spring/core@9.6.1",
+      "name": "@react-spring/core",
+      "version": "9.6.1",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/react-spring--core-9.6.1/LICENSE",
+          "source": "node_modules/@react-three/drei/node_modules/@react-spring/three/node_modules/@react-spring/core/LICENSE",
+          "sha256": "51863a051d919d260e725327cb58df68d04289919d90fa64283beb9c646a2b02",
+          "bytes": 1110
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "pmndrs/react-spring"
+    },
+    {
+      "id": "@react-spring/core@9.7.5",
+      "name": "@react-spring/core",
+      "version": "9.7.5",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/react-spring--core-9.7.5/LICENSE",
+          "source": "node_modules/@react-spring/core/LICENSE",
+          "sha256": "51863a051d919d260e725327cb58df68d04289919d90fa64283beb9c646a2b02",
+          "bytes": 1110
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "pmndrs/react-spring"
+    },
+    {
+      "id": "@react-spring/rafz@9.6.1",
+      "name": "@react-spring/rafz",
+      "version": "9.6.1",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/react-spring--rafz-9.6.1/LICENSE",
+          "source": "node_modules/@react-three/drei/node_modules/@react-spring/three/node_modules/@react-spring/shared/node_modules/@react-spring/rafz/LICENSE",
+          "sha256": "51863a051d919d260e725327cb58df68d04289919d90fa64283beb9c646a2b02",
+          "bytes": 1110
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "pmndrs/react-spring"
+    },
+    {
+      "id": "@react-spring/rafz@9.7.5",
+      "name": "@react-spring/rafz",
+      "version": "9.7.5",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/react-spring--rafz-9.7.5/LICENSE",
+          "source": "node_modules/@react-spring/rafz/LICENSE",
+          "sha256": "51863a051d919d260e725327cb58df68d04289919d90fa64283beb9c646a2b02",
+          "bytes": 1110
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "pmndrs/react-spring"
+    },
+    {
+      "id": "@react-spring/shared@9.6.1",
+      "name": "@react-spring/shared",
+      "version": "9.6.1",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/react-spring--shared-9.6.1/LICENSE",
+          "source": "node_modules/@react-three/drei/node_modules/@react-spring/three/node_modules/@react-spring/shared/LICENSE",
+          "sha256": "51863a051d919d260e725327cb58df68d04289919d90fa64283beb9c646a2b02",
+          "bytes": 1110
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "pmndrs/react-spring"
+    },
+    {
+      "id": "@react-spring/shared@9.7.5",
+      "name": "@react-spring/shared",
+      "version": "9.7.5",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/react-spring--shared-9.7.5/LICENSE",
+          "source": "node_modules/@react-spring/shared/LICENSE",
+          "sha256": "51863a051d919d260e725327cb58df68d04289919d90fa64283beb9c646a2b02",
+          "bytes": 1110
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "pmndrs/react-spring"
+    },
+    {
+      "id": "@react-spring/three@9.6.1",
+      "name": "@react-spring/three",
+      "version": "9.6.1",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/react-spring--three-9.6.1/LICENSE",
+          "source": "node_modules/@react-three/drei/node_modules/@react-spring/three/LICENSE",
+          "sha256": "51863a051d919d260e725327cb58df68d04289919d90fa64283beb9c646a2b02",
+          "bytes": 1110
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "pmndrs/react-spring"
+    },
+    {
+      "id": "@react-spring/three@9.7.5",
+      "name": "@react-spring/three",
+      "version": "9.7.5",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/react-spring--three-9.7.5/LICENSE",
+          "source": "node_modules/@react-spring/three/LICENSE",
+          "sha256": "51863a051d919d260e725327cb58df68d04289919d90fa64283beb9c646a2b02",
+          "bytes": 1110
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "pmndrs/react-spring"
+    },
+    {
+      "id": "@react-three/drei@9.114.2",
+      "name": "@react-three/drei",
+      "version": "9.114.2",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/react-three--drei-9.114.2/LICENSE",
+          "source": "node_modules/@react-three/drei/LICENSE",
+          "sha256": "2e36b208b403882158daf95cae207087bbb830db4d434a79ebafffca177244c8",
+          "bytes": 1069
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pmndrs/drei.git"
+      }
+    },
+    {
+      "id": "@react-three/fiber@8.17.9",
+      "name": "@react-three/fiber",
+      "version": "8.17.9",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/react-three--fiber-8.17.9/LICENSE",
+          "url": "https://raw.githubusercontent.com/pmndrs/react-three-fiber/818e383b0a06ac02b8b96fa5437bb198736ea23d/LICENSE",
+          "sha256": "ebd6a29bec64bdfcf8795388f2eceaf1479c14d343c0846de347ab8609d66139",
+          "bytes": 1070
+        }
+      ],
+      "status": "collected-exact-upstream-license",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pmndrs/react-three-fiber.git"
+      }
+    },
+    {
+      "id": "@reduxjs/toolkit@2.3.0",
+      "name": "@reduxjs/toolkit",
+      "version": "2.3.0",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/reduxjs--toolkit-2.3.0/LICENSE",
+          "source": "node_modules/@reduxjs/toolkit/LICENSE",
+          "sha256": "661ea76e75dd1bbaa23d0166de7acc15f4a58011adb2d57acc42116b5fe8a4a1",
+          "bytes": 1090
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/reduxjs/redux-toolkit.git"
+      }
+    },
+    {
+      "id": "@the-via/pelpi@0.0.3",
+      "name": "@the-via/pelpi",
+      "version": "0.0.3",
+      "license": "GPL-3.0",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/the-via--pelpi-0.0.3/LICENSE",
+          "source": "node_modules/@the-via/pelpi/LICENSE",
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "bytes": 35149
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/the-via/pelpi.git"
+      }
+    },
+    {
+      "id": "@the-via/reader@1.14.4",
+      "name": "@the-via/reader",
+      "version": "1.14.4",
+      "license": "GPL-3.0",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/the-via--reader-1.14.4/LICENSE",
+          "source": "node_modules/@the-via/reader/LICENSE",
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "bytes": 35149
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/the-via/reader.git"
+      }
+    },
+    {
+      "id": "@use-gesture/core@10.2.24",
+      "name": "@use-gesture/core",
+      "version": "10.2.24",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/use-gesture--core-10.2.24/LICENSE",
+          "source": "node_modules/@use-gesture/core/LICENSE",
+          "sha256": "b99672ef9af57432e6d025a66d34f8b968564e4e0a1e2005ea9018457a7e38dc",
+          "bytes": 1083
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pmndrs/use-gesture.git",
+        "directory": "packages/core"
+      }
+    },
+    {
+      "id": "@use-gesture/react@10.2.24",
+      "name": "@use-gesture/react",
+      "version": "10.2.24",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/use-gesture--react-10.2.24/LICENSE",
+          "source": "node_modules/@use-gesture/react/LICENSE",
+          "sha256": "b99672ef9af57432e6d025a66d34f8b968564e4e0a1e2005ea9018457a7e38dc",
+          "bytes": 1083
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pmndrs/use-gesture.git",
+        "directory": "packages/react"
+      }
+    },
+    {
+      "id": "@webscopeio/react-textarea-autocomplete@4.9.2",
+      "name": "@webscopeio/react-textarea-autocomplete",
+      "version": "4.9.2",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/webscopeio--react-textarea-autocomplete-4.9.2/LICENSE",
+          "source": "node_modules/@webscopeio/react-textarea-autocomplete/LICENSE",
+          "sha256": "9811457620bcbc107497532e5450a18dc910f2b44362cc31b47d18df8eb23a34",
+          "bytes": 1098
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/webscopeio/react-textarea-autocomplete"
+      }
+    },
+    {
+      "id": "ajv@8.20.0",
+      "name": "ajv",
+      "version": "8.20.0",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/ajv-8.20.0/LICENSE",
+          "source": "node_modules/ajv/LICENSE",
+          "sha256": "a05350a88e318e4f5f2c2a1ff1e2e88daa4dd38e6e78b71cccae422bdc762cc3",
+          "bytes": 1090
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "ajv-validator/ajv"
+    },
+    {
+      "id": "ajv-formats@3.0.1",
+      "name": "ajv-formats",
+      "version": "3.0.1",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/ajv-formats-3.0.1/LICENSE",
+          "source": "node_modules/ajv-formats/LICENSE",
+          "sha256": "9df3bb69929a3b650ed73b3bfa1756725aaff0ac296461605753547004eafeaf",
+          "bytes": 1074
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ajv-validator/ajv-formats.git"
+      }
+    },
+    {
+      "id": "compute-scroll-into-view@2.0.4",
+      "name": "compute-scroll-into-view",
+      "version": "2.0.4",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/compute-scroll-into-view-2.0.4/LICENSE",
+          "source": "node_modules/compute-scroll-into-view/LICENSE",
+          "sha256": "62b9f69bb4ccf131e7e4cc8ce6ec5b4acf3d9848f0ac73c3c2f285d716ff1b5c",
+          "bytes": 1067
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/scroll-into-view/compute-scroll-into-view.git"
+      }
+    },
+    {
+      "id": "custom-event@1.0.1",
+      "name": "custom-event",
+      "version": "1.0.1",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/custom-event-1.0.1/LICENSE",
+          "source": "node_modules/custom-event/LICENSE",
+          "sha256": "53ecc31e1632c07980cb0c97dcaf3d1d20323d21194b92150987a4fecf517b3c",
+          "bytes": 1058
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/webmodules/custom-event.git"
+      }
+    },
+    {
+      "id": "debounce@1.2.1",
+      "name": "debounce",
+      "version": "1.2.1",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/debounce-1.2.1/LICENSE",
+          "source": "node_modules/debounce/LICENSE",
+          "sha256": "87c2f96d275cd4fb2b047e23f792f34704ffb798949039da60392b7122685412",
+          "bytes": 1106
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "git://github.com/component/debounce"
+    },
+    {
+      "id": "downshift@7.2.1",
+      "name": "downshift",
+      "version": "7.2.1",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/downshift-7.2.1/LICENSE",
+          "source": "node_modules/downshift/LICENSE",
+          "sha256": "344d83316cc914b58e175f97942abc2ed8b9bb1a6221f5e03586422a2426a4d1",
+          "bytes": 1072
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/downshift-js/downshift.git"
+      }
+    },
+    {
+      "id": "fast-deep-equal@3.1.3",
+      "name": "fast-deep-equal",
+      "version": "3.1.3",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/fast-deep-equal-3.1.3/LICENSE",
+          "source": "node_modules/fast-deep-equal/LICENSE",
+          "sha256": "7bf9b2de73a6b356761c948d0e9eeb4be6c1270bd04c79cd489c1e400ffdfc1a",
+          "bytes": 1074
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/epoberezkin/fast-deep-equal.git"
+      }
+    },
+    {
+      "id": "fast-uri@3.1.3",
+      "name": "fast-uri",
+      "version": "3.1.3",
+      "license": "BSD-3-Clause",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/fast-uri-3.1.3/LICENSE",
+          "source": "node_modules/fast-uri/LICENSE",
+          "sha256": "b010b0dfdfdb23d7396e03b82cd4621fc9bb8f95d6b0aea70b9c24e12074c786",
+          "bytes": 1813
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fastify/fast-uri.git"
+      }
+    },
+    {
+      "id": "hoist-non-react-statics@3.3.2",
+      "name": "hoist-non-react-statics",
+      "version": "3.3.2",
+      "license": "BSD-3-Clause",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/hoist-non-react-statics-3.3.2/LICENSE.md",
+          "source": "node_modules/hoist-non-react-statics/LICENSE.md",
+          "sha256": "eb32ff0ec52b6ea86e3d3e06c6ad1b68ee03798b6729af13919f6d5c14b368f3",
+          "bytes": 1662
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/mridgway/hoist-non-react-statics.git"
+      }
+    },
+    {
+      "id": "i18next@23.16.8",
+      "name": "i18next",
+      "version": "23.16.8",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/i18next-23.16.8/LICENSE",
+          "source": "node_modules/i18next/LICENSE",
+          "sha256": "c83b2035d5a4740f8739869a994acc24559e2946219b15091922b52e7b2a7287",
+          "bytes": 1074
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/i18next/i18next.git"
+      }
+    },
+    {
+      "id": "i18next-browser-languagedetector@7.2.2",
+      "name": "i18next-browser-languagedetector",
+      "version": "7.2.2",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/i18next-browser-languagedetector-7.2.2/LICENSE",
+          "source": "node_modules/i18next-browser-languagedetector/LICENSE",
+          "sha256": "d5ea09ccbc75298d3f5cc7c89ec70fce8e88387ed8f3fa7f796ac14127cfa53e",
+          "bytes": 1075
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/i18next/i18next-browser-languageDetector.git"
+      }
+    },
+    {
+      "id": "i18next-resources-to-backend@1.2.1",
+      "name": "i18next-resources-to-backend",
+      "version": "1.2.1",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/i18next-resources-to-backend-1.2.1/licence",
+          "source": "node_modules/i18next-resources-to-backend/licence",
+          "sha256": "5d3674c691027202316c22b22678c01aadc8207a6140d9e96f581ea8773ea65a",
+          "bytes": 1051
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:i18next/i18next-resources-to-backend.git"
+      }
+    },
+    {
+      "id": "idb-keyval@6.2.0",
+      "name": "idb-keyval",
+      "version": "6.2.0",
+      "license": "Apache-2.0",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/idb-keyval-6.2.0/LICENCE",
+          "source": "node_modules/idb-keyval/LICENCE",
+          "sha256": "20c27d6339619eeb3113cb865d4e98a3f559e52964fc75caea9cb5fa72674565",
+          "bytes": 555
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jakearchibald/idb-keyval.git"
+      }
+    },
+    {
+      "id": "immer@10.1.1",
+      "name": "immer",
+      "version": "10.1.1",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/immer-10.1.1/LICENSE",
+          "source": "node_modules/immer/LICENSE",
+          "sha256": "99cf22f6960a6fe228ec84ea9aefb0d75b27999ece83a3a9801e1c2081fa270b",
+          "bytes": 1074
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/immerjs/immer.git"
+      }
+    },
+    {
+      "id": "invariant@2.2.4",
+      "name": "invariant",
+      "version": "2.2.4",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/invariant-2.2.4/LICENSE",
+          "source": "node_modules/invariant/LICENSE",
+          "sha256": "f657f99d3fb9647db92628e96007aabb46e5f04f33e49999075aab8e250ca7ce",
+          "bytes": 1080
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "https://github.com/zertosh/invariant"
+    },
+    {
+      "id": "its-fine@1.0.8",
+      "name": "its-fine",
+      "version": "1.0.8",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/its-fine-1.0.8/LICENSE",
+          "source": "node_modules/its-fine/LICENSE",
+          "sha256": "cd14add33d47bcecae9fed5559224ae135c5ec41e1d3a126601f5fbd82291834",
+          "bytes": 1067
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "https://github.com/pmndrs/its-fine"
+    },
+    {
+      "id": "json-schema-traverse@1.0.0",
+      "name": "json-schema-traverse",
+      "version": "1.0.0",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/json-schema-traverse-1.0.0/LICENSE",
+          "source": "node_modules/json-schema-traverse/LICENSE",
+          "sha256": "7bf9b2de73a6b356761c948d0e9eeb4be6c1270bd04c79cd489c1e400ffdfc1a",
+          "bytes": 1074
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/epoberezkin/json-schema-traverse.git"
+      }
+    },
+    {
+      "id": "json-stringify-pretty-compact@4.0.0",
+      "name": "json-stringify-pretty-compact",
+      "version": "4.0.0",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/json-stringify-pretty-compact-4.0.0/LICENSE",
+          "source": "node_modules/json-stringify-pretty-compact/LICENSE",
+          "sha256": "2d51145876dda3dd13253463b852aa83b78aa598b90fca1709f39f1740ff9a2f",
+          "bytes": 1109
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "lydell/json-stringify-pretty-compact"
+    },
+    {
+      "id": "lodash.defaultsdeep@4.6.1",
+      "name": "lodash.defaultsdeep",
+      "version": "4.6.1",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/lodash.defaultsdeep-4.6.1/LICENSE",
+          "source": "node_modules/lodash.defaultsdeep/LICENSE",
+          "sha256": "f71e8ed126b46346494aad5486874cd8f0aafe95092ed67d2e3cb6110f939abc",
+          "bytes": 1952
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "lodash/lodash"
+    },
+    {
+      "id": "lodash.partition@4.6.0",
+      "name": "lodash.partition",
+      "version": "4.6.0",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/lodash.partition-4.6.0/LICENSE",
+          "source": "node_modules/lodash.partition/LICENSE",
+          "sha256": "ffd8b33b354585f4ce119f19c53728281e48a97b074491eb6bf6d5c5ff305272",
+          "bytes": 1951
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "lodash/lodash"
+    },
+    {
+      "id": "memoize-one@6.0.0",
+      "name": "memoize-one",
+      "version": "6.0.0",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/memoize-one-6.0.0/LICENSE",
+          "source": "node_modules/memoize-one/LICENSE",
+          "sha256": "b1c501095de70182748cb8e8d97ac5577701a4ef3b755ba30d59fd87b24bdb0f",
+          "bytes": 1073
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/alexreardon/memoize-one.git"
+      }
+    },
+    {
+      "id": "prop-types@15.8.1",
+      "name": "prop-types",
+      "version": "15.8.1",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/prop-types-15.8.1/LICENSE",
+          "source": "node_modules/prop-types/LICENSE",
+          "sha256": "f657f99d3fb9647db92628e96007aabb46e5f04f33e49999075aab8e250ca7ce",
+          "bytes": 1080
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "facebook/prop-types"
+    },
+    {
+      "id": "react@18.3.1",
+      "name": "react",
+      "version": "18.3.1",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/react-18.3.1/LICENSE",
+          "source": "node_modules/react/LICENSE",
+          "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+          "bytes": 1086
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/facebook/react.git",
+        "directory": "packages/react"
+      }
+    },
+    {
+      "id": "react-dom@18.3.1",
+      "name": "react-dom",
+      "version": "18.3.1",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/react-dom-18.3.1/LICENSE",
+          "source": "node_modules/react-dom/LICENSE",
+          "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+          "bytes": 1086
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/facebook/react.git",
+        "directory": "packages/react-dom"
+      }
+    },
+    {
+      "id": "react-i18next@14.1.3",
+      "name": "react-i18next",
+      "version": "14.1.3",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/react-i18next-14.1.3/LICENSE",
+          "source": "node_modules/react-i18next/LICENSE",
+          "sha256": "e7c19f409365013bfe1b6559553d708dec2708d8ec3101b5593894fede7f8937",
+          "bytes": 1075
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/i18next/react-i18next.git"
+      }
+    },
+    {
+      "id": "react-is@16.13.1",
+      "name": "react-is",
+      "version": "16.13.1",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/react-is-16.13.1/LICENSE",
+          "source": "node_modules/hoist-non-react-statics/node_modules/react-is/LICENSE",
+          "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+          "bytes": 1086
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/facebook/react.git",
+        "directory": "packages/react-is"
+      }
+    },
+    {
+      "id": "react-is@17.0.2",
+      "name": "react-is",
+      "version": "17.0.2",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/react-is-17.0.2/LICENSE",
+          "source": "node_modules/downshift/node_modules/react-is/LICENSE",
+          "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+          "bytes": 1086
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/facebook/react.git",
+        "directory": "packages/react-is"
+      }
+    },
+    {
+      "id": "react-reconciler@0.27.0",
+      "name": "react-reconciler",
+      "version": "0.27.0",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/react-reconciler-0.27.0/LICENSE",
+          "source": "node_modules/react-reconciler/LICENSE",
+          "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+          "bytes": 1086
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/facebook/react.git",
+        "directory": "packages/react-reconciler"
+      }
+    },
+    {
+      "id": "react-redux@9.1.2",
+      "name": "react-redux",
+      "version": "9.1.2",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/react-redux-9.1.2/LICENSE.md",
+          "source": "node_modules/react-redux/LICENSE.md",
+          "sha256": "635da794c92d278f8355428be0f9922d643f556d4f75f33fe4aca6b98d27affe",
+          "bytes": 1107
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "github:reduxjs/react-redux"
+    },
+    {
+      "id": "react-select@5.8.1",
+      "name": "react-select",
+      "version": "5.8.1",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/react-select-5.8.1/LICENSE",
+          "url": "https://raw.githubusercontent.com/JedWatson/react-select/a8b8f4342cc113e921bb238de2dd69a2d345b5f8/LICENSE",
+          "sha256": "d736dd18c7e53f88217fa2106c748f1a1687bb91d69a1f673fa685269402d784",
+          "bytes": 1077
+        }
+      ],
+      "status": "collected-exact-upstream-license",
+      "repository": "https://github.com/JedWatson/react-select/tree/master/packages/react-select"
+    },
+    {
+      "id": "redux@5.0.1",
+      "name": "redux",
+      "version": "5.0.1",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/redux-5.0.1/LICENSE.md",
+          "source": "node_modules/redux/LICENSE.md",
+          "sha256": "f2da73c752c6b87624755edacf927cbd915fa76555d383e74494bad4a5155ab3",
+          "bytes": 1086
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "github:reduxjs/redux"
+    },
+    {
+      "id": "redux-thunk@3.1.0",
+      "name": "redux-thunk",
+      "version": "3.1.0",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/redux-thunk-3.1.0/LICENSE.md",
+          "source": "node_modules/redux-thunk/LICENSE.md",
+          "sha256": "635da794c92d278f8355428be0f9922d643f556d4f75f33fe4aca6b98d27affe",
+          "bytes": 1107
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "github:reduxjs/redux-thunk"
+    },
+    {
+      "id": "reselect@5.1.1",
+      "name": "reselect",
+      "version": "5.1.1",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/reselect-5.1.1/LICENSE",
+          "source": "node_modules/reselect/LICENSE",
+          "sha256": "0bb5035e49bf9b5661655b402bab3c3efccb8eab2a50e37392100139fe3280f2",
+          "bytes": 1114
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/reduxjs/reselect.git"
+      }
+    },
+    {
+      "id": "scheduler@0.21.0",
+      "name": "scheduler",
+      "version": "0.21.0",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/scheduler-0.21.0/LICENSE",
+          "source": "node_modules/scheduler/LICENSE",
+          "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+          "bytes": 1086
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/facebook/react.git",
+        "directory": "packages/scheduler"
+      }
+    },
+    {
+      "id": "scheduler@0.23.2",
+      "name": "scheduler",
+      "version": "0.23.2",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/scheduler-0.23.2/LICENSE",
+          "source": "node_modules/react-dom/node_modules/scheduler/LICENSE",
+          "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+          "bytes": 1086
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/facebook/react.git",
+        "directory": "packages/scheduler"
+      }
+    },
+    {
+      "id": "styled-components@6.0.0-beta.6",
+      "name": "styled-components",
+      "version": "6.0.0-beta.6",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/styled-components-6.0.0-beta.6/LICENSE",
+          "source": "node_modules/styled-components/LICENSE",
+          "sha256": "5b893305a717230e5b0024ff5ca3eec1dc05ba600c9b140730488d97ce56f1e6",
+          "bytes": 1100
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/styled-components/styled-components.git"
+      }
+    },
+    {
+      "id": "stylis@4.1.3",
+      "name": "stylis",
+      "version": "4.1.3",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/stylis-4.1.3/LICENSE",
+          "source": "node_modules/stylis/LICENSE",
+          "sha256": "88c579c6ee44b41137a21321190d177982e5b17d4fa1b83a4a2e3ea325a8fc9a",
+          "bytes": 1078
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "https://github.com/thysultan/stylis.js"
+    },
+    {
+      "id": "suspend-react@0.1.3",
+      "name": "suspend-react",
+      "version": "0.1.3",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/suspend-react-0.1.3/LICENSE",
+          "source": "node_modules/suspend-react/LICENSE",
+          "sha256": "997e79b828d8b85d6f18730c8dbf58074811360a199506bd84e1263e17c227a2",
+          "bytes": 1070
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "pmndrs/suspend-react"
+    },
+    {
+      "id": "textarea-caret@3.0.2",
+      "name": "textarea-caret",
+      "version": "3.0.2",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/textarea-caret-3.0.2/LICENSE",
+          "source": "node_modules/textarea-caret/LICENSE",
+          "sha256": "69eca8583bf5064a086e26abf651a329f17007b0f93fb0e20b32eb481198e159",
+          "bytes": 1098
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "component/textarea-caret-position"
+    },
+    {
+      "id": "three@0.169.0",
+      "name": "three",
+      "version": "0.169.0",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/three-0.169.0/LICENSE",
+          "source": "node_modules/three/LICENSE",
+          "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454",
+          "bytes": 1081
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/mrdoob/three.js"
+      }
+    },
+    {
+      "id": "three-stdlib@2.33.0",
+      "name": "three-stdlib",
+      "version": "2.33.0",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/three-stdlib-2.33.0/LICENSE",
+          "source": "node_modules/three-stdlib/LICENSE",
+          "sha256": "28eb7edf059a39094aa3d169db1fec46ac4a6279c921a90f965828d92ec86e79",
+          "bytes": 1072
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": "https://github.com/pmndrs/three-stdlib"
+    },
+    {
+      "id": "tslib@2.4.1",
+      "name": "tslib",
+      "version": "2.4.1",
+      "license": "0BSD",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/tslib-2.4.1/LICENSE.txt",
+          "source": "node_modules/tslib/LICENSE.txt",
+          "sha256": "210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751",
+          "bytes": 655
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/Microsoft/tslib.git"
+      }
+    },
+    {
+      "id": "use-isomorphic-layout-effect@1.1.2",
+      "name": "use-isomorphic-layout-effect",
+      "version": "1.1.2",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/use-isomorphic-layout-effect-1.1.2/LICENSE",
+          "source": "node_modules/use-isomorphic-layout-effect/LICENSE",
+          "sha256": "82fb62378a03a80df2a21d491d70cc8928912e35a8e8378fb0fcbe6e5493aec5",
+          "bytes": 1070
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Andarist/use-isomorphic-layout-effect.git"
+      }
+    },
+    {
+      "id": "use-sync-external-store@1.2.0",
+      "name": "use-sync-external-store",
+      "version": "1.2.0",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/use-sync-external-store-1.2.0/LICENSE",
+          "source": "node_modules/wouter/node_modules/use-sync-external-store/LICENSE",
+          "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+          "bytes": 1086
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/facebook/react.git",
+        "directory": "packages/use-sync-external-store"
+      }
+    },
+    {
+      "id": "use-sync-external-store@1.2.2",
+      "name": "use-sync-external-store",
+      "version": "1.2.2",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/use-sync-external-store-1.2.2/LICENSE",
+          "source": "node_modules/use-sync-external-store/LICENSE",
+          "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+          "bytes": 1086
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/facebook/react.git",
+        "directory": "packages/use-sync-external-store"
+      }
+    },
+    {
+      "id": "wouter@2.10.0",
+      "name": "wouter",
+      "version": "2.10.0",
+      "license": "ISC",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/wouter-2.10.0/LICENSE-NOTICE.txt",
+          "source": "https://github.com/molefrog/wouter/issues/205#issuecomment-889753654",
+          "sha256": "b74e1f54099474235266d740961d9ace15de549f775b468d7d5d4be398e034c8"
+        }
+      ],
+      "status": "verified-ISC-author-statement-and-exact-release-source",
+      "repository": "molefrog/wouter"
+    },
+    {
+      "id": "zustand@3.7.2",
+      "name": "zustand",
+      "version": "3.7.2",
+      "license": "MIT",
+      "scope": "rendered-browser-code",
+      "documents": [
+        {
+          "path": "packages/zustand-3.7.2/LICENSE",
+          "source": "node_modules/zustand/LICENSE",
+          "sha256": "c1e6e266563517467b1bf874817d23e426f3149252bd7d42758cd697514b8417",
+          "bytes": 1070
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pmndrs/zustand.git"
+      }
+    },
+    {
+      "id": "vite@4.1.4",
+      "name": "vite",
+      "version": "4.1.4",
+      "license": "MIT",
+      "scope": "BUILD_TOOL",
+      "documents": [
+        {
+          "path": "packages/vite-4.1.4/LICENSE.md",
+          "source": "node_modules/vite/LICENSE.md",
+          "sha256": "cb8dc4942c2381d5fe8783f1c1409b448f1287feeead4ac4b6c774b930dbbb80",
+          "bytes": 161355
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": null
+    },
+    {
+      "id": "rollup@3.17.3",
+      "name": "rollup",
+      "version": "3.17.3",
+      "license": "MIT",
+      "scope": "BUILD_TOOL",
+      "documents": [
+        {
+          "path": "packages/rollup-3.17.3/LICENSE.md",
+          "source": "node_modules/rollup/LICENSE.md",
+          "sha256": "6a5d59ebf4c1e280fb115d6eb6734d004cdb955ab3199cbef41fb5ef4f9d0d11",
+          "bytes": 36182
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": null
+    },
+    {
+      "id": "typescript@5.6.2",
+      "name": "typescript",
+      "version": "5.6.2",
+      "license": "Apache-2.0",
+      "scope": "BUILD_TOOL",
+      "documents": [
+        {
+          "path": "packages/typescript-5.6.2/LICENSE.txt",
+          "source": "node_modules/typescript/LICENSE.txt",
+          "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47",
+          "bytes": 9197
+        },
+        {
+          "path": "packages/typescript-5.6.2/ThirdPartyNoticeText.txt",
+          "source": "node_modules/typescript/ThirdPartyNoticeText.txt",
+          "sha256": "1af3c68039c57e539422da82a4faada506ce6d0ea6f90e0b699d02dbcdb7a90c",
+          "bytes": 37824
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": null
+    },
+    {
+      "id": "tsx@4.23.1",
+      "name": "tsx",
+      "version": "4.23.1",
+      "license": "MIT",
+      "scope": "BUILD_TOOL",
+      "documents": [
+        {
+          "path": "packages/tsx-4.23.1/LICENSE",
+          "source": "node_modules/tsx/LICENSE",
+          "sha256": "8dded67841a9261a622c739fb61c81785e93765de852828ceeb9403d20a74581",
+          "bytes": 1088
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": null
+    },
+    {
+      "id": "via-keyboards@0.1.0",
+      "name": "via-keyboards",
+      "version": "0.1.0",
+      "license": "GPL-3.0",
+      "scope": "DEFINITION_SOURCE_AND_BUILD",
+      "documents": [
+        {
+          "path": "packages/via-keyboards-0.1.0/LICENSE",
+          "source": "node_modules/via-keyboards/LICENSE",
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "bytes": 35149
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": null
+    },
+    {
+      "id": "esbuild@0.16.17",
+      "name": "esbuild",
+      "version": "0.16.17",
+      "license": "MIT",
+      "scope": "USED_BY_vite",
+      "documents": [
+        {
+          "path": "packages/esbuild-0.16.17/LICENSE.md",
+          "source": "node_modules/vite/node_modules/esbuild/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681",
+          "bytes": 1069
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": null
+    },
+    {
+      "id": "esbuild@0.28.1",
+      "name": "esbuild",
+      "version": "0.28.1",
+      "license": "MIT",
+      "scope": "USED_BY_tsx",
+      "documents": [
+        {
+          "path": "packages/esbuild-0.28.1/LICENSE.md",
+          "source": "node_modules/esbuild/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681",
+          "bytes": 1069
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": null
+    },
+    {
+      "id": "@the-via/reader@1.14.3",
+      "name": "@the-via/reader",
+      "version": "1.14.3",
+      "license": "GPL-3.0",
+      "scope": "USED_BY_via-keyboards",
+      "documents": [
+        {
+          "path": "packages/the-via--reader-1.14.3/LICENSE",
+          "source": "node_modules/via-keyboards/node_modules/@the-via/reader/LICENSE",
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "bytes": 35149
+        }
+      ],
+      "status": "collected-local-license",
+      "repository": null
+    }
+  ],
+  "embedded": [
+    {
+      "name": "MeshoptDecoder / meshoptimizer",
+      "license": "MIT",
+      "notice": "embedded/meshopt-decoder/ORIGINAL-NOTICE.txt",
+      "noticeSha256": "bee7c0571e4505861b92a32cb1e77a74a89703977bf964a98da0a606c7e56e38",
+      "source": "node_modules/three-stdlib/libs/MeshoptDecoder.js.map sourcesContent (first two lines)",
+      "fullLicense": {
+        "path": "embedded/meshopt-decoder/LICENSE.v0.14.md",
+        "url": "https://raw.githubusercontent.com/zeux/meshoptimizer/v0.14/LICENSE.md",
+        "sha256": "5659fff08d177c50acd9905482b0103f6d73263235b3282cdffa9b7e7a6b2db2",
+        "bytes": 1079
+      },
+      "licenseProvenanceNote": "Official meshoptimizer v0.14 MIT text, same 2016-2020 copyright period as embedded notice. This does not assert the embedded decoder version is v0.14."
+    }
+  ],
+  "scopeNotes": [
+    "Only copied exact license/notice text; no original fonts, business files, or original Git history copied.",
+    "Original notices can contain third-party public copyright contact emails; these are not the developer personal email and must not be indiscriminately stripped.",
+    "wouter is being independently investigated; no invented license text."
+  ],
+  "historicalLicenseAuditHead": "ceb993ca31e6e948ae3520ccc52816daa2b48d13",
+  "currentDevelopmentHead": "ebd59fe131124ec47798d4e4816a3c16dd3a14dc",
+  "note": "License inventory retained from the audited identical lockfile; application snapshot identity is generated at source export."
+}

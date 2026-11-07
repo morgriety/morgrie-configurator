@@ -1,0 +1,36 @@
+{
+  "developmentHead": "ebd59fe131124ec47798d4e4816a3c16dd3a14dc",
+  "sourceSha256": "156364aaf78a044b84fe8423345fed1a1a346fb8340eba4d1058ab78d6e99197",
+  "entries": [
+    {
+      "path": "public/favicon-16x16.png",
+      "previousSha256": "c918e95bcaa7e49aa606dfb5f20b97aca29e85bd3daf1167d5774739148167b7",
+      "currentSha256": "0d6f9aec50160925a2b7d82936e80f07588668372a3056095709ff2c2624c884",
+      "origin": "MORGRIE official simplified logo",
+      "source": "resources/branding/morgrie-favicon-source.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0277/2831/4428/files/3.png?v=1613728006",
+      "generator": "scripts/generate-favicon.ps1",
+      "change": "Reviewed teal gradient; unchanged silhouette and dimensions"
+    },
+    {
+      "path": "public/favicon-32x32.png",
+      "previousSha256": "aa6bb8a9b61a3992ff121410a4fe3f06cb2ba9090fc78a02f85a8899f17b1526",
+      "currentSha256": "740b65b46b49182ae919893d9ad454fe40a584ffb070b5c80001c168adc69065",
+      "origin": "MORGRIE official simplified logo",
+      "source": "resources/branding/morgrie-favicon-source.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0277/2831/4428/files/3.png?v=1613728006",
+      "generator": "scripts/generate-favicon.ps1",
+      "change": "Reviewed teal gradient; unchanged silhouette and dimensions"
+    },
+    {
+      "path": "public/favicon.ico",
+      "previousSha256": "cba35d3dc3dd77a020cd5e78773e3fb7ec682c4cd3c07b1bdb6b56643579ea24",
+      "currentSha256": "10f573f20aaf9be61d3863c6d86efbb5d386e6d221786ca99060941adc9f48dc",
+      "origin": "MORGRIE official simplified logo",
+      "source": "resources/branding/morgrie-favicon-source.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0277/2831/4428/files/3.png?v=1613728006",
+      "generator": "scripts/generate-favicon.ps1",
+      "change": "Reviewed teal gradient; unchanged silhouette and dimensions"
+    }
+  ]
+}

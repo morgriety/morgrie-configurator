@@ -1,0 +1,34 @@
+name: PR Build
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches: [main, fiber]
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    name: Build
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+      - name: Use Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version-file: .bun-version
+      - name: Check build toolchain
+        run: node scripts/check-build-environment.cjs
+      - name: Install locked dependencies
+        run: bun install --frozen-lockfile
+      - name: Build and verify production definitions
+        run: bun run build:public
+      - name: Test
+        run: bun run test
+      - name: Check lockfile and patch are unchanged
+        run: git diff --exit-code -- package.json bun.lock patches/via-keyboards-79ae8d2.patch

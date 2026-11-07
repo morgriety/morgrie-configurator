@@ -1,0 +1,213 @@
+{
+  "bugs": {
+    "url": "https://github.com/molefrog/wouter/issues"
+  },
+  "dist": {
+    "shasum": "9a664e6945fbf2fb80cd8bc839dfe7dbef7a4713",
+    "tarball": "https://registry.npmjs.org/wouter/-/wouter-2.10.0.tgz",
+    "fileCount": 44,
+    "integrity": "sha512-4IoXysBk9c8qv+rkHW65K2joZbrios3NnWbp+FjCH26S3i8v8H4btgHQO33+g1CNDrSbdKkrtmbm80SLHxnRBw==",
+    "signatures": [
+      {
+        "sig": "MEUCIQDcf695AUFoXnaLpA9r75CUGgjEOWBDgSC4w/aBr4rILwIgNu/SH5tP+/zyGYUOJoS1RMKiptS0aNrDAzuTp1MbfI0=",
+        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+      }
+    ],
+    "unpackedSize": 120706,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJj4N3CACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmpC8g//eFzYRLDMCRFGir49c0O7+luWKWFfROs9A97AwH2ViQrNhQmN\r\nItQTaA4vDsH6ZbIlnQfUOMo7XyXoXUQOcG2/v4mVdQH/paH5cM2R/9Id2zOz\r\nGUqxkRgUUmbbKkzREvi3JxwXPBTXbpCeLJHwDXl61OX3fek01pQ7Qj2a0d4Y\r\nEDJsZq2xz+cSUrRqAH4mq9iXf1soPcI/vNIiLGQC+ZQBoIXJmaciVS4O+JVJ\r\nBa4SD0h1zBlTSb4Gtu4DPrmbaIOILEqWSjtMhQxosZqzZhnVpSCpfOAbSBQR\r\nNqTTznSnG9GEYe3MHCY3fNRaUUCxTdGtvx/UFOkw4rMnX79y8C1ueF/12x0I\r\n0alP7mJNWaSOhdCn/uyc04zXCUsarTbRKaG9t42dofZgoUvNCCD7Wqw3ljzP\r\nN0rcW9AyG4BNXKvKoCDe8hXDeGKbWbEtYw1VNEnpmCalKyRwLSOW/ae9BUX8\r\n+55EbdRL+90wnN0oR4kzlhS0GYOSxO5Pie2wOl05vIN1JqjEZ/hlXLLT1Np5\r\nbtmestk9dh20iKFlUaK3gBuuLy12diVAO+1bq/iD/1uQ0laCyY0vUE1CMSoi\r\nxhaJS7Pf1z/sQK8/xw/igtkPgv1JbuobUfO6QcbaYmX1Gk9YTCY0agBvvB7Z\r\nXCIIqEme3yX/yNpbRJ+sR8xIg3VtQ2f9fF8=\r\n=bwdf\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "jest": {
+    "transform": {
+      "\\.js$": "jest-esm-jsx-transform"
+    },
+    "testEnvironment": "jsdom",
+    "collectCoverageFrom": [
+      "*.js",
+      "!use-sync-external-store*.js"
+    ]
+  },
+  "main": "cjs/index.js",
+  "name": "wouter",
+  "type": "module",
+  "husky": {
+    "hooks": {
+      "commit-msg": "npm run fix:p"
+    }
+  },
+  "types": "types/ts3.9.4/index.d.ts",
+  "author": {
+    "name": "Alexey Taktarov",
+    "email": "molefrog@gmail.com"
+  },
+  "module": "index.js",
+  "exports": {
+    ".": {
+      "types": "./types/ts4.1/index.d.ts",
+      "default": "./index.js",
+      "require": "./cjs/index.js"
+    },
+    "./matcher": {
+      "types": "./types/matcher.d.ts",
+      "default": "./matcher.js",
+      "require": "./cjs/matcher.js"
+    },
+    "./use-location": {
+      "types": "./types/use-location.d.ts",
+      "default": "./use-location.js",
+      "require": "./cjs/use-location.js"
+    },
+    "./static-location": {
+      "types": "./types/static-location.d.ts",
+      "default": "./static-location.js",
+      "require": "./cjs/static-location.js"
+    }
+  },
+  "gitHead": "f9f7ea7b555d0017c6143aab04115549c915637e",
+  "license": "ISC",
+  "scripts": {
+    "lint": "eslint *.js preact/",
+    "size": "size-limit",
+    "test": "jest --verbose --coverage",
+    "build": "npm run bundle",
+    "clean": "rimraf cjs && rimraf preact/cjs",
+    "fix:p": "prettier --write './**/*.js{x,}'",
+    "bundle": "rollup -c && echo '{\"type\": \"commonjs\"}' > ${DIR}cjs/package.json",
+    "preact": "copyfiles -f {index,matcher,use-location,static-location}.js preact/",
+    "lint-types": "npm run lint-types-react && npm run lint-types-preact",
+    "types-preact": "copyfiles -f types/{matcher,use-location,static-location}.d.ts preact/types",
+    "prepublishOnly": "npm run clean && npm run preact && npm run types-preact && npm run bundle && DIR=./preact/ npm run bundle",
+    "lint-types-react": "dtslint types/ts4.1 --localTs ./node_modules/typescript/lib && dtslint types/ts3.9.4 --localTs ./node_modules/typescript-3.9.4/lib",
+    "lint-types-preact": "npm run preact && npm run types-preact && dtslint preact/types/ts4.1 --localTs ./node_modules/typescript/lib && dtslint preact/types/ts3.9.4 --localTs ./node_modules/typescript-3.9.4/lib"
+  },
+  "_npmUser": {
+    "name": "molefrog",
+    "email": "molefrog@gmail.com"
+  },
+  "homepage": "https://github.com/molefrog/wouter#readme",
+  "keywords": [
+    "react",
+    "preact",
+    "router",
+    "tiny",
+    "routing",
+    "hooks",
+    "useLocation"
+  ],
+  "repository": {
+    "url": "git+https://github.com/molefrog/wouter.git",
+    "type": "git"
+  },
+  "size-limit": [
+    {
+      "path": "index.js",
+      "limit": "1500 B",
+      "ignore": [
+        "./react-deps.js"
+      ]
+    },
+    {
+      "path": "use-location.js",
+      "limit": "500 B",
+      "ignore": [
+        "./react-deps.js"
+      ]
+    }
+  ],
+  "_npmVersion": "8.19.2",
+  "description": "A minimalistic routing for React and Preact. Nothing extra, just HOOKS.",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "molefrog",
+      "email": "molefrog@gmail.com"
+    }
+  ],
+  "_nodeVersion": "18.11.0",
+  "dependencies": {
+    "@rollup/plugin-replace": "^5.0.2",
+    "use-sync-external-store": "^1.0.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "jest": true,
+      "node": true,
+      "browser": true
+    },
+    "rules": {
+      "no-unused-vars": [
+        "error",
+        {
+          "argsIgnorePattern": "^_",
+          "varsIgnorePattern": "^_"
+        }
+      ],
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn"
+    },
+    "extends": "eslint:recommended",
+    "plugins": [
+      "react-hooks"
+    ],
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaVersion": 6,
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "ignorePatterns": [
+      "types/**"
+    ]
+  },
+  "typesVersions": {
+    "*": {
+      "matcher": [
+        "types/matcher.d.ts"
+      ],
+      "use-location": [
+        "types/use-location.d.ts"
+      ],
+      "static-location": [
+        "types/static-location.d.ts"
+      ]
+    },
+    ">=4.1": {
+      "types/ts3.9.4/index.d.ts": [
+        "types/ts4.1/index.d.ts"
+      ]
+    }
+  },
+  "_hasShrinkwrap": false,
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "husky": "^4.3.0",
+    "react": "^17.0.1",
+    "eslint": "^7.19.0",
+    "preact": "^10.0.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^3.7.4",
+    "dtslint": "^4.2.0",
+    "prettier": "^2.4.1",
+    "copyfiles": "^2.4.1",
+    "react-dom": "^17.0.1",
+    "size-limit": "^6.0.4",
+    "typescript": "4.4.2",
+    "@types/react": "^17.0.1",
+    "typescript-3.9.4": "npm:typescript@3.9.4",
+    "react-test-renderer": "^17.0.1",
+    "@testing-library/react": "^11.2.5",
+    "jest-esm-jsx-transform": "^1.0.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "@size-limit/preset-small-lib": "^6.0.4",
+    "@testing-library/react-hooks": "^5.0.3"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "_npmOperationalInternal": {
+    "tmp": "tmp/wouter_2.10.0_1675681218365_0.107683187040444",
+    "host": "s3://npm-registry-packages"
+  },
+  "_id": "wouter@2.10.0",
+  "version": "2.10.0"
+}

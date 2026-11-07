@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "kind": "Gotham Rounded website-authorized resource pack; excluded from public source",
+  "files": [
+    {
+      "path": "fonts/GothamRounded-Bold.otf",
+      "sha256": "c1f708bc087c693b719d0983dcfa318fd30a68e00f6f2f0d572e40e00fb8de13",
+      "size": 127291
+    },
+    {
+      "path": "fonts/GothamRounded-BoldItalic.otf",
+      "sha256": "553451b68f16a1cab10ee1280f0e72e8f6b60077d446227a2a9f821729e20c4f",
+      "size": 130912
+    },
+    {
+      "path": "fonts/GothamRounded-Book.otf",
+      "sha256": "b249bb0dc7fefa3b241411870542836d07e5a650b54a7d17a2322025220a482d",
+      "size": 130412
+    },
+    {
+      "path": "fonts/GothamRounded-BookItalic.otf",
+      "sha256": "f551ee24d56c44313138e2bbdb6dba9f76e8c8c8f47ccc40f9887f9a2e08c459",
+      "size": 134800
+    },
+    {
+      "path": "fonts/GothamRounded-Light.otf",
+      "sha256": "a76af0de89a8526292d9fe9b8b00d39cab554ada249a74f29aeaabc04bdc64b4",
+      "size": 127508
+    },
+    {
+      "path": "fonts/GothamRounded-LightItalic.otf",
+      "sha256": "0af6987e500ca71c0dc050c52352d2a595ae92edbe642ff3a7a42f0c151a0866",
+      "size": 126664
+    },
+    {
+      "path": "fonts/GothamRounded-Medium.otf",
+      "sha256": "c4bcf6fc289dc683bada65d21456f0a45ff71173e7e8798d78c2b5c7efed2293",
+      "size": 133436
+    },
+    {
+      "path": "fonts/GothamRounded-MediumItalic.otf",
+      "sha256": "bd78e8400b0d743af8abca2975eb828a2c13e5653de607501fe8e96cf74d14f4",
+      "size": 133559
+    },
+    {
+      "path": "fonts/GothamRoundedBold_21016.ttf",
+      "sha256": "a310a4420dcab453ce6f408a32ce1ed639de321c96b47f54140c74feea74b764",
+      "size": 133644
+    },
+    {
+      "path": "fonts/GothamRoundedBook_21018.ttf",
+      "sha256": "18964c80b28cca8aa17f5195778f968e933f0599b32850ac51642ed3c197d5f3",
+      "size": 136136
+    },
+    {
+      "path": "fonts/GothamRoundedLight_21020.ttf",
+      "sha256": "d7ae5d51226e7dd3f15728cb67db87b159df64fe94b4a7a18a2ce1dff2f7528b",
+      "size": 131844
+    },
+    {
+      "path": "fonts/GothamRoundedMedium_21022.ttf",
+      "sha256": "778d97da6e0d2f466f3d6e3a895654e1f11d735af087f55d6e7f98427f1534d5",
+      "size": 125675
+    }
+  ]
+}

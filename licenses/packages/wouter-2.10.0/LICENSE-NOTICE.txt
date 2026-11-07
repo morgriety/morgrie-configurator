@@ -1,0 +1,26 @@
+wouter 2.10.0
+SPDX-License-Identifier: ISC
+Upstream: https://github.com/molefrog/wouter
+Exact source: https://github.com/molefrog/wouter/tree/0900215042359635fea53a834495b29bf27ed2cf
+Package author attribution: Alexey Taktarov <molefrog@gmail.com>
+
+This release declares ISC in its package.json and supplies no standalone
+copyright-year notice or LICENSE file. The upstream author explicitly confirmed
+that declaration and the deliberate absence of a separate license file:
+https://github.com/molefrog/wouter/issues/205#issuecomment-889753654
+No copyright year has been inferred or added here.
+
+ISC license permission and disclaimer text (the standard terms designated by
+the upstream ISC declaration):
+
+Permission to use, copy, modify, and/or distribute this software for any purpose
+with or without fee is hereby granted, provided that the above copyright notice
+and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.

@@ -1,0 +1,15 @@
+{
+  "status": "ahead",
+  "commits": [
+    {
+      "sha": "0900215042359635fea53a834495b29bf27ed2cf",
+      "message": "v2.10.0"
+    }
+  ],
+  "files": [
+    {
+      "name": "package.json",
+      "patch": "@@ -1,6 +1,6 @@\n {\n   \"name\": \"wouter\",\n-  \"version\": \"2.10.0-alpha.4\",\n+  \"version\": \"2.10.0\",\n   \"description\": \"A minimalistic routing for React and Preact. Nothing extra, just HOOKS.\",\n   \"keywords\": [\n     \"react\","
+    }
+  ]
+}

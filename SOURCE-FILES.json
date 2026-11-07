@@ -1,0 +1,2950 @@
+{
+  "status": "CLEAN_GIT_SOURCE_NOT_RC_APPROVAL",
+  "originalDevelopmentHead": "4a2b3c90268bb2a715d95460778aaf9e3718cacd",
+  "originalWorkingTreeWasDirty": false,
+  "sourceFingerprint": "baf77e068f18b9182021d874b29893a1da714e96b79128c70dde2c19a31b2d2b",
+  "note": "The inventory excludes itself. All source/path mappings are explicit and byte-preserving. SOURCE_SNAPSHOT.json is generated provenance, not an application source edit.",
+  "files": [
+    {
+      "source": ".bun-version",
+      "path": ".bun-version",
+      "sha256": "d63588ea4b78e83a37d1219d7c9f625e5080a5b269d1784819cba93a86c14ee1",
+      "bytes": 7
+    },
+    {
+      "source": ".gitattributes",
+      "path": ".gitattributes",
+      "sha256": "56373857779fd54484bee55b860d4f98b147eebe28d94ebc927ecea41d2a4577",
+      "bytes": 524
+    },
+    {
+      "source": ".github/workflows/pr-build.yml",
+      "path": ".github/workflows/pr-build.yml",
+      "sha256": "611ec83942db731d195723c13dfbbbe1c4684531b22b8a8667e821d917212ae1",
+      "bytes": 948
+    },
+    {
+      "source": ".gitignore",
+      "path": ".gitignore",
+      "sha256": "e65bf972a8722d58e842ba62f9c8085ef0becd2b19f875fed50e9305b49224a5",
+      "bytes": 372
+    },
+    {
+      "source": ".node-version",
+      "path": ".node-version",
+      "sha256": "11237abfee2e76519e2dd9c69cb8790b2a15ce25aaa0540aa4e227ce8dfa2ac7",
+      "bytes": 9
+    },
+    {
+      "source": ".prettierrc",
+      "path": ".prettierrc",
+      "sha256": "48dea56ad6923754c45e93dbd2310d7c0c34c9061efd17c00bf2dd31a6d282cf",
+      "bytes": 86
+    },
+    {
+      "source": "AGENTS.md",
+      "path": "AGENTS.md",
+      "sha256": "79df249a321d28f7cd13d7040f854cb366eaa99d6f273ed61a2420044eb4b9d9",
+      "bytes": 4011
+    },
+    {
+      "source": "BUILDING.md",
+      "path": "BUILDING.md",
+      "sha256": "aee39f9932ff603767b4c7330dac1cf94603a1730e3581e152af3e0a57d0c48c",
+      "bytes": 6520
+    },
+    {
+      "source": "LICENSE",
+      "path": "LICENSE",
+      "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
+      "bytes": 35823
+    },
+    {
+      "source": "THIRD_PARTY_NOTICES.md",
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "b4940c9181599b4bcd1a201b33195cda28dcceb0f6369fdb785460a2eb67d46d",
+      "bytes": 16528
+    },
+    {
+      "source": "UPSTREAM.json",
+      "path": "UPSTREAM.json",
+      "sha256": "17bac7a662228194226439091c208b1fb4174b13947e9b9bda241575e1d9b8c9",
+      "bytes": 1095
+    },
+    {
+      "source": "bun.lock",
+      "path": "bun.lock",
+      "sha256": "a8a90d42d76e2b41c0b5fdabfac4bffe2b08c5adbb96629e7d3b22538de672e9",
+      "bytes": 150993
+    },
+    {
+      "source": "definitions/model-registry.json",
+      "path": "definitions/model-registry.json",
+      "sha256": "5c4e515d1cc6b672d72d24bc4b163882845dda3fa39ae84cfdcabe427c9ab45b",
+      "bytes": 663
+    },
+    {
+      "source": "definitions/models/morgrie/dos68/rkb68_via_v1_02_20261014.json",
+      "path": "definitions/models/morgrie/dos68/rkb68_via_v1_02_20261014.json",
+      "sha256": "301d8e59fe78581b56070fb9484180706278a6dde00ccfbc3343d5927a3d80bf",
+      "bytes": 5738
+    },
+    {
+      "source": "definitions/v3/morgrie/air68/Morgrie_Air68_via_v1_02_20250904.json",
+      "path": "definitions/v3/morgrie/air68/Morgrie_Air68_via_v1_02_20250904.json",
+      "sha256": "80e3e6b19a634a418aa6296be10c6f1531ed1602d7f195b37e43bb82bf3023a2",
+      "bytes": 4513
+    },
+    {
+      "source": "definitions/v3/morgrie/spacetime65/rkb65_via_v1_01_20261020.json",
+      "path": "definitions/v3/morgrie/spacetime65/rkb65_via_v1_01_20261020.json",
+      "sha256": "8089adbc525ad69e4d386e35ea5388b8d7212bcc933020134f7c8cf683a5b2b9",
+      "bytes": 5642
+    },
+    {
+      "source": "docs/RELEASE_WORKFLOW.md",
+      "path": "docs/RELEASE_WORKFLOW.md",
+      "sha256": "3c438b11daa0653cadbdab2d97430ae4545bd0aafa1e40c6dc9caaacc768ed83",
+      "bytes": 10733
+    },
+    {
+      "source": "docs/TESTING_RULES.md",
+      "path": "docs/TESTING_RULES.md",
+      "sha256": "71a26483c759aebed4c35bbe092bd99d673d77e9c785d24d99cd410caeb491e3",
+      "bytes": 2593
+    },
+    {
+      "source": "docs/public/ASSET-PROVENANCE.md",
+      "path": "docs/ASSET-PROVENANCE.md",
+      "sha256": "f62d7d0d0024491c7141f5834d4fd6ef228f9863919f1f890f4e81046070a604",
+      "bytes": 7604
+    },
+    {
+      "source": "docs/public/FAVICON.md",
+      "path": "docs/FAVICON.md",
+      "sha256": "a46fd25ac8d8ee99fdf67cb8148564a44eba92890b629d6437692184fac3abe4",
+      "bytes": 2361
+    },
+    {
+      "source": "docs/public/ISSUES.md",
+      "path": "docs/ISSUES.md",
+      "sha256": "e9996ef5b46adf572ad53b28a44af2f27519fb7c2406d1e1f78d1766700854fb",
+      "bytes": 2158
+    },
+    {
+      "source": "docs/public/README.md",
+      "path": "README.md",
+      "sha256": "98fe39723fd1e587c193c6a3169d05b2b397d75b827261c8124a2fcfd2821746",
+      "bytes": 2331
+    },
+    {
+      "source": "docs/public/SNAPSHOT.md",
+      "path": "docs/SNAPSHOT.md",
+      "sha256": "e47fae4d5d240f87f7f4811d72ffa51899cf3666412719f95e35ea991e441c6e",
+      "bytes": 1703
+    },
+    {
+      "source": "docs/public/VALIDATION.md",
+      "path": "docs/VALIDATION.md",
+      "sha256": "57dfc25fb6e9ca5b23aea254288f698a968874ecf176c4386c6c71e8dbbdf103",
+      "bytes": 3667
+    },
+    {
+      "source": "index.html",
+      "path": "index.html",
+      "sha256": "9783312e5a7b9ca023e178bda5ff009b45bc6453a14555f415a20429633aa46c",
+      "bytes": 2457
+    },
+    {
+      "source": "licenses/COMPONENTS.json",
+      "path": "licenses/COMPONENTS.json",
+      "sha256": "e3a628d3d3e2a121c0ca1b094fb697de8f1fe2dfae8f602249ef2083c68db587",
+      "bytes": 59624
+    },
+    {
+      "source": "licenses/embedded/meshopt-decoder/LICENSE.v0.14.md",
+      "path": "licenses/embedded/meshopt-decoder/LICENSE.v0.14.md",
+      "sha256": "f3aeec4468c7f695d8045b7e8e8b7ba43e0657dcee5a4208f5712155498e24e4",
+      "bytes": 1100
+    },
+    {
+      "source": "licenses/embedded/meshopt-decoder/ORIGINAL-NOTICE.txt",
+      "path": "licenses/embedded/meshopt-decoder/ORIGINAL-NOTICE.txt",
+      "sha256": "eefd661055dbc5dcb4dca8aa914cf3d99911c1dc3d0544f6041a85aa38ebb6af",
+      "bytes": 178
+    },
+    {
+      "source": "licenses/fonts/SOURCES.json",
+      "path": "licenses/fonts/SOURCES.json",
+      "sha256": "db9410a277cd3c64571dd9ad88d4ce4ecc8cfe4a253b195b91861b279cfd831c",
+      "bytes": 1880
+    },
+    {
+      "source": "licenses/fonts/Symbola-NOTICE.txt",
+      "path": "licenses/fonts/Symbola-NOTICE.txt",
+      "sha256": "a8a25f32341a84f7c4febb928d3fe270cad68253471926d6a04dfb7a4411ac89",
+      "bytes": 333
+    },
+    {
+      "source": "licenses/fonts/firasans-OFL.txt",
+      "path": "licenses/fonts/firasans-OFL.txt",
+      "sha256": "408380eae7cba50c9f6ca1c030590178dbbd410a94bef8bfe7f46edf46eb8a9b",
+      "bytes": 4463
+    },
+    {
+      "source": "licenses/fonts/firasanscondensed-OFL.txt",
+      "path": "licenses/fonts/firasanscondensed-OFL.txt",
+      "sha256": "408380eae7cba50c9f6ca1c030590178dbbd410a94bef8bfe7f46edf46eb8a9b",
+      "bytes": 4463
+    },
+    {
+      "source": "licenses/fonts/inter-OFL.txt",
+      "path": "licenses/fonts/inter-OFL.txt",
+      "sha256": "f14f2b95a38f4f20cad4d27f7710593f37534c046641be0348da7c28365f4e39",
+      "bytes": 4470
+    },
+    {
+      "source": "licenses/packages/ajv-8.20.0/LICENSE",
+      "path": "licenses/packages/ajv-8.20.0/LICENSE",
+      "sha256": "f698c9bcc02e7bb2c8a33b560a42787dcee93a1ef0eb2f5216e8e94e44cbb2d4",
+      "bytes": 1112
+    },
+    {
+      "source": "licenses/packages/ajv-formats-3.0.1/LICENSE",
+      "path": "licenses/packages/ajv-formats-3.0.1/LICENSE",
+      "sha256": "e482ee9e5303f4d0a721f882a991a7950f069de2a58d70acb804b98a06552363",
+      "bytes": 1095
+    },
+    {
+      "source": "licenses/packages/babel--runtime-7.20.1/LICENSE",
+      "path": "licenses/packages/babel--runtime-7.20.1/LICENSE",
+      "sha256": "8103e28c0306648eb68f2b2701f5285316bf8f7646eafd3135fa7c0806c4c919",
+      "bytes": 1128
+    },
+    {
+      "source": "licenses/packages/babel--runtime-7.28.6/LICENSE",
+      "path": "licenses/packages/babel--runtime-7.28.6/LICENSE",
+      "sha256": "8103e28c0306648eb68f2b2701f5285316bf8f7646eafd3135fa7c0806c4c919",
+      "bytes": 1128
+    },
+    {
+      "source": "licenses/packages/compute-scroll-into-view-2.0.4/LICENSE",
+      "path": "licenses/packages/compute-scroll-into-view-2.0.4/LICENSE",
+      "sha256": "6b2161a61253d1767d3b9ff0f0e47c4e9a945ad9a6cbd089f19e18b5007ced6f",
+      "bytes": 1088
+    },
+    {
+      "source": "licenses/packages/custom-event-1.0.1/LICENSE",
+      "path": "licenses/packages/custom-event-1.0.1/LICENSE",
+      "sha256": "7dd06083bb97a95a7d33950e851b7436f7e2cfc590c6eaca5d6deac9502a1bd4",
+      "bytes": 1077
+    },
+    {
+      "source": "licenses/packages/debounce-1.2.1/LICENSE",
+      "path": "licenses/packages/debounce-1.2.1/LICENSE",
+      "sha256": "03eea7ae0c35f75758d7d4dd16f50f70f79d5538965e461e43e33cf04e2ca30c",
+      "bytes": 1127
+    },
+    {
+      "source": "licenses/packages/downshift-7.2.1/LICENSE",
+      "path": "licenses/packages/downshift-7.2.1/LICENSE",
+      "sha256": "64b4919adea025dce4f5c46451a9fdfe3a2447c923516f712007a9ad7c6b8bf8",
+      "bytes": 1092
+    },
+    {
+      "source": "licenses/packages/emotion--cache-11.10.5/LICENSE",
+      "path": "licenses/packages/emotion--cache-11.10.5/LICENSE",
+      "sha256": "ab492453c3e20043eea4c2f11874b1402724d50e4f527e57a758224aa17f7364",
+      "bytes": 1108
+    },
+    {
+      "source": "licenses/packages/emotion--hash-0.9.0/LICENSE",
+      "path": "licenses/packages/emotion--hash-0.9.0/LICENSE",
+      "sha256": "ab492453c3e20043eea4c2f11874b1402724d50e4f527e57a758224aa17f7364",
+      "bytes": 1108
+    },
+    {
+      "source": "licenses/packages/emotion--memoize-0.8.0/LICENSE",
+      "path": "licenses/packages/emotion--memoize-0.8.0/LICENSE",
+      "sha256": "ab492453c3e20043eea4c2f11874b1402724d50e4f527e57a758224aa17f7364",
+      "bytes": 1108
+    },
+    {
+      "source": "licenses/packages/emotion--react-11.10.5/LICENSE",
+      "path": "licenses/packages/emotion--react-11.10.5/LICENSE",
+      "sha256": "ab492453c3e20043eea4c2f11874b1402724d50e4f527e57a758224aa17f7364",
+      "bytes": 1108
+    },
+    {
+      "source": "licenses/packages/emotion--serialize-1.1.1/LICENSE",
+      "path": "licenses/packages/emotion--serialize-1.1.1/LICENSE",
+      "sha256": "ab492453c3e20043eea4c2f11874b1402724d50e4f527e57a758224aa17f7364",
+      "bytes": 1108
+    },
+    {
+      "source": "licenses/packages/emotion--sheet-1.2.1/LICENSE",
+      "path": "licenses/packages/emotion--sheet-1.2.1/LICENSE",
+      "sha256": "ab492453c3e20043eea4c2f11874b1402724d50e4f527e57a758224aa17f7364",
+      "bytes": 1108
+    },
+    {
+      "source": "licenses/packages/emotion--unitless-0.7.5/LICENSE",
+      "path": "licenses/packages/emotion--unitless-0.7.5/LICENSE",
+      "sha256": "ab492453c3e20043eea4c2f11874b1402724d50e4f527e57a758224aa17f7364",
+      "bytes": 1108
+    },
+    {
+      "source": "licenses/packages/emotion--unitless-0.8.0/LICENSE",
+      "path": "licenses/packages/emotion--unitless-0.8.0/LICENSE",
+      "sha256": "ab492453c3e20043eea4c2f11874b1402724d50e4f527e57a758224aa17f7364",
+      "bytes": 1108
+    },
+    {
+      "source": "licenses/packages/emotion--use-insertion-effect-with-fallbacks-1.0.0/LICENSE",
+      "path": "licenses/packages/emotion--use-insertion-effect-with-fallbacks-1.0.0/LICENSE",
+      "sha256": "ab492453c3e20043eea4c2f11874b1402724d50e4f527e57a758224aa17f7364",
+      "bytes": 1108
+    },
+    {
+      "source": "licenses/packages/emotion--utils-1.2.0/LICENSE",
+      "path": "licenses/packages/emotion--utils-1.2.0/LICENSE",
+      "sha256": "ab492453c3e20043eea4c2f11874b1402724d50e4f527e57a758224aa17f7364",
+      "bytes": 1108
+    },
+    {
+      "source": "licenses/packages/esbuild-0.16.17/LICENSE.md",
+      "path": "licenses/packages/esbuild-0.16.17/LICENSE.md",
+      "sha256": "ae7e8cc53dbd78fdfcb8b6d69fd7e0b8b6f140a26c857cfde87f0a28f593a042",
+      "bytes": 1090
+    },
+    {
+      "source": "licenses/packages/esbuild-0.28.1/LICENSE.md",
+      "path": "licenses/packages/esbuild-0.28.1/LICENSE.md",
+      "sha256": "ae7e8cc53dbd78fdfcb8b6d69fd7e0b8b6f140a26c857cfde87f0a28f593a042",
+      "bytes": 1090
+    },
+    {
+      "source": "licenses/packages/fast-deep-equal-3.1.3/LICENSE",
+      "path": "licenses/packages/fast-deep-equal-3.1.3/LICENSE",
+      "sha256": "ccf1c42999b2e59ce8514e79b2ab59f07e9d7f485d90c88628b7259d0e6e6c46",
+      "bytes": 1095
+    },
+    {
+      "source": "licenses/packages/fast-uri-3.1.3/LICENSE",
+      "path": "licenses/packages/fast-uri-3.1.3/LICENSE",
+      "sha256": "a242df1df9371cb7d14153387397fb2a4707a53d42e142842c94289639a1f4ba",
+      "bytes": 1842
+    },
+    {
+      "source": "licenses/packages/floating-ui--dom-1.0.7/LICENSE",
+      "path": "licenses/packages/floating-ui--dom-1.0.7/LICENSE",
+      "sha256": "bc0c596298f537589915f9f29b43f8fa3ea5dd045ea06ebe5b9dadf5e8372a2f",
+      "bytes": 1102
+    },
+    {
+      "source": "licenses/packages/fortawesome--fontawesome-svg-core-6.3.0/LICENSE.txt",
+      "path": "licenses/packages/fortawesome--fontawesome-svg-core-6.3.0/LICENSE.txt",
+      "sha256": "968baa6eecbe183738a1a56f62e23e0c561ea44031cc6ecea5f6b4ca303ce251",
+      "bytes": 7592
+    },
+    {
+      "source": "licenses/packages/fortawesome--free-solid-svg-icons-6.3.0/LICENSE.txt",
+      "path": "licenses/packages/fortawesome--free-solid-svg-icons-6.3.0/LICENSE.txt",
+      "sha256": "968baa6eecbe183738a1a56f62e23e0c561ea44031cc6ecea5f6b4ca303ce251",
+      "bytes": 7592
+    },
+    {
+      "source": "licenses/packages/fortawesome--react-fontawesome-0.2.0/LICENSE.txt",
+      "path": "licenses/packages/fortawesome--react-fontawesome-0.2.0/LICENSE.txt",
+      "sha256": "6fbfea0c51458aa269b1dcb5d868bc0f299e4fd5d2a40fa331b56493acab5312",
+      "bytes": 1074
+    },
+    {
+      "source": "licenses/packages/hoist-non-react-statics-3.3.2/LICENSE.md",
+      "path": "licenses/packages/hoist-non-react-statics-3.3.2/LICENSE.md",
+      "sha256": "7170287e1aebe63e509246e7664b16d2ee68b3f09a065ef3df6cbabd28b64a4e",
+      "bytes": 1691
+    },
+    {
+      "source": "licenses/packages/i18next-23.16.8/LICENSE",
+      "path": "licenses/packages/i18next-23.16.8/LICENSE",
+      "sha256": "8861f0ee47942b261a068b32ae289dfdbde7e36ddf04f1c409eb35023d6484c8",
+      "bytes": 1095
+    },
+    {
+      "source": "licenses/packages/i18next-browser-languagedetector-7.2.2/LICENSE",
+      "path": "licenses/packages/i18next-browser-languagedetector-7.2.2/LICENSE",
+      "sha256": "5d5beb95c78e94182a1606bf93aba4ea06775d367bddf60dc8f576f3ca3265fc",
+      "bytes": 1097
+    },
+    {
+      "source": "licenses/packages/i18next-resources-to-backend-1.2.1/licence",
+      "path": "licenses/packages/i18next-resources-to-backend-1.2.1/licence",
+      "sha256": "4c35ada7d46d11ee78fb3570d689ab93af947390136d57dc4e5663267481f5e7",
+      "bytes": 1070
+    },
+    {
+      "source": "licenses/packages/idb-keyval-6.2.0/LICENCE",
+      "path": "licenses/packages/idb-keyval-6.2.0/LICENCE",
+      "sha256": "2a0e74c75aeea8dbcd383ddcd310dade2994171fb4f477d1915b02a609315835",
+      "bytes": 567
+    },
+    {
+      "source": "licenses/packages/immer-10.1.1/LICENSE",
+      "path": "licenses/packages/immer-10.1.1/LICENSE",
+      "sha256": "858e62a79e132adf96a7304e2a74744fc02bf6cd4b20815541ef66b99d424745",
+      "bytes": 1095
+    },
+    {
+      "source": "licenses/packages/invariant-2.2.4/LICENSE",
+      "path": "licenses/packages/invariant-2.2.4/LICENSE",
+      "sha256": "839ee7f638d4f28692ae28230de5d177a7987fc4f380aa1945984d726b97185d",
+      "bytes": 1101
+    },
+    {
+      "source": "licenses/packages/its-fine-1.0.8/LICENSE",
+      "path": "licenses/packages/its-fine-1.0.8/LICENSE",
+      "sha256": "978e8e1b1678b5e73758171a2d1a3cc1b2732495874a5e82d4a73a290e66158b",
+      "bytes": 1088
+    },
+    {
+      "source": "licenses/packages/json-schema-traverse-1.0.0/LICENSE",
+      "path": "licenses/packages/json-schema-traverse-1.0.0/LICENSE",
+      "sha256": "ccf1c42999b2e59ce8514e79b2ab59f07e9d7f485d90c88628b7259d0e6e6c46",
+      "bytes": 1095
+    },
+    {
+      "source": "licenses/packages/json-stringify-pretty-compact-4.0.0/LICENSE",
+      "path": "licenses/packages/json-stringify-pretty-compact-4.0.0/LICENSE",
+      "sha256": "0745396b03b15e61e602bab4ffaba920231b79280d6fd22f8475f337d7f1f2fd",
+      "bytes": 1130
+    },
+    {
+      "source": "licenses/packages/juggle--resize-observer-3.4.0/LICENSE",
+      "path": "licenses/packages/juggle--resize-observer-3.4.0/LICENSE",
+      "sha256": "2a16dc199685247a138dd07c818c8492e11634946468752c4103e370a64fcd5c",
+      "bytes": 11541
+    },
+    {
+      "source": "licenses/packages/lodash.defaultsdeep-4.6.1/LICENSE",
+      "path": "licenses/packages/lodash.defaultsdeep-4.6.1/LICENSE",
+      "sha256": "569b837254038e587c986d437587b96e9d11ae19bc28a3b8febe38bf5ea50ac5",
+      "bytes": 1999
+    },
+    {
+      "source": "licenses/packages/lodash.partition-4.6.0/LICENSE",
+      "path": "licenses/packages/lodash.partition-4.6.0/LICENSE",
+      "sha256": "3e0f669f0550e6101efcc81d9032af5498b72eec499df58cfbf63e24a61e2f75",
+      "bytes": 1998
+    },
+    {
+      "source": "licenses/packages/memoize-one-6.0.0/LICENSE",
+      "path": "licenses/packages/memoize-one-6.0.0/LICENSE",
+      "sha256": "204c06363664ff3c35a4779b162d145bac72e8cb4df971d57935668959666535",
+      "bytes": 1093
+    },
+    {
+      "source": "licenses/packages/prop-types-15.8.1/LICENSE",
+      "path": "licenses/packages/prop-types-15.8.1/LICENSE",
+      "sha256": "839ee7f638d4f28692ae28230de5d177a7987fc4f380aa1945984d726b97185d",
+      "bytes": 1101
+    },
+    {
+      "source": "licenses/packages/react-18.3.1/LICENSE",
+      "path": "licenses/packages/react-18.3.1/LICENSE",
+      "sha256": "f08a94bfb0bdc1d7f1cb59badaf0f8c551b10db871185622dbf1fd036affa9cb",
+      "bytes": 1107
+    },
+    {
+      "source": "licenses/packages/react-dom-18.3.1/LICENSE",
+      "path": "licenses/packages/react-dom-18.3.1/LICENSE",
+      "sha256": "f08a94bfb0bdc1d7f1cb59badaf0f8c551b10db871185622dbf1fd036affa9cb",
+      "bytes": 1107
+    },
+    {
+      "source": "licenses/packages/react-hook--latest-1.0.3/LICENSE",
+      "path": "licenses/packages/react-hook--latest-1.0.3/LICENSE",
+      "sha256": "92f6841dac40ddfe44ea1c543b74f8f9464af3655252c8b4c83c233ab5c3a5a1",
+      "bytes": 1087
+    },
+    {
+      "source": "licenses/packages/react-hook--passive-layout-effect-1.2.1/LICENSE",
+      "path": "licenses/packages/react-hook--passive-layout-effect-1.2.1/LICENSE",
+      "sha256": "92f6841dac40ddfe44ea1c543b74f8f9464af3655252c8b4c83c233ab5c3a5a1",
+      "bytes": 1087
+    },
+    {
+      "source": "licenses/packages/react-hook--resize-observer-1.2.6/LICENSE",
+      "path": "licenses/packages/react-hook--resize-observer-1.2.6/LICENSE",
+      "sha256": "92f6841dac40ddfe44ea1c543b74f8f9464af3655252c8b4c83c233ab5c3a5a1",
+      "bytes": 1087
+    },
+    {
+      "source": "licenses/packages/react-i18next-14.1.3/LICENSE",
+      "path": "licenses/packages/react-i18next-14.1.3/LICENSE",
+      "sha256": "cd09cd51518aafd0dae3933486f19a558f43890baa2ab5046c513b767b9871f8",
+      "bytes": 1097
+    },
+    {
+      "source": "licenses/packages/react-is-16.13.1/LICENSE",
+      "path": "licenses/packages/react-is-16.13.1/LICENSE",
+      "sha256": "f08a94bfb0bdc1d7f1cb59badaf0f8c551b10db871185622dbf1fd036affa9cb",
+      "bytes": 1107
+    },
+    {
+      "source": "licenses/packages/react-is-17.0.2/LICENSE",
+      "path": "licenses/packages/react-is-17.0.2/LICENSE",
+      "sha256": "f08a94bfb0bdc1d7f1cb59badaf0f8c551b10db871185622dbf1fd036affa9cb",
+      "bytes": 1107
+    },
+    {
+      "source": "licenses/packages/react-reconciler-0.27.0/LICENSE",
+      "path": "licenses/packages/react-reconciler-0.27.0/LICENSE",
+      "sha256": "f08a94bfb0bdc1d7f1cb59badaf0f8c551b10db871185622dbf1fd036affa9cb",
+      "bytes": 1107
+    },
+    {
+      "source": "licenses/packages/react-redux-9.1.2/LICENSE.md",
+      "path": "licenses/packages/react-redux-9.1.2/LICENSE.md",
+      "sha256": "635da794c92d278f8355428be0f9922d643f556d4f75f33fe4aca6b98d27affe",
+      "bytes": 1107
+    },
+    {
+      "source": "licenses/packages/react-select-5.8.1/LICENSE",
+      "path": "licenses/packages/react-select-5.8.1/LICENSE",
+      "sha256": "7def022bf65cdcedd2e60377e5fb43174a9fad698962efcd61fad83e26722c4c",
+      "bytes": 1098
+    },
+    {
+      "source": "licenses/packages/react-spring--animated-9.6.1/LICENSE",
+      "path": "licenses/packages/react-spring--animated-9.6.1/LICENSE",
+      "sha256": "a9bcd5899716379970b7bc28aeda0afcf3f4a2d1a19b64ee13ee41266eeacfdf",
+      "bytes": 1131
+    },
+    {
+      "source": "licenses/packages/react-spring--animated-9.7.5/LICENSE",
+      "path": "licenses/packages/react-spring--animated-9.7.5/LICENSE",
+      "sha256": "a9bcd5899716379970b7bc28aeda0afcf3f4a2d1a19b64ee13ee41266eeacfdf",
+      "bytes": 1131
+    },
+    {
+      "source": "licenses/packages/react-spring--core-9.6.1/LICENSE",
+      "path": "licenses/packages/react-spring--core-9.6.1/LICENSE",
+      "sha256": "a9bcd5899716379970b7bc28aeda0afcf3f4a2d1a19b64ee13ee41266eeacfdf",
+      "bytes": 1131
+    },
+    {
+      "source": "licenses/packages/react-spring--core-9.7.5/LICENSE",
+      "path": "licenses/packages/react-spring--core-9.7.5/LICENSE",
+      "sha256": "a9bcd5899716379970b7bc28aeda0afcf3f4a2d1a19b64ee13ee41266eeacfdf",
+      "bytes": 1131
+    },
+    {
+      "source": "licenses/packages/react-spring--rafz-9.6.1/LICENSE",
+      "path": "licenses/packages/react-spring--rafz-9.6.1/LICENSE",
+      "sha256": "a9bcd5899716379970b7bc28aeda0afcf3f4a2d1a19b64ee13ee41266eeacfdf",
+      "bytes": 1131
+    },
+    {
+      "source": "licenses/packages/react-spring--rafz-9.7.5/LICENSE",
+      "path": "licenses/packages/react-spring--rafz-9.7.5/LICENSE",
+      "sha256": "a9bcd5899716379970b7bc28aeda0afcf3f4a2d1a19b64ee13ee41266eeacfdf",
+      "bytes": 1131
+    },
+    {
+      "source": "licenses/packages/react-spring--shared-9.6.1/LICENSE",
+      "path": "licenses/packages/react-spring--shared-9.6.1/LICENSE",
+      "sha256": "a9bcd5899716379970b7bc28aeda0afcf3f4a2d1a19b64ee13ee41266eeacfdf",
+      "bytes": 1131
+    },
+    {
+      "source": "licenses/packages/react-spring--shared-9.7.5/LICENSE",
+      "path": "licenses/packages/react-spring--shared-9.7.5/LICENSE",
+      "sha256": "a9bcd5899716379970b7bc28aeda0afcf3f4a2d1a19b64ee13ee41266eeacfdf",
+      "bytes": 1131
+    },
+    {
+      "source": "licenses/packages/react-spring--three-9.6.1/LICENSE",
+      "path": "licenses/packages/react-spring--three-9.6.1/LICENSE",
+      "sha256": "a9bcd5899716379970b7bc28aeda0afcf3f4a2d1a19b64ee13ee41266eeacfdf",
+      "bytes": 1131
+    },
+    {
+      "source": "licenses/packages/react-spring--three-9.7.5/LICENSE",
+      "path": "licenses/packages/react-spring--three-9.7.5/LICENSE",
+      "sha256": "a9bcd5899716379970b7bc28aeda0afcf3f4a2d1a19b64ee13ee41266eeacfdf",
+      "bytes": 1131
+    },
+    {
+      "source": "licenses/packages/react-three--drei-9.114.2/LICENSE",
+      "path": "licenses/packages/react-three--drei-9.114.2/LICENSE",
+      "sha256": "09fdf91f06439c7b6d049ada1155947097d354b8285b0c093421f5cc4b88ae8d",
+      "bytes": 1090
+    },
+    {
+      "source": "licenses/packages/react-three--fiber-8.17.9/LICENSE",
+      "path": "licenses/packages/react-three--fiber-8.17.9/LICENSE",
+      "sha256": "86945cb18b30c5fcac85002149ff870ce5859d057cb4e3e67a1a91d26095d656",
+      "bytes": 1091
+    },
+    {
+      "source": "licenses/packages/redux-5.0.1/LICENSE.md",
+      "path": "licenses/packages/redux-5.0.1/LICENSE.md",
+      "sha256": "635da794c92d278f8355428be0f9922d643f556d4f75f33fe4aca6b98d27affe",
+      "bytes": 1107
+    },
+    {
+      "source": "licenses/packages/redux-thunk-3.1.0/LICENSE.md",
+      "path": "licenses/packages/redux-thunk-3.1.0/LICENSE.md",
+      "sha256": "635da794c92d278f8355428be0f9922d643f556d4f75f33fe4aca6b98d27affe",
+      "bytes": 1107
+    },
+    {
+      "source": "licenses/packages/reduxjs--toolkit-2.3.0/LICENSE",
+      "path": "licenses/packages/reduxjs--toolkit-2.3.0/LICENSE",
+      "sha256": "661ea76e75dd1bbaa23d0166de7acc15f4a58011adb2d57acc42116b5fe8a4a1",
+      "bytes": 1090
+    },
+    {
+      "source": "licenses/packages/reselect-5.1.1/LICENSE",
+      "path": "licenses/packages/reselect-5.1.1/LICENSE",
+      "sha256": "0bb5035e49bf9b5661655b402bab3c3efccb8eab2a50e37392100139fe3280f2",
+      "bytes": 1114
+    },
+    {
+      "source": "licenses/packages/rollup-3.17.3/LICENSE.md",
+      "path": "licenses/packages/rollup-3.17.3/LICENSE.md",
+      "sha256": "df270e059f0658abdc136ba3dd1b4cefa4be0084c3f2794ef0cf0ab25924c541",
+      "bytes": 36877
+    },
+    {
+      "source": "licenses/packages/scheduler-0.21.0/LICENSE",
+      "path": "licenses/packages/scheduler-0.21.0/LICENSE",
+      "sha256": "f08a94bfb0bdc1d7f1cb59badaf0f8c551b10db871185622dbf1fd036affa9cb",
+      "bytes": 1107
+    },
+    {
+      "source": "licenses/packages/scheduler-0.23.2/LICENSE",
+      "path": "licenses/packages/scheduler-0.23.2/LICENSE",
+      "sha256": "f08a94bfb0bdc1d7f1cb59badaf0f8c551b10db871185622dbf1fd036affa9cb",
+      "bytes": 1107
+    },
+    {
+      "source": "licenses/packages/styled-components-6.0.0-beta.6/LICENSE",
+      "path": "licenses/packages/styled-components-6.0.0-beta.6/LICENSE",
+      "sha256": "94a4a7363c2aa6b0d3eb0c27d2dc94e1b2536e1ee7e3387f6960f983ada140dd",
+      "bytes": 1121
+    },
+    {
+      "source": "licenses/packages/stylis-4.1.3/LICENSE",
+      "path": "licenses/packages/stylis-4.1.3/LICENSE",
+      "sha256": "c46fce1c456e0aa29d2fbaabdbd18cf93918ebd6ffbe796e18dcfe72f5c552f2",
+      "bytes": 1099
+    },
+    {
+      "source": "licenses/packages/suspend-react-0.1.3/LICENSE",
+      "path": "licenses/packages/suspend-react-0.1.3/LICENSE",
+      "sha256": "452f080de29cc420a2c1777a5463d792fb51a6898601976639c75572aa12f4e8",
+      "bytes": 1091
+    },
+    {
+      "source": "licenses/packages/textarea-caret-3.0.2/LICENSE",
+      "path": "licenses/packages/textarea-caret-3.0.2/LICENSE",
+      "sha256": "d0d7118811e946f873fe2b5048eaacbd96f041fa3988b87e18e2817b2eaa831a",
+      "bytes": 1107
+    },
+    {
+      "source": "licenses/packages/the-via--pelpi-0.0.3/LICENSE",
+      "path": "licenses/packages/the-via--pelpi-0.0.3/LICENSE",
+      "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
+      "bytes": 35823
+    },
+    {
+      "source": "licenses/packages/the-via--reader-1.14.3/LICENSE",
+      "path": "licenses/packages/the-via--reader-1.14.3/LICENSE",
+      "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
+      "bytes": 35823
+    },
+    {
+      "source": "licenses/packages/the-via--reader-1.14.4/LICENSE",
+      "path": "licenses/packages/the-via--reader-1.14.4/LICENSE",
+      "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
+      "bytes": 35823
+    },
+    {
+      "source": "licenses/packages/three-0.169.0/LICENSE",
+      "path": "licenses/packages/three-0.169.0/LICENSE",
+      "sha256": "f57eb9202058667d12aebd854fe8a86d6feaeab51078180df5615bfdbd5cff05",
+      "bytes": 1102
+    },
+    {
+      "source": "licenses/packages/three-stdlib-2.33.0/LICENSE",
+      "path": "licenses/packages/three-stdlib-2.33.0/LICENSE",
+      "sha256": "09fe6979a781ca9ca20255cad3d68f0d57d4160af53317f88aa869dddffdf253",
+      "bytes": 1093
+    },
+    {
+      "source": "licenses/packages/tslib-2.4.1/LICENSE.txt",
+      "path": "licenses/packages/tslib-2.4.1/LICENSE.txt",
+      "sha256": "210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751",
+      "bytes": 655
+    },
+    {
+      "source": "licenses/packages/tsx-4.23.1/LICENSE",
+      "path": "licenses/packages/tsx-4.23.1/LICENSE",
+      "sha256": "cd38b3966ac5b41c20e47f437624b52ab7d200923b8cb7c9a1298ef05ca80cca",
+      "bytes": 1108
+    },
+    {
+      "source": "licenses/packages/typescript-5.6.2/LICENSE.txt",
+      "path": "licenses/packages/typescript-5.6.2/LICENSE.txt",
+      "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47",
+      "bytes": 9197
+    },
+    {
+      "source": "licenses/packages/typescript-5.6.2/ThirdPartyNoticeText.txt",
+      "path": "licenses/packages/typescript-5.6.2/ThirdPartyNoticeText.txt",
+      "sha256": "1af3c68039c57e539422da82a4faada506ce6d0ea6f90e0b699d02dbcdb7a90c",
+      "bytes": 37824
+    },
+    {
+      "source": "licenses/packages/use-gesture--core-10.2.24/LICENSE",
+      "path": "licenses/packages/use-gesture--core-10.2.24/LICENSE",
+      "sha256": "6208cefd3e16634bfb5c6cda01b9ef8b42378214e8b77873e5b2b137cc2f4401",
+      "bytes": 1101
+    },
+    {
+      "source": "licenses/packages/use-gesture--react-10.2.24/LICENSE",
+      "path": "licenses/packages/use-gesture--react-10.2.24/LICENSE",
+      "sha256": "6208cefd3e16634bfb5c6cda01b9ef8b42378214e8b77873e5b2b137cc2f4401",
+      "bytes": 1101
+    },
+    {
+      "source": "licenses/packages/use-isomorphic-layout-effect-1.1.2/LICENSE",
+      "path": "licenses/packages/use-isomorphic-layout-effect-1.1.2/LICENSE",
+      "sha256": "0a7e768819de69d03d221e8840b99b67e82509a3ec94f7018c145c25f38b2eab",
+      "bytes": 1091
+    },
+    {
+      "source": "licenses/packages/use-sync-external-store-1.2.0/LICENSE",
+      "path": "licenses/packages/use-sync-external-store-1.2.0/LICENSE",
+      "sha256": "f08a94bfb0bdc1d7f1cb59badaf0f8c551b10db871185622dbf1fd036affa9cb",
+      "bytes": 1107
+    },
+    {
+      "source": "licenses/packages/use-sync-external-store-1.2.2/LICENSE",
+      "path": "licenses/packages/use-sync-external-store-1.2.2/LICENSE",
+      "sha256": "f08a94bfb0bdc1d7f1cb59badaf0f8c551b10db871185622dbf1fd036affa9cb",
+      "bytes": 1107
+    },
+    {
+      "source": "licenses/packages/via-keyboards-0.1.0/LICENSE",
+      "path": "licenses/packages/via-keyboards-0.1.0/LICENSE",
+      "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
+      "bytes": 35823
+    },
+    {
+      "source": "licenses/packages/vite-4.1.4/LICENSE.md",
+      "path": "licenses/packages/vite-4.1.4/LICENSE.md",
+      "sha256": "fe589a643a2c90c53bdbde4b1a93e6bd58f3ae7af8a5be71b89b22fc3bc48c2e",
+      "bytes": 164751
+    },
+    {
+      "source": "licenses/packages/webscopeio--react-textarea-autocomplete-4.9.2/LICENSE",
+      "path": "licenses/packages/webscopeio--react-textarea-autocomplete-4.9.2/LICENSE",
+      "sha256": "edb31c3e77b4fd003b55053bb00a8216e3f63b178ebecdc262a4c806714c798a",
+      "bytes": 1118
+    },
+    {
+      "source": "licenses/packages/wouter-2.10.0/EVIDENCE.md",
+      "path": "licenses/packages/wouter-2.10.0/EVIDENCE.md",
+      "sha256": "1bce2dc5f821142c3ecdc92601e21079622a721e548cf8c4fb34ff8bef0f6f54",
+      "bytes": 4400
+    },
+    {
+      "source": "licenses/packages/wouter-2.10.0/ISC-standard-template.txt",
+      "path": "licenses/packages/wouter-2.10.0/ISC-standard-template.txt",
+      "sha256": "1a60a9b4ab84699c3d5165b0cefb2cef6a09a5db6551a0a0a97836c62103bf51",
+      "bytes": 744
+    },
+    {
+      "source": "licenses/packages/wouter-2.10.0/LICENSE-NOTICE.txt",
+      "path": "licenses/packages/wouter-2.10.0/LICENSE-NOTICE.txt",
+      "sha256": "e07319819f534be178365363fe20d33a98fe8bd29510d5e3185362244ce2d3a4",
+      "bytes": 1427
+    },
+    {
+      "source": "licenses/packages/wouter-2.10.0/npm-githead-to-release-tag.json",
+      "path": "licenses/packages/wouter-2.10.0/npm-githead-to-release-tag.json",
+      "sha256": "dd226e9e9136be9b38340dff7f0cc12beba0d3a6855ff4e660c1ab18e92b3e60",
+      "bytes": 479
+    },
+    {
+      "source": "licenses/packages/wouter-2.10.0/npm-wouter-2.10.0.metadata.json",
+      "path": "licenses/packages/wouter-2.10.0/npm-wouter-2.10.0.metadata.json",
+      "sha256": "2d41e2098ff190afb53eb0059217d0cd5d61524741c52f4433d9006301103d94",
+      "bytes": 6981
+    },
+    {
+      "source": "licenses/packages/wouter-2.10.0/published-source-match.json",
+      "path": "licenses/packages/wouter-2.10.0/published-source-match.json",
+      "sha256": "b68992a6b9abfde879ec125dbfdb7a21d753b91a4fd78cf4089018fb4f589aea",
+      "bytes": 1689
+    },
+    {
+      "source": "licenses/packages/wouter-2.10.0/upstream-isc-confirmation.json",
+      "path": "licenses/packages/wouter-2.10.0/upstream-isc-confirmation.json",
+      "sha256": "271b0e0041332628f53bcc75eb5fa3c4ec90ae438252c4177458e40892c479f0",
+      "bytes": 945
+    },
+    {
+      "source": "licenses/packages/zustand-3.7.2/LICENSE",
+      "path": "licenses/packages/zustand-3.7.2/LICENSE",
+      "sha256": "f0dcbb086850a46d51446679126b274b0752801d85ca1f6ddb067ed046ccc2e2",
+      "bytes": 1091
+    },
+    {
+      "source": "package.json",
+      "path": "package.json",
+      "sha256": "b3e32c7002aedfd643b07f7b69200f7acad1c491660831f27e32bf620b82ebc9",
+      "bytes": 3217
+    },
+    {
+      "source": "patches/via-keyboards-79ae8d2.patch",
+      "path": "patches/via-keyboards-79ae8d2.patch",
+      "sha256": "7a93464dd250b318d04b04a9d0e8afa9b221c7bcbb07be59496e74953d8dce9e",
+      "bytes": 1489
+    },
+    {
+      "source": "public/android-chrome-192x192.png",
+      "path": "public/android-chrome-192x192.png",
+      "sha256": "680aab7cd2579012cc0fdf011f6e0034e03815f94486c61699d5070307659176",
+      "bytes": 7746
+    },
+    {
+      "source": "public/android-chrome-512x512.png",
+      "path": "public/android-chrome-512x512.png",
+      "sha256": "e2406dab22231445b4e4a0463497466d809cc1d90e83474c9827d65322e7e263",
+      "bytes": 20544
+    },
+    {
+      "source": "public/apple-touch-icon.png",
+      "path": "public/apple-touch-icon.png",
+      "sha256": "e73ba27eca382b2d2bf67233a12527495fde0e3d4c1b2f26e08b172aca5628b7",
+      "bytes": 5885
+    },
+    {
+      "source": "public/assets/404.html",
+      "path": "public/assets/404.html",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "bytes": 2
+    },
+    {
+      "source": "public/browserconfig.xml",
+      "path": "public/browserconfig.xml",
+      "sha256": "4fbd84fac0ee65f57d0e65dd57573955ed5fdd082e83a6dc5bdcb03ed144c7ba",
+      "bytes": 255
+    },
+    {
+      "source": "public/favicon-16x16.png",
+      "path": "public/favicon-16x16.png",
+      "sha256": "0d6f9aec50160925a2b7d82936e80f07588668372a3056095709ff2c2624c884",
+      "bytes": 506
+    },
+    {
+      "source": "public/favicon-32x32.png",
+      "path": "public/favicon-32x32.png",
+      "sha256": "740b65b46b49182ae919893d9ad454fe40a584ffb070b5c80001c168adc69065",
+      "bytes": 1192
+    },
+    {
+      "source": "public/favicon.ico",
+      "path": "public/favicon.ico",
+      "sha256": "10f573f20aaf9be61d3863c6d86efbb5d386e6d221786ca99060941adc9f48dc",
+      "bytes": 3234
+    },
+    {
+      "source": "public/fonts/Symbola.ttf",
+      "path": "public/fonts/Symbola.ttf",
+      "sha256": "77e5defb1f4dd781fc0900f8d87249f9cd12a0b65e57ce1c0061d88a361252a4",
+      "bytes": 2169800
+    },
+    {
+      "source": "public/fonts/blenderspacecap.glb",
+      "path": "public/fonts/blenderspacecap.glb",
+      "sha256": "407de2dd85f1cdd05d4cc2549870a1964890e0269eb826ae151c1e0ab71e5c28",
+      "bytes": 228344
+    },
+    {
+      "source": "public/github_oauth.html",
+      "path": "public/github_oauth.html",
+      "sha256": "abc9467347fac40756464b48c632c103a7abfae1030673045210cc066875a523",
+      "bytes": 781
+    },
+    {
+      "source": "public/images/_0.gif",
+      "path": "public/images/_0.gif",
+      "sha256": "350a82b8224881fb2af69fc0d75d6d3febd0688a52a1d2c541add707fc11451a",
+      "bytes": 175608
+    },
+    {
+      "source": "public/images/_1.gif",
+      "path": "public/images/_1.gif",
+      "sha256": "e9f0895810138001561179e7ade9277ae6715a0e6b4c0a93e1b42ba820aed635",
+      "bytes": 123928
+    },
+    {
+      "source": "public/images/_10.gif",
+      "path": "public/images/_10.gif",
+      "sha256": "5d00b68a95a0442adfa78c6316687dbb8a1374c4d5496e79475920976626d014",
+      "bytes": 134641
+    },
+    {
+      "source": "public/images/_2.gif",
+      "path": "public/images/_2.gif",
+      "sha256": "181e447727dc782d5572f886673ba1648f627fdcaf277e6dbda545f8ec3856b8",
+      "bytes": 186157
+    },
+    {
+      "source": "public/images/_3.gif",
+      "path": "public/images/_3.gif",
+      "sha256": "eb47e5647cb8e36dfb2302697e5c6ac3d8c333beff4b67ede33a33b171c31728",
+      "bytes": 104811
+    },
+    {
+      "source": "public/images/_4.gif",
+      "path": "public/images/_4.gif",
+      "sha256": "85b3f5ec7661891fef9d6890d8447c904d315d30417583df221cd514571cd1e7",
+      "bytes": 241249
+    },
+    {
+      "source": "public/images/_5.gif",
+      "path": "public/images/_5.gif",
+      "sha256": "e67e1b53488cc4b01923106e18aead596e812ba09b4b3a0ea01043fd92c3aca3",
+      "bytes": 141803
+    },
+    {
+      "source": "public/images/_6.gif",
+      "path": "public/images/_6.gif",
+      "sha256": "249696c27e53f44ee7158cc1926c01170166297b78d017dd71ef44b4ce81051d",
+      "bytes": 165837
+    },
+    {
+      "source": "public/images/_7.gif",
+      "path": "public/images/_7.gif",
+      "sha256": "4694e54e2ee8299946130134b178eb43adb1784ea3ef302f1c5a47c40bcd1dd0",
+      "bytes": 162744
+    },
+    {
+      "source": "public/images/_8.gif",
+      "path": "public/images/_8.gif",
+      "sha256": "d662d2012d43e8b1fd2e7262acbcb3b89b18845b9354d588072b8edc28975102",
+      "bytes": 174677
+    },
+    {
+      "source": "public/images/_9.gif",
+      "path": "public/images/_9.gif",
+      "sha256": "24ed41eead17880669f5ebb042887ddff0f75364111932187a70751e80b51304",
+      "bytes": 122350
+    },
+    {
+      "source": "public/images/chippy.png",
+      "path": "public/images/chippy.png",
+      "sha256": "dd6cc202eaad4b042e78898227bb90f3fa4fa74a2925504f2ea4018a5fbca407",
+      "bytes": 71875
+    },
+    {
+      "source": "public/mstile-144x144.png",
+      "path": "public/mstile-144x144.png",
+      "sha256": "7bff509cb21fb2d9e3ba6a7a5854c47bd11346bdd8ce593a199eacfdf40cdb7d",
+      "bytes": 5779
+    },
+    {
+      "source": "public/mstile-150x150.png",
+      "path": "public/mstile-150x150.png",
+      "sha256": "66ea05ba149871f99394464fd5ecb54f141c97f967a41822ae5f940e299f42bb",
+      "bytes": 5700
+    },
+    {
+      "source": "public/mstile-310x150.png",
+      "path": "public/mstile-310x150.png",
+      "sha256": "cae8fbf54f896759efca4b90868317d6b2a8e8021c1fd9b561f1edb2b9473f47",
+      "bytes": 6244
+    },
+    {
+      "source": "public/mstile-310x310.png",
+      "path": "public/mstile-310x310.png",
+      "sha256": "6b1a22f8e29e3860ad5d64edd201dac8b13b2e9ecfaaa6feffa901d42bcbc923",
+      "bytes": 11916
+    },
+    {
+      "source": "public/mstile-70x70.png",
+      "path": "public/mstile-70x70.png",
+      "sha256": "f68b03e4087d829bfcc5ff7ce8011f15cb3ae2ff473c7a07c7ea762cf841b75f",
+      "bytes": 4143
+    },
+    {
+      "source": "public/robots.txt",
+      "path": "public/robots.txt",
+      "sha256": "e5ab0d231eeb01b4a982d1c79a6729cac9797ad15a69247e4f28ba6afc149b4c",
+      "bytes": 70
+    },
+    {
+      "source": "public/safari-pinned-tab.svg",
+      "path": "public/safari-pinned-tab.svg",
+      "sha256": "210b7659a1f760735fdd4bf8f8bd4ad1a53c79e3d6d7483c14fb5ce19f951413",
+      "bytes": 1751
+    },
+    {
+      "source": "public/site.webmanifest",
+      "path": "public/site.webmanifest",
+      "sha256": "250820c4a6d0b89dfbde5ba1878968f7af4c957dd8f7bc8f35088df9f2cfd1c7",
+      "bytes": 548
+    },
+    {
+      "source": "resources/branding/morgrie-favicon-source.png",
+      "path": "resources/branding/morgrie-favicon-source.png",
+      "sha256": "156364aaf78a044b84fe8423345fed1a1a346fb8340eba4d1058ab78d6e99197",
+      "bytes": 93155
+    },
+    {
+      "source": "resources/morgrie-resource-overrides.json",
+      "path": "resources/morgrie-resource-overrides.json",
+      "sha256": "7e6dfa767c7718d6b38763f8349abcec828cdb907b6365810b6f934bf7bffc16",
+      "bytes": 1943
+    },
+    {
+      "source": "resources/public-assets.json",
+      "path": "resources/public-assets.json",
+      "sha256": "b2623b4b5d11b0acdbf9eecb8938f1715bd2dc109052a093870d8ecdb3b45ca0",
+      "bytes": 15437
+    },
+    {
+      "source": "resources/public-source-policy.json",
+      "path": "resources/public-source-policy.json",
+      "sha256": "b525d48ae6366a752c7e6d2ff29c44fb79bf23ec98760880031191225c8386db",
+      "bytes": 1649
+    },
+    {
+      "source": "resources/restricted-fonts.json",
+      "path": "resources/restricted-fonts.json",
+      "sha256": "fd20663ec689ef76b298e0924867d43f74a7c6c73ad0b955c70eba836e606221",
+      "bytes": 2213
+    },
+    {
+      "source": "resources/upstream-asset-history.json",
+      "path": "resources/upstream-asset-history.json",
+      "sha256": "f087410df68fe3e400596a0abaff2b1ed0e842dfc5e4ada1385a0ef96d13f91b",
+      "bytes": 2414
+    },
+    {
+      "source": "resources/upstream-resource-provenance.json",
+      "path": "resources/upstream-resource-provenance.json",
+      "sha256": "9e37344032fc83da0ba7fe7799e84abdf06140e34c51567204fe20162409b079",
+      "bytes": 16326
+    },
+    {
+      "source": "scripts/backup-console.test.ts",
+      "path": "scripts/backup-console.test.ts",
+      "sha256": "c0596caf3814ea11d27f4548d1a91def33b663bb70ab3d553f239ee5046939c7",
+      "bytes": 3037
+    },
+    {
+      "source": "scripts/backup-validation.test.ts",
+      "path": "scripts/backup-validation.test.ts",
+      "sha256": "87520a62b0b224b2795490eece527a8e7196f42218a1c14eace1c970c2b1634d",
+      "bytes": 5396
+    },
+    {
+      "source": "scripts/build-definitions.js",
+      "path": "scripts/build-definitions.js",
+      "sha256": "fa0cb9283437791ccc05a5839033319efb8ba6e1e4bcf90c144d227ff0b4c886",
+      "bytes": 6125
+    },
+    {
+      "source": "scripts/build-reproducibility.test.ts",
+      "path": "scripts/build-reproducibility.test.ts",
+      "sha256": "41df310ba11c1ce75b90f1d9c434500dc638d485c4344100717ad4b7775955c9",
+      "bytes": 1594
+    },
+    {
+      "source": "scripts/build-resource-mode.cjs",
+      "path": "scripts/build-resource-mode.cjs",
+      "sha256": "90d451a5a9b365bab7577af8461ebdcbdb4219d22c4843075624542f4f4e5db7",
+      "bytes": 559
+    },
+    {
+      "source": "scripts/check-build-environment.cjs",
+      "path": "scripts/check-build-environment.cjs",
+      "sha256": "27597cec317e5953147034925c00f31c416c40e6b7f7f40dd71f1e90c6ac1137",
+      "bytes": 877
+    },
+    {
+      "source": "scripts/combo-material.test.ts",
+      "path": "scripts/combo-material.test.ts",
+      "sha256": "71afad2bc17deaedeb5d7a4fc263727843a03d7847612dd1273c4cd921c5565a",
+      "bytes": 3857
+    },
+    {
+      "source": "scripts/definition-revision.test.ts",
+      "path": "scripts/definition-revision.test.ts",
+      "sha256": "b23c3fc669c4f0d604047e3248db7e908374e1701c31f1a91fc441192fe00772",
+      "bytes": 1338
+    },
+    {
+      "source": "scripts/device-operations.test.ts",
+      "path": "scripts/device-operations.test.ts",
+      "sha256": "cdc6f67425af3ec3ab1f48bb5f30150b72bf80fdf90125ab6cc6b8baaedf9491",
+      "bytes": 20238
+    },
+    {
+      "source": "scripts/dos68-layouts.test.ts",
+      "path": "scripts/dos68-layouts.test.ts",
+      "sha256": "f8305043c5bcfca903040ae72e1dfca434db789b84879f0433a8773cac1fa89b",
+      "bytes": 11409
+    },
+    {
+      "source": "scripts/errors-ui.test.ts",
+      "path": "scripts/errors-ui.test.ts",
+      "sha256": "33fcfa58b88512e08782bd52084f390633a8cef8a10a9654e231b601e64efabe",
+      "bytes": 18720
+    },
+    {
+      "source": "scripts/export-public-source.cjs",
+      "path": "scripts/export-public-source.cjs",
+      "sha256": "97805aba4aba0213066d4c44ffe271c6d8fcb3206b9f320e54e53b477e3d6768",
+      "bytes": 11426
+    },
+    {
+      "source": "scripts/export-public-source.test.ts",
+      "path": "scripts/export-public-source.test.ts",
+      "sha256": "191a727aa6a1bf7d5a7d79a948bba9598ad6e8044c9adc8dae3fa2dd4c4309f3",
+      "bytes": 8347
+    },
+    {
+      "source": "scripts/generate-favicon.ps1",
+      "path": "scripts/generate-favicon.ps1",
+      "sha256": "b5f5888f41bf7c2a5aa0339fe95d8a0ac2833bdedd0d39f08e35657a921dd91b",
+      "bytes": 5742
+    },
+    {
+      "source": "scripts/hid-instances.test.ts",
+      "path": "scripts/hid-instances.test.ts",
+      "sha256": "b3a0c375bfe71cff66614e60cb1a9fde70deae137ca263f8eb32a221808c45c3",
+      "bytes": 2880
+    },
+    {
+      "source": "scripts/key-tester.test.ts",
+      "path": "scripts/key-tester.test.ts",
+      "sha256": "d6049a2725241860a9411f8e4b4467b13aa6b38c998b18f07a6aad99475ae431",
+      "bytes": 20210
+    },
+    {
+      "source": "scripts/keyboards.test.ts",
+      "path": "scripts/keyboards.test.ts",
+      "sha256": "af0094106a5fdeeec73cbc9d967941c0b0da680e5cfda19b7506cf8d257857c4",
+      "bytes": 29982
+    },
+    {
+      "source": "scripts/keycap-legends.test.ts",
+      "path": "scripts/keycap-legends.test.ts",
+      "sha256": "5fe29b4bc14fe27ba2d400c36da6fe61816437d5ab93080194e3fc87398e0f47",
+      "bytes": 10041
+    },
+    {
+      "source": "scripts/keycap-theme.test.ts",
+      "path": "scripts/keycap-theme.test.ts",
+      "sha256": "47bebe7c125e88ecb286f78c758367275e01bc419abc043ef10408aa790075b5",
+      "bytes": 5041
+    },
+    {
+      "source": "scripts/keymap-navigation.test.ts",
+      "path": "scripts/keymap-navigation.test.ts",
+      "sha256": "c05c218cc7af19c9895afcc675fb9a35950f30902178f9fc5857272fba938c64",
+      "bytes": 3015
+    },
+    {
+      "source": "scripts/matrix-display.test.ts",
+      "path": "scripts/matrix-display.test.ts",
+      "sha256": "b32a6bc006b7b23b44eeeb4cda7168bb1f929ef3a9c08f1246c0129eb63bf14e",
+      "bytes": 9005
+    },
+    {
+      "source": "scripts/model-definitions.cjs",
+      "path": "scripts/model-definitions.cjs",
+      "sha256": "037a6fecd148494186a8197044c77b28e694b4e75e8fc7f37c4033ff7bc82a52",
+      "bytes": 4353
+    },
+    {
+      "source": "scripts/model-definitions.test.ts",
+      "path": "scripts/model-definitions.test.ts",
+      "sha256": "57c4c90c1aaabe1f1c7bc58e02ff4b53c03c6d0266cc0d090374d79e4ecfa241",
+      "bytes": 13213
+    },
+    {
+      "source": "scripts/resource-mode.cjs",
+      "path": "scripts/resource-mode.cjs",
+      "sha256": "b9864cd53c45b887f35978b9c92090f40de3ba33374f0d6bf675f30aa55d93b0",
+      "bytes": 10136
+    },
+    {
+      "source": "scripts/resource-mode.test.ts",
+      "path": "scripts/resource-mode.test.ts",
+      "sha256": "dc6723f2c804b3d9d227ea55daebc80b3abedc7d06f5bba0e300bae37317125e",
+      "bytes": 16341
+    },
+    {
+      "source": "scripts/run-tests.cjs",
+      "path": "scripts/run-tests.cjs",
+      "sha256": "7f4c34d2b3b54f5c61e954186606c1dc549c6d8aad27c43eedd4774a4fc21c3b",
+      "bytes": 944
+    },
+    {
+      "source": "scripts/settings-diagnostics-ui.test.ts",
+      "path": "scripts/settings-diagnostics-ui.test.ts",
+      "sha256": "3d6536e6774fd49694cfaf0d92f441f3262321b3bc4c8bc968a66088cfd8cf67",
+      "bytes": 4240
+    },
+    {
+      "source": "scripts/settings.test.ts",
+      "path": "scripts/settings.test.ts",
+      "sha256": "f4f2ff0a96ac68f0748609cc36e93bead7375c601c152b8255b3c3ca439bd780",
+      "bytes": 8200
+    },
+    {
+      "source": "scripts/spacetime65-layouts.test.ts",
+      "path": "scripts/spacetime65-layouts.test.ts",
+      "sha256": "efdd10077663cacb034f0fd9950ff91157abc718a8b197a72f72f4f803966421",
+      "bytes": 9615
+    },
+    {
+      "source": "scripts/stage-licensed-fonts.cjs",
+      "path": "scripts/stage-licensed-fonts.cjs",
+      "sha256": "7c649169df4a26c15cbb7d23e87d8721ad3806dfc66860c583166822145d81ba",
+      "bytes": 2341
+    },
+    {
+      "source": "scripts/transport-isolation.test.ts",
+      "path": "scripts/transport-isolation.test.ts",
+      "sha256": "b360e09683fbb1706aa84695443238c8dbcae76ca79062ae5b7e68d1673ca20d",
+      "bytes": 4238
+    },
+    {
+      "source": "scripts/verify-definitions.cjs",
+      "path": "scripts/verify-definitions.cjs",
+      "sha256": "4158bf28794b9749ac90394e27609a91012ae565550318cd49d45eb9a816bb36",
+      "bytes": 2511
+    },
+    {
+      "source": "scripts/via.ps1",
+      "path": "scripts/via.ps1",
+      "sha256": "7c291e5ad095b0d50dcc1d013c713ae27619fe8b13440609bcf1b91aa71c64ce",
+      "bytes": 2672
+    },
+    {
+      "source": "src/App.css",
+      "path": "src/App.css",
+      "sha256": "ef1f95a4b0d9495ef1f38f4e53a9b232ded075d2bbe973e53d54299fb3c4184f",
+      "bytes": 714
+    },
+    {
+      "source": "src/Routes.tsx",
+      "path": "src/Routes.tsx",
+      "sha256": "e2fca74756b7a7bbce4254fff80c55c09c4f243efe228370f1424c842d37d47c",
+      "bytes": 3919
+    },
+    {
+      "source": "src/app.global.css",
+      "path": "src/app.global.css",
+      "sha256": "c44fbe3fd8d471f159be5350c3952181e4710f85cfe0ece7e37f2b0afc08c39b",
+      "bytes": 4416
+    },
+    {
+      "source": "src/app.icns",
+      "path": "src/app.icns",
+      "sha256": "845dda86cbc02921a9208accb4f3d9273195e560ee7e172d928002fa1892f814",
+      "bytes": 571706
+    },
+    {
+      "source": "src/assets/images/chippy_600.png",
+      "path": "src/assets/images/chippy_600.png",
+      "sha256": "902171c5ce364fc146c8106a01f56e20b75bf0dfddf90e27905df5e2de1bb6a7",
+      "bytes": 19712
+    },
+    {
+      "source": "src/assets/images/morgrie-logo.png",
+      "path": "src/assets/images/morgrie-logo.png",
+      "sha256": "105f6ef47587df1ac2655e01657517b820e9ebb32035659878e2ac969e5af97b",
+      "bytes": 86402
+    },
+    {
+      "source": "src/assets/images/squarey.svg",
+      "path": "src/assets/images/squarey.svg",
+      "sha256": "e7d7c3a0e4b9362db397c9d8dbcf985110bc588e1cd32eb9dcdcb32d906c27a1",
+      "bytes": 2977
+    },
+    {
+      "source": "src/assets/models/cubey.glb",
+      "path": "src/assets/models/cubey.glb",
+      "sha256": "495d68a6545d2d69917edda7928fc6e0d4c89d3d39c091b79279b5f29ed4359d",
+      "bytes": 174404
+    },
+    {
+      "source": "src/assets/models/keyboard_components.glb",
+      "path": "src/assets/models/keyboard_components.glb",
+      "sha256": "1a09821acb6c239a1b9fb02b5fbd8f00e265a1699afa8639f0d5e3f3e10f9ed0",
+      "bytes": 1052316
+    },
+    {
+      "source": "src/components/Home.tsx",
+      "path": "src/components/Home.tsx",
+      "sha256": "82e7332466635374000f2745645fc01afb0a0bb574d0a8577e63d7494b5a0139",
+      "bytes": 9825
+    },
+    {
+      "source": "src/components/Layouts.tsx",
+      "path": "src/components/Layouts.tsx",
+      "sha256": "e21951c885d0e772417cd34fef860010948efff8f9fe55ba628c429da141c163",
+      "bytes": 3282
+    },
+    {
+      "source": "src/components/chippy-loader.tsx",
+      "path": "src/components/chippy-loader.tsx",
+      "sha256": "04ce2360513755a38d7e83ad78e5b68351cede4332edaa12c2be85df70128deb",
+      "bytes": 9538
+    },
+    {
+      "source": "src/components/configurator/configure-navigation.tsx",
+      "path": "src/components/configurator/configure-navigation.tsx",
+      "sha256": "de5c779d13e5ef8de86a711080006c52d59d40164c1755f030e57ecef651373a",
+      "bytes": 3697
+    },
+    {
+      "source": "src/components/configurator/connection-status.tsx",
+      "path": "src/components/configurator/connection-status.tsx",
+      "sha256": "a2d6daf945dda087c317fac26dff8b0a40f8407946213bb8d32e828dcbfbedaa",
+      "bytes": 1354
+    },
+    {
+      "source": "src/components/configurator/keyboard-workspace.tsx",
+      "path": "src/components/configurator/keyboard-workspace.tsx",
+      "sha256": "267677871bf049068545d8b814a263efc7fc2ed839d2bfe6edd954a89c6fadac",
+      "bytes": 6827
+    },
+    {
+      "source": "src/components/configurator/settings-workspace.tsx",
+      "path": "src/components/configurator/settings-workspace.tsx",
+      "sha256": "5d8f9e52ddd8fe71cf88484f5069955a3f853153b998fffa124b43a5bba5cd10",
+      "bytes": 4368
+    },
+    {
+      "source": "src/components/configurator/sidebar-icons.tsx",
+      "path": "src/components/configurator/sidebar-icons.tsx",
+      "sha256": "34aae799c05a645bc95e6bb59075d007dd446740ecfeb9a9f282818e7bd2039f",
+      "bytes": 2047
+    },
+    {
+      "source": "src/components/configurator/sidebar.tsx",
+      "path": "src/components/configurator/sidebar.tsx",
+      "sha256": "a784ed9535dc608e53b0c0be4683209abc79550ea15e659da963f571cc430460",
+      "bytes": 4387
+    },
+    {
+      "source": "src/components/icons/adjust.tsx",
+      "path": "src/components/icons/adjust.tsx",
+      "sha256": "8dff11a881afafdb20282d53ac40187e48759044d97022bacbab1c7009b3e8fb",
+      "bytes": 473
+    },
+    {
+      "source": "src/components/icons/get-icon-color.ts",
+      "path": "src/components/icons/get-icon-color.ts",
+      "sha256": "7e980b7d6bde37bcff6319e234d9c6be9b5cb00d4fdc72f64b1335afc308418d",
+      "bytes": 183
+    },
+    {
+      "source": "src/components/icons/keyboard.tsx",
+      "path": "src/components/icons/keyboard.tsx",
+      "sha256": "d439c0a2d37dba39b9903cbb1ddfa64048e7dbcf97b8b60ad69ebbdd489899a7",
+      "bytes": 235
+    },
+    {
+      "source": "src/components/icons/layouts.tsx",
+      "path": "src/components/icons/layouts.tsx",
+      "sha256": "ca3eb96c763109aaab23240019b5df0de3a84924f98ffa1d38662c62e5f62694",
+      "bytes": 448
+    },
+    {
+      "source": "src/components/icons/left-arrow.tsx",
+      "path": "src/components/icons/left-arrow.tsx",
+      "sha256": "8b80b0665f4e9899368d8cffed262037e1ce1301393603be71e73d3a81b0a7bf",
+      "bytes": 324
+    },
+    {
+      "source": "src/components/icons/lightbulb.tsx",
+      "path": "src/components/icons/lightbulb.tsx",
+      "sha256": "b150f085189d1d7e079a2885b7e1da33ebc03ab13601d09982ff315f478a45f9",
+      "bytes": 550
+    },
+    {
+      "source": "src/components/icons/memory.tsx",
+      "path": "src/components/icons/memory.tsx",
+      "sha256": "597bed06092c35b0d4d5dc31219bde96d8cbbcbaa5d4aff7200f01545889baf4",
+      "bytes": 574
+    },
+    {
+      "source": "src/components/icons/right-arrow.tsx",
+      "path": "src/components/icons/right-arrow.tsx",
+      "sha256": "a830684e86c53ef4a5a86beb7f954871d44cb0623cc54c1f2c021bbf10d8eb31",
+      "bytes": 303
+    },
+    {
+      "source": "src/components/icons/save.tsx",
+      "path": "src/components/icons/save.tsx",
+      "sha256": "3f5dfc066b4a08d8d590c4b8a59d02b6ec01bd29625ec7dbb851eb5bd7df9a5c",
+      "bytes": 242
+    },
+    {
+      "source": "src/components/icons/tune.tsx",
+      "path": "src/components/icons/tune.tsx",
+      "sha256": "94ec9d4bec98e5acd3d21c9a7ca19c7493f6eeb4788305ea04e26a44d8607d45",
+      "bytes": 516
+    },
+    {
+      "source": "src/components/icons/via.tsx",
+      "path": "src/components/icons/via.tsx",
+      "sha256": "a8bcb97079f849e9293a5d203b37c3afa3264e3f177f1e575e5316d023b0c97c",
+      "bytes": 1370
+    },
+    {
+      "source": "src/components/inputs/accent-button.tsx",
+      "path": "src/components/inputs/accent-button.tsx",
+      "sha256": "42448c41b9e12dbafa7c4dbd4bcbf8d93c03950f5c040eb23b9264925f82bfe2",
+      "bytes": 1673
+    },
+    {
+      "source": "src/components/inputs/accent-range.tsx",
+      "path": "src/components/inputs/accent-range.tsx",
+      "sha256": "2a56f9cb85914c7258f99219800bbf68f078209bd84f134fa8c9bc4fa6e975c9",
+      "bytes": 4676
+    },
+    {
+      "source": "src/components/inputs/accent-select.tsx",
+      "path": "src/components/inputs/accent-select.tsx",
+      "sha256": "a2162dfe3e5e94321e3e63c2ad0df544cac2bc0d665cc64653a765047e985102",
+      "bytes": 3042
+    },
+    {
+      "source": "src/components/inputs/accent-slider.tsx",
+      "path": "src/components/inputs/accent-slider.tsx",
+      "sha256": "55b6286cd89093f49e2b15917f2c589b0370b990f586cab3bef1fa5ad9cc1b18",
+      "bytes": 2070
+    },
+    {
+      "source": "src/components/inputs/accent-upload-button.tsx",
+      "path": "src/components/inputs/accent-upload-button.tsx",
+      "sha256": "27234f25ff35a19aa6fd407568674ae89162fbc1198ba2ef70288c25eb3a6cd0",
+      "bytes": 837
+    },
+    {
+      "source": "src/components/inputs/autocomplete-keycode.tsx",
+      "path": "src/components/inputs/autocomplete-keycode.tsx",
+      "sha256": "b925bb57f32724f1934e969ff3015e1a12aa258a777dd0ae5646b319f049e778",
+      "bytes": 1452
+    },
+    {
+      "source": "src/components/inputs/button.tsx",
+      "path": "src/components/inputs/button.tsx",
+      "sha256": "859a67410a2872cfc18a8856016c86061d9204ab30659a4b46c86e8d1a0c9a23",
+      "bytes": 609
+    },
+    {
+      "source": "src/components/inputs/color-palette-picker.tsx",
+      "path": "src/components/inputs/color-palette-picker.tsx",
+      "sha256": "277f2d43fa26abbeca8b02cee88fc371234eb75283c8080cca74bce607a2db6c",
+      "bytes": 3700
+    },
+    {
+      "source": "src/components/inputs/color-picker.tsx",
+      "path": "src/components/inputs/color-picker.tsx",
+      "sha256": "03f19ea8fe58e91718f03f67f72d15093cbbaa483b280312a26609a01ed099b0",
+      "bytes": 10589
+    },
+    {
+      "source": "src/components/inputs/custom-keycode-modal.tsx",
+      "path": "src/components/inputs/custom-keycode-modal.tsx",
+      "sha256": "e4d41229604e67c9ba1f4db87ee0e22f7ac7b28702d8763fa485ae4e55819ffe",
+      "bytes": 6508
+    },
+    {
+      "source": "src/components/inputs/dialog-base.tsx",
+      "path": "src/components/inputs/dialog-base.tsx",
+      "sha256": "87a52f69df08947e5f9d2ac8b7a5ff88168fa772170ab7e7f6f55147e46d166e",
+      "bytes": 1081
+    },
+    {
+      "source": "src/components/inputs/icon-button.tsx",
+      "path": "src/components/inputs/icon-button.tsx",
+      "sha256": "6965b9ca430fce7d50aafb476d23dbe32917b3753dffe5f54d2cee0065ec90d9",
+      "bytes": 2577
+    },
+    {
+      "source": "src/components/inputs/keycode-text-input.tsx",
+      "path": "src/components/inputs/keycode-text-input.tsx",
+      "sha256": "eddd4b1356bd310ba7ce5a9787806f5216d2e924e93a88bfe7678292726d6efc",
+      "bytes": 3954
+    },
+    {
+      "source": "src/components/inputs/message-dialog.tsx",
+      "path": "src/components/inputs/message-dialog.tsx",
+      "sha256": "421bc84b35f0b798c0034accbd7a6f1e623b5dd1edfa2286d8c3b53b2584bda0",
+      "bytes": 1906
+    },
+    {
+      "source": "src/components/inputs/pelpi/input.ts",
+      "path": "src/components/inputs/pelpi/input.ts",
+      "sha256": "2712a4a776885c3d816c741ebbd6cdadec8e427f8018f5f4c940ed07c8e1b7a1",
+      "bytes": 148
+    },
+    {
+      "source": "src/components/inputs/pelpi/keycode-input.tsx",
+      "path": "src/components/inputs/pelpi/keycode-input.tsx",
+      "sha256": "03c10ad3b9bf81946f661366237a53586170bcc07c46c5647e9ce960a0b0f5e0",
+      "bytes": 1063
+    },
+    {
+      "source": "src/components/inputs/text-input.tsx",
+      "path": "src/components/inputs/text-input.tsx",
+      "sha256": "c2312a264d2d66910237ed62b3e45fd9c9ea9b1a8063c7f50894d25e08b6374e",
+      "bytes": 724
+    },
+    {
+      "source": "src/components/inputs/tooltip.tsx",
+      "path": "src/components/inputs/tooltip.tsx",
+      "sha256": "8edb9518c9dd4b9e820a1cf64a8d3cf1266bbe2ecdccc71eada5fff75c211eef",
+      "bytes": 11519
+    },
+    {
+      "source": "src/components/keyboard.module.css",
+      "path": "src/components/keyboard.module.css",
+      "sha256": "4dd501afb4053bfac96c81c31271afa95173ae2c492e0125cb3671f2458c6c5a",
+      "bytes": 893
+    },
+    {
+      "source": "src/components/loading-text.tsx",
+      "path": "src/components/loading-text.tsx",
+      "sha256": "1bb1d042d77008eb9dd207d601e1808b231e7143af91067aa57728534e08227f",
+      "bytes": 574
+    },
+    {
+      "source": "src/components/menus/about-dialog.tsx",
+      "path": "src/components/menus/about-dialog.tsx",
+      "sha256": "badfa255689107493cb631164c5c96cdd21f8cee5d11347bab01330865186785",
+      "bytes": 2597
+    },
+    {
+      "source": "src/components/menus/external-links.tsx",
+      "path": "src/components/menus/external-links.tsx",
+      "sha256": "80ef3e47449730b4253ff3e5757ffac048c4b1a367c43f5dbccb534ab126fd0a",
+      "bytes": 1744
+    },
+    {
+      "source": "src/components/menus/global.tsx",
+      "path": "src/components/menus/global.tsx",
+      "sha256": "b3fbf0b385732d4ed3cf457d27a6f689c564e82c21508da8b6bef859a00b06c3",
+      "bytes": 2222
+    },
+    {
+      "source": "src/components/menus/header-icons.tsx",
+      "path": "src/components/menus/header-icons.tsx",
+      "sha256": "e778ad554765e7b739b3f4c3824f5ab5211232b517fc91b66fa1bbac5dfa5501",
+      "bytes": 796
+    },
+    {
+      "source": "src/components/menus/language-select.tsx",
+      "path": "src/components/menus/language-select.tsx",
+      "sha256": "abb0e60b2389835b8aacbdcac887f9892309a5ef44984605d35389ad7f21d183",
+      "bytes": 4318
+    },
+    {
+      "source": "src/components/n-links/key-group.ts",
+      "path": "src/components/n-links/key-group.ts",
+      "sha256": "a76ea0336a8a5b1885fb291f4c53e3d11e9f79c4f58983117cf5214a096ed8fa",
+      "bytes": 4515
+    },
+    {
+      "source": "src/components/n-links/keyboard/configure.tsx",
+      "path": "src/components/n-links/keyboard/configure.tsx",
+      "sha256": "576e4405030f1565153f436352ed152ea6000b5662f34575e6062621a4c253ed",
+      "bytes": 2924
+    },
+    {
+      "source": "src/components/n-links/keyboard/design.tsx",
+      "path": "src/components/n-links/keyboard/design.tsx",
+      "sha256": "f5dede2afb728c549f1f1e22c725ef9a9982b2dee79edaa91371056e1fb83797",
+      "bytes": 3070
+    },
+    {
+      "source": "src/components/n-links/keyboard/test.tsx",
+      "path": "src/components/n-links/keyboard/test.tsx",
+      "sha256": "effb0544313372562ff7571672b59d4c276b84c20b03aee8aca628fecdd5f634",
+      "bytes": 5806
+    },
+    {
+      "source": "src/components/n-links/matrix-lines.ts",
+      "path": "src/components/n-links/matrix-lines.ts",
+      "sha256": "a263f2824b05d75877e91d230dcd38063d82427bef3f16bd495f934f8aaf283f",
+      "bytes": 947
+    },
+    {
+      "source": "src/components/panes/configure-panes/badge.tsx",
+      "path": "src/components/panes/configure-panes/badge.tsx",
+      "sha256": "55b9ddeffab714e356229743985c34ce10f06022acad7c5f37d57eae89c6e410",
+      "bytes": 8196
+    },
+    {
+      "source": "src/components/panes/configure-panes/custom/custom-control.tsx",
+      "path": "src/components/panes/configure-panes/custom/custom-control.tsx",
+      "sha256": "d28c0c490709065958330d5207934c062e4a4b3ff1a9cfa48b405e70abfaf15c",
+      "bytes": 6445
+    },
+    {
+      "source": "src/components/panes/configure-panes/custom/icon.tsx",
+      "path": "src/components/panes/configure-panes/custom/icon.tsx",
+      "sha256": "1f909a22c688be1672fe7b493e6a2e885db6ca2187176ba852f48fed18102913",
+      "bytes": 528
+    },
+    {
+      "source": "src/components/panes/configure-panes/custom/lighting-styles.tsx",
+      "path": "src/components/panes/configure-panes/custom/lighting-styles.tsx",
+      "sha256": "8b35191f8297f92947f59d4741a9e9dde2a3c147fbf07269973a46e2e3217302",
+      "bytes": 5894
+    },
+    {
+      "source": "src/components/panes/configure-panes/custom/menu-generator.tsx",
+      "path": "src/components/panes/configure-panes/custom/menu-generator.tsx",
+      "sha256": "3f887ab3bb98f1f2b794c4187f9c7e7c3286aede312abbc6bf4f6d129342fd47",
+      "bytes": 9917
+    },
+    {
+      "source": "src/components/panes/configure-panes/custom/satisfaction75/api.ts",
+      "path": "src/components/panes/configure-panes/custom/satisfaction75/api.ts",
+      "sha256": "32424836ff151a26a2ba2bb0e81868a96a6661fa28e8f4f1e58af4d65ebc33a9",
+      "bytes": 2331
+    },
+    {
+      "source": "src/components/panes/configure-panes/custom/satisfaction75/encoder-custom-config.tsx",
+      "path": "src/components/panes/configure-panes/custom/satisfaction75/encoder-custom-config.tsx",
+      "sha256": "8989a876c9312593283228be74197df33354bd47130fa97ae3d79805b28f2264",
+      "bytes": 1842
+    },
+    {
+      "source": "src/components/panes/configure-panes/custom/satisfaction75/encoder-mode-toggle.tsx",
+      "path": "src/components/panes/configure-panes/custom/satisfaction75/encoder-mode-toggle.tsx",
+      "sha256": "786e5e1882f811e6dacdcfb1a5f216640be01263d1534c475bfa8e0e99adc9d7",
+      "bytes": 2297
+    },
+    {
+      "source": "src/components/panes/configure-panes/custom/satisfaction75/index.ts",
+      "path": "src/components/panes/configure-panes/custom/satisfaction75/index.ts",
+      "sha256": "cc738582422ad778f9f4f717c59720445417d42634fe5f82cceadca5b84f2399",
+      "bytes": 190
+    },
+    {
+      "source": "src/components/panes/configure-panes/custom/satisfaction75/menu.tsx",
+      "path": "src/components/panes/configure-panes/custom/satisfaction75/menu.tsx",
+      "sha256": "8317535ece576613b989e2c14a5bc20d39cbb67fd64f016ef0b94d4dd514171c",
+      "bytes": 7517
+    },
+    {
+      "source": "src/components/panes/configure-panes/encoder.tsx",
+      "path": "src/components/panes/configure-panes/encoder.tsx",
+      "sha256": "86bbcb27930768c3ad9c10973539a95e4b35cfd14f804bca79bbe7fb3cf223bb",
+      "bytes": 4827
+    },
+    {
+      "source": "src/components/panes/configure-panes/host-keyboard-layout-badge.tsx",
+      "path": "src/components/panes/configure-panes/host-keyboard-layout-badge.tsx",
+      "sha256": "feaf3935ee36fe6545c1be8222fdfe1e9b47d3aec8f85645bb714cd09299941d",
+      "bytes": 5122
+    },
+    {
+      "source": "src/components/panes/configure-panes/keycode.tsx",
+      "path": "src/components/panes/configure-panes/keycode.tsx",
+      "sha256": "6487f6ec1a08d8b2f7f24936551520d7f78e707c83839e1e56db22984d5334ab",
+      "bytes": 22259
+    },
+    {
+      "source": "src/components/panes/configure-panes/layer-control.tsx",
+      "path": "src/components/panes/configure-panes/layer-control.tsx",
+      "sha256": "3dba47e6d150ab5337019124c334966af521f4b417b6681c910f6c87d47ecd8a",
+      "bytes": 2245
+    },
+    {
+      "source": "src/components/panes/configure-panes/layouts.tsx",
+      "path": "src/components/panes/configure-panes/layouts.tsx",
+      "sha256": "bff6186b01555e605f872754d45a903f2826039cf69781bb5423b74d6b267819",
+      "bytes": 6089
+    },
+    {
+      "source": "src/components/panes/configure-panes/lighting.tsx",
+      "path": "src/components/panes/configure-panes/lighting.tsx",
+      "sha256": "5d97904d9cddff4d7433634f715d1bd0cefd7dbb139f0d03cee6d4ea5db070d8",
+      "bytes": 2928
+    },
+    {
+      "source": "src/components/panes/configure-panes/macros.tsx",
+      "path": "src/components/panes/configure-panes/macros.tsx",
+      "sha256": "e3c0c40098cf396e9f8de2325032f4c42198cf4c290f3a730e9ec0c04df941ae",
+      "bytes": 4899
+    },
+    {
+      "source": "src/components/panes/configure-panes/save-load.tsx",
+      "path": "src/components/panes/configure-panes/save-load.tsx",
+      "sha256": "57a623b64118536b66c6c679f8f85de474f3a85c3e92a8b8221214ef82dc0f84",
+      "bytes": 11013
+    },
+    {
+      "source": "src/components/panes/configure-panes/selected-key.tsx",
+      "path": "src/components/panes/configure-panes/selected-key.tsx",
+      "sha256": "959e02987c7adaa55441b3c5f322556b3386a539915b529a22bd034bcd8aa111",
+      "bytes": 8785
+    },
+    {
+      "source": "src/components/panes/configure-panes/submenus/lighting/advanced.tsx",
+      "path": "src/components/panes/configure-panes/submenus/lighting/advanced.tsx",
+      "sha256": "1885d2c6438249e9019742b19218f3e71a3dcbe26e68d05affbc294d7ae2c638",
+      "bytes": 3621
+    },
+    {
+      "source": "src/components/panes/configure-panes/submenus/lighting/general.tsx",
+      "path": "src/components/panes/configure-panes/submenus/lighting/general.tsx",
+      "sha256": "841bfbd4d78d6fd429d7feb09b8db8da4fa57196c57c057b24548a691f535d40",
+      "bytes": 5421
+    },
+    {
+      "source": "src/components/panes/configure-panes/submenus/lighting/layout.tsx",
+      "path": "src/components/panes/configure-panes/submenus/lighting/layout.tsx",
+      "sha256": "215801ad3dc7653c54c114a2652a04ae423d18aad9e65baa25287b767a10fdd2",
+      "bytes": 2843
+    },
+    {
+      "source": "src/components/panes/configure-panes/submenus/lighting/lighting-control.tsx",
+      "path": "src/components/panes/configure-panes/submenus/lighting/lighting-control.tsx",
+      "sha256": "c6a63332743d0aa4c1c9beb4777c5f1a88042005faf82d78200fa41c756c5915",
+      "bytes": 4070
+    },
+    {
+      "source": "src/components/panes/configure-panes/submenus/macros/deletable.tsx",
+      "path": "src/components/panes/configure-panes/submenus/macros/deletable.tsx",
+      "sha256": "f284c132ef8601249eda7787d67cccb447a455c6b6413ad7f9c9c896c3b60010",
+      "bytes": 1160
+    },
+    {
+      "source": "src/components/panes/configure-panes/submenus/macros/keycode-sequence-components.tsx",
+      "path": "src/components/panes/configure-panes/submenus/macros/keycode-sequence-components.tsx",
+      "sha256": "7e10f0812dd9b2a852c00d82798a37d2ebdcc8e521316456cdacccadafa80010",
+      "bytes": 5189
+    },
+    {
+      "source": "src/components/panes/configure-panes/submenus/macros/macro-controls.tsx",
+      "path": "src/components/panes/configure-panes/submenus/macros/macro-controls.tsx",
+      "sha256": "de9251d2542f01930f953c4517c22cac9472444f44fa85fa8f8d814aa5b8746b",
+      "bytes": 8517
+    },
+    {
+      "source": "src/components/panes/configure-panes/submenus/macros/macro-detail.tsx",
+      "path": "src/components/panes/configure-panes/submenus/macros/macro-detail.tsx",
+      "sha256": "a46f343239e128e693953f8b080cc4091367ad1677718bdcfe4b964196b9c843",
+      "bytes": 6473
+    },
+    {
+      "source": "src/components/panes/configure-panes/submenus/macros/macro-recorder.tsx",
+      "path": "src/components/panes/configure-panes/submenus/macros/macro-recorder.tsx",
+      "sha256": "9efe180bbe93eaf179402b6d59c94a9d0f86316d1d49b0a40091affe47dc01b4",
+      "bytes": 13253
+    },
+    {
+      "source": "src/components/panes/configure-panes/submenus/macros/script-mode.tsx",
+      "path": "src/components/panes/configure-panes/submenus/macros/script-mode.tsx",
+      "sha256": "b4ab4c91896065c11fccc0a54256bf7622f03ce68c96bd574b254286c465cf13",
+      "bytes": 7585
+    },
+    {
+      "source": "src/components/panes/configure.tsx",
+      "path": "src/components/panes/configure.tsx",
+      "sha256": "57ff10868260b888c9365120c6b76172ae86b1f4ac1a28eaf0c519f4ad8bb348",
+      "bytes": 2745
+    },
+    {
+      "source": "src/components/panes/debug.tsx",
+      "path": "src/components/panes/debug.tsx",
+      "sha256": "d79e5c3916e6aff95b8b6a26b497aff71cfc8a0403d6a7acc236b9fb494b778f",
+      "bytes": 14477
+    },
+    {
+      "source": "src/components/panes/design.tsx",
+      "path": "src/components/panes/design.tsx",
+      "sha256": "5ed41d16fa9d869d94a9f9d746d2443792844cd6838a3e2862b8d14861678b14",
+      "bytes": 18706
+    },
+    {
+      "source": "src/components/panes/errors.tsx",
+      "path": "src/components/panes/errors.tsx",
+      "sha256": "e3d9b908927cd7cc44a9398ebc21bcea2f216ed797fd6e02012cd17e8cf7cfa3",
+      "bytes": 10600
+    },
+    {
+      "source": "src/components/panes/grid.tsx",
+      "path": "src/components/panes/grid.tsx",
+      "sha256": "f7ecbcd4e32c26b67f1eb649e41fa78dcb5f75febf64cc179191cf542ddb7e68",
+      "bytes": 4296
+    },
+    {
+      "source": "src/components/panes/hid-console.tsx",
+      "path": "src/components/panes/hid-console.tsx",
+      "sha256": "f8d732d0184c6b6a809f5f14b2d8ea806312c5098264889897d830cb3efdad36",
+      "bytes": 10534
+    },
+    {
+      "source": "src/components/panes/pane.tsx",
+      "path": "src/components/panes/pane.tsx",
+      "sha256": "7b8543d2f5c277b6f8ac8cbea278be0d3799bf80d162904f0436c060c3a41384",
+      "bytes": 566
+    },
+    {
+      "source": "src/components/panes/settings.tsx",
+      "path": "src/components/panes/settings.tsx",
+      "sha256": "00d93907da984ef7a21ed42ff2080fd375f62b5de45dee21512f98f5a4a82de0",
+      "bytes": 12848
+    },
+    {
+      "source": "src/components/panes/test.tsx",
+      "path": "src/components/panes/test.tsx",
+      "sha256": "8f222ad3f71e292c572e130ada66e863a817b5ce768eb18b7f6f751eeaa98825",
+      "bytes": 12891
+    },
+    {
+      "source": "src/components/styled.ts",
+      "path": "src/components/styled.ts",
+      "sha256": "6fcc9845a05a0c4e88b45d507c8ff33bd56f5e0454eaf3764ecaaa2b1cd2e067",
+      "bytes": 287
+    },
+    {
+      "source": "src/components/three-fiber/camera.tsx",
+      "path": "src/components/three-fiber/camera.tsx",
+      "sha256": "08d8047685cd08f1a51509ecfbda769d74c347de4b46b09c2847419afc0f6b19",
+      "bytes": 1193
+    },
+    {
+      "source": "src/components/three-fiber/canvas-router.tsx",
+      "path": "src/components/three-fiber/canvas-router.tsx",
+      "sha256": "122815aa1d421db8e469a832cad7108bf50e839a21b9e2c518ce15ddf9dcc04e",
+      "bytes": 9474
+    },
+    {
+      "source": "src/components/three-fiber/case.tsx",
+      "path": "src/components/three-fiber/case.tsx",
+      "sha256": "a5709cfebd87abcc0b437fdeff4b6fef8f1c920d1d4b8e18f6c39f524645bde3",
+      "bytes": 11764
+    },
+    {
+      "source": "src/components/three-fiber/export-scene.tsx",
+      "path": "src/components/three-fiber/export-scene.tsx",
+      "sha256": "e1d4b55a537e1de35721f6cf4a0df3d1005abdbf0659b6386f54f1ff1634f341",
+      "bytes": 1404
+    },
+    {
+      "source": "src/components/three-fiber/key-group.tsx",
+      "path": "src/components/three-fiber/key-group.tsx",
+      "sha256": "b90aadd33419777254546fcb7e25380926527e384b9f29e59f4bd2cb5cd7020e",
+      "bytes": 4241
+    },
+    {
+      "source": "src/components/three-fiber/keyboard-canvas.tsx",
+      "path": "src/components/three-fiber/keyboard-canvas.tsx",
+      "sha256": "6f67e80e39b10068fe4982950025e3809be38d7a6c9dec482b7d69ae76260acc",
+      "bytes": 4010
+    },
+    {
+      "source": "src/components/three-fiber/loader-cubey.tsx",
+      "path": "src/components/three-fiber/loader-cubey.tsx",
+      "sha256": "bf5d5ec2b5fa47ce8c79fe51586a67fa54fa6bf299eac223ca2931acbb764feb",
+      "bytes": 2487
+    },
+    {
+      "source": "src/components/three-fiber/matrix-lines.tsx",
+      "path": "src/components/three-fiber/matrix-lines.tsx",
+      "sha256": "f59480894c96e4e28f7b41e9eacd7a7e98101359426c0ff2d84f88152aea0e8f",
+      "bytes": 2609
+    },
+    {
+      "source": "src/components/three-fiber/unit-key/keycap.tsx",
+      "path": "src/components/three-fiber/unit-key/keycap.tsx",
+      "sha256": "3ea252ab3f2d3d40d883c1f2f2cceb54fb45216932601ba5a2f6b4d8c3c50587",
+      "bytes": 14668
+    },
+    {
+      "source": "src/components/three-fiber/update-uv-maps.ts",
+      "path": "src/components/three-fiber/update-uv-maps.ts",
+      "sha256": "42b4fdb9e6e39b6a48b36c3c470e6afefa5f18e3d60986fa581556c0c7aab6a0",
+      "bytes": 2224
+    },
+    {
+      "source": "src/components/two-string/canvas-router.tsx",
+      "path": "src/components/two-string/canvas-router.tsx",
+      "sha256": "b6d1c5dbf341e0d9f4851d3980c76d5a4b487e0cb2f87345b5dfa8d9493d98cd",
+      "bytes": 2335
+    },
+    {
+      "source": "src/components/two-string/case.tsx",
+      "path": "src/components/two-string/case.tsx",
+      "sha256": "16c7d090c06e803ff539f42fa791a59010fc6591546b0a18c45770ca1ec4cf3e",
+      "bytes": 2848
+    },
+    {
+      "source": "src/components/two-string/key-group.tsx",
+      "path": "src/components/two-string/key-group.tsx",
+      "sha256": "8be48f07d23763577b1c16980b65906c5d8fa549263cbe5c30c247147e69818f",
+      "bytes": 7512
+    },
+    {
+      "source": "src/components/two-string/key-navigation.ts",
+      "path": "src/components/two-string/key-navigation.ts",
+      "sha256": "213ca21a4ef74c66a709dc928c190d6f6e0cb1634b8915489382f20f2b66c518",
+      "bytes": 1815
+    },
+    {
+      "source": "src/components/two-string/keyboard-canvas.tsx",
+      "path": "src/components/two-string/keyboard-canvas.tsx",
+      "sha256": "d2b44ba77bf1dd891e058e9fd5cb5671bb95a977a68658db1a6a55e20b850ee9",
+      "bytes": 4099
+    },
+    {
+      "source": "src/components/two-string/matrix-lines.tsx",
+      "path": "src/components/two-string/matrix-lines.tsx",
+      "sha256": "0d19cc2da58bf09f6cac28c7ffe5d19eac644cde20400f8db71e0ac9673f0a5b",
+      "bytes": 1558
+    },
+    {
+      "source": "src/components/two-string/morgrie-legend.ts",
+      "path": "src/components/two-string/morgrie-legend.ts",
+      "sha256": "bbc48df4807a643f3f4aba2edb5e20403b50686b1e0f02ccf8c7c4d0a06782f4",
+      "bytes": 4870
+    },
+    {
+      "source": "src/components/two-string/unit-key/combo-keycap.tsx",
+      "path": "src/components/two-string/unit-key/combo-keycap.tsx",
+      "sha256": "1aa8f83f6567dd26c3cc6e2217a1dfe5970f4ba654b99961257f844fc4799061",
+      "bytes": 10081
+    },
+    {
+      "source": "src/components/two-string/unit-key/combo-material.ts",
+      "path": "src/components/two-string/unit-key/combo-material.ts",
+      "sha256": "67d2b4b25e89c7d22de92c1db3c785207d3c8c527e02bddfe2932b35c85a3a5c",
+      "bytes": 3713
+    },
+    {
+      "source": "src/components/two-string/unit-key/encoder.tsx",
+      "path": "src/components/two-string/unit-key/encoder.tsx",
+      "sha256": "859df687659551c84811817cc43f3bd374f675ab350a6ba91cba5ccea132304b",
+      "bytes": 4141
+    },
+    {
+      "source": "src/components/two-string/unit-key/key-focus-ring.tsx",
+      "path": "src/components/two-string/unit-key/key-focus-ring.tsx",
+      "sha256": "2244d73e4bd1296c29ff78c1d914c53eea8d4fca694e2a254920b34876c0efb9",
+      "bytes": 2087
+    },
+    {
+      "source": "src/components/two-string/unit-key/keycap-base.tsx",
+      "path": "src/components/two-string/unit-key/keycap-base.tsx",
+      "sha256": "06198ce6982f14786eb4835a50b54421be8e8eab09fa3742a4b5abf0e82193cd",
+      "bytes": 2142
+    },
+    {
+      "source": "src/components/two-string/unit-key/keycap.tsx",
+      "path": "src/components/two-string/unit-key/keycap.tsx",
+      "sha256": "d0f7034e5f0651fac84b48c8295bb350f139a1f86b4fbbb2c04f78789fc732ab",
+      "bytes": 14973
+    },
+    {
+      "source": "src/components/void/test-keyboard-sounds.ts",
+      "path": "src/components/void/test-keyboard-sounds.ts",
+      "sha256": "6ce85ac332a26e35700e45f1c21f6e82bdeae256f3d96f27eae85b6c76ba4eaf",
+      "bytes": 3511
+    },
+    {
+      "source": "src/constants/routes.json",
+      "path": "src/constants/routes.json",
+      "sha256": "dd02f523826f61468c64850daafa582f0ab74a7f31d85e66f540640e127e4e6e",
+      "bytes": 21
+    },
+    {
+      "source": "src/containers/Root.tsx",
+      "path": "src/containers/Root.tsx",
+      "sha256": "7d91605a30cd04893f02a602348c032cb6d02b86f98de62ccc4f3a4a88e2ac6f",
+      "bytes": 196
+    },
+    {
+      "source": "src/index.css",
+      "path": "src/index.css",
+      "sha256": "ff1f37a8ea7cdbef80b7d0e753f520ef2b673eff09b80447d473384fe5adbf99",
+      "bytes": 379
+    },
+    {
+      "source": "src/index.tsx",
+      "path": "src/index.tsx",
+      "sha256": "5865c4d24f127d9259332165a07ecfbffeb87f1911ff5e42deecdf3516714839",
+      "bytes": 1169
+    },
+    {
+      "source": "src/locales/de.json",
+      "path": "src/locales/de.json",
+      "sha256": "5587197db59d136c69e4d036e5a296791494aed0bef42c95607fcf536b65b0aa",
+      "bytes": 20655
+    },
+    {
+      "source": "src/locales/en.json",
+      "path": "src/locales/en.json",
+      "sha256": "2f432d8679691348b9716d865bd1fc3cd6a37728cfabffd076b6c1dd34c99bcb",
+      "bytes": 19159
+    },
+    {
+      "source": "src/locales/es.json",
+      "path": "src/locales/es.json",
+      "sha256": "2049914e5fb67198ad3599f80306241348e062f95dfa668cca018a7349a9588b",
+      "bytes": 21128
+    },
+    {
+      "source": "src/locales/ja.json",
+      "path": "src/locales/ja.json",
+      "sha256": "df02ad35c4a00770688fac708af2179f86e9d1058d96f3d281b0456e181dbd90",
+      "bytes": 22969
+    },
+    {
+      "source": "src/locales/ko.json",
+      "path": "src/locales/ko.json",
+      "sha256": "29d01c355eb729df5cd1ef651b300608990ea33ff74d005f5c53f811ad7aa377",
+      "bytes": 21127
+    },
+    {
+      "source": "src/locales/zh.json",
+      "path": "src/locales/zh.json",
+      "sha256": "1ca96dec1b0484c14b92eab580653789b0ae9cfcd9bc6de19ace3a72afff33ff",
+      "bytes": 21166
+    },
+    {
+      "source": "src/shims/node-hid.ts",
+      "path": "src/shims/node-hid.ts",
+      "sha256": "862c8c896961d0941839a4aa8a4f90d8950ee4500af6847bfc63144ae3c63049",
+      "bytes": 9156
+    },
+    {
+      "source": "src/shims/usb-detection.ts",
+      "path": "src/shims/usb-detection.ts",
+      "sha256": "f84153953bab59f4cb0f3154aa10b04b63c4a45971d6488750be6f43a9044ec2",
+      "bytes": 1388
+    },
+    {
+      "source": "src/shims/via-app-store.ts",
+      "path": "src/shims/via-app-store.ts",
+      "sha256": "6aad00ee836ea79581a0adc6ab54c554caf1f50f81199e9ad2b342f75daf039b",
+      "bytes": 886
+    },
+    {
+      "source": "src/store/definitionNameSlice.ts",
+      "path": "src/store/definitionNameSlice.ts",
+      "sha256": "a0e5992c3bb6bb8536af812b165781143475621f45bdf2a5032e39c2341ef306",
+      "bytes": 3390
+    },
+    {
+      "source": "src/store/definitionsSlice.ts",
+      "path": "src/store/definitionsSlice.ts",
+      "sha256": "45f01e8a3fb6301faf4eeeb79379e59564cdec54c7c5be3571a80906439c84a2",
+      "bytes": 13292
+    },
+    {
+      "source": "src/store/designSlice.ts",
+      "path": "src/store/designSlice.ts",
+      "sha256": "b44ad78472a9e3f77c5de5409955be2a778d9f573caa34bb01efdcacb43b443e",
+      "bytes": 1300
+    },
+    {
+      "source": "src/store/device-operation.ts",
+      "path": "src/store/device-operation.ts",
+      "sha256": "27ad9e07ef004dda96415a9ab6890de8bc39050dd96339eca853210eac77beb8",
+      "bytes": 1954
+    },
+    {
+      "source": "src/store/devicesSlice.ts",
+      "path": "src/store/devicesSlice.ts",
+      "sha256": "365f8ac575d854e2b76e62ebe4dca5ec186894e7c3afa9bdfe7beb4d99097f41",
+      "bytes": 8350
+    },
+    {
+      "source": "src/store/devicesThunks.ts",
+      "path": "src/store/devicesThunks.ts",
+      "sha256": "a5b098d05fee1e183fe3d2c7fb0abb4c3deea89526cd86c5d547a3262e25a477",
+      "bytes": 9092
+    },
+    {
+      "source": "src/store/errorsListener.ts",
+      "path": "src/store/errorsListener.ts",
+      "sha256": "3cdcf9ed1b9e9da8873de8b7bad5ad8d77d2214dd754b91da69749aa6c262b5a",
+      "bytes": 1089
+    },
+    {
+      "source": "src/store/errorsSlice.ts",
+      "path": "src/store/errorsSlice.ts",
+      "sha256": "c03731b00cbc75c23e4357075989581cc14c63bcc716269e990672514691154d",
+      "bytes": 2228
+    },
+    {
+      "source": "src/store/firmwareSlice.ts",
+      "path": "src/store/firmwareSlice.ts",
+      "sha256": "a6a308b5dd23d644af9268f02a459be4fd0eef26a8771889f67d9b0683c006bd",
+      "bytes": 5560
+    },
+    {
+      "source": "src/store/hooks.ts",
+      "path": "src/store/hooks.ts",
+      "sha256": "164031fd60be08ad8c41755a40cf0ac9830408a70648b6e4f4d04294f98877c8",
+      "bytes": 312
+    },
+    {
+      "source": "src/store/index.ts",
+      "path": "src/store/index.ts",
+      "sha256": "dc6ef455195c6a801f3437439e4c575d43a280c0540aa3a29bdb1e6d0333f2d5",
+      "bytes": 1484
+    },
+    {
+      "source": "src/store/keymapSlice.ts",
+      "path": "src/store/keymapSlice.ts",
+      "sha256": "4de92cda7574e6314ee21e654fbccc171f4fa89b267cab3cecf71510d559e8c6",
+      "bytes": 8125
+    },
+    {
+      "source": "src/store/lightingSlice.ts",
+      "path": "src/store/lightingSlice.ts",
+      "sha256": "53bf0837672d57d610fe4d88875311716114b39bf293bdda1168d57926668046",
+      "bytes": 6101
+    },
+    {
+      "source": "src/store/macrosSlice.ts",
+      "path": "src/store/macrosSlice.ts",
+      "sha256": "3e674e3370d86ba4cdb820bd1be751ed4534c80fae1bbd3eb10c95067728134c",
+      "bytes": 5038
+    },
+    {
+      "source": "src/store/menusSlice.ts",
+      "path": "src/store/menusSlice.ts",
+      "sha256": "67d980d06d82ce78bb3c2a3a8989cb2a17e64b0ec7a039b8c9c6138ccfc61efd",
+      "bytes": 17286
+    },
+    {
+      "source": "src/store/settingsSlice.ts",
+      "path": "src/store/settingsSlice.ts",
+      "sha256": "1205cef014a3d706e794b940bbba9b9a8cf5eabe8ccc93addce96bacfd581bb4",
+      "bytes": 6446
+    },
+    {
+      "source": "src/styles/morgrie.css",
+      "path": "src/styles/morgrie.css",
+      "sha256": "5489da1e15cbed270dd98590cee3e8d05879bf1977f05ff542fd73fefd95fc50",
+      "bytes": 2603
+    },
+    {
+      "source": "src/types/generic-types.ts",
+      "path": "src/types/generic-types.ts",
+      "sha256": "748aa67f9f9aad8265828ec6a38f0d15b716017c3699f3bd1109899b1397b7bb",
+      "bytes": 158
+    },
+    {
+      "source": "src/types/keyboard-rendering.ts",
+      "path": "src/types/keyboard-rendering.ts",
+      "sha256": "601159568df3dde97b6a84d99b9641eff575f720a6f5ce886e6b1d92fe0652a1",
+      "bytes": 2512
+    },
+    {
+      "source": "src/types/types.ts",
+      "path": "src/types/types.ts",
+      "sha256": "1c5b2794f90c6f92bbcb0b9a3b0ac682e5d2490f69b9ca11da1f70d8a0c86e96",
+      "bytes": 3020
+    },
+    {
+      "source": "src/utils/.gitkeep",
+      "path": "src/utils/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "src/utils/advanced-keys.ts",
+      "path": "src/utils/advanced-keys.ts",
+      "sha256": "62e7496e45b055f8cc4e33f82148afd53dc8b0698ea69e2f0f3025c0a2f56b1e",
+      "bytes": 12813
+    },
+    {
+      "source": "src/utils/autocomplete-keycodes.ts",
+      "path": "src/utils/autocomplete-keycodes.ts",
+      "sha256": "538acc050a84909b57e5b92150e3e88d98ebd8837ee8edbbb723897956d0b00c",
+      "bytes": 3837
+    },
+    {
+      "source": "src/utils/backup-target.ts",
+      "path": "src/utils/backup-target.ts",
+      "sha256": "00974c2b699f2bad7510d8685fbecbc405446500d6bd5afca7a38fb4f1057784",
+      "bytes": 2353
+    },
+    {
+      "source": "src/utils/backup-validation.ts",
+      "path": "src/utils/backup-validation.ts",
+      "sha256": "cc88f3abb9451d46c2a45f2eb49447f51af37adb9c45a6575c4b9281b5967ea1",
+      "bytes": 7147
+    },
+    {
+      "source": "src/utils/bit-pack.ts",
+      "path": "src/utils/bit-pack.ts",
+      "sha256": "079cfef5d51e39592cab7a16485f04bdaaf7b971e96d271c6d06af905c59ac74",
+      "bytes": 1068
+    },
+    {
+      "source": "src/utils/color-math.ts",
+      "path": "src/utils/color-math.ts",
+      "sha256": "02ed684d9f52d70ed5b43f19ffe4086a074f25e54876aefa66ac2e9964d07369",
+      "bytes": 6174
+    },
+    {
+      "source": "src/utils/command-logger.ts",
+      "path": "src/utils/command-logger.ts",
+      "sha256": "983dbe13426edefab2aeaa432097d946ea0905ac68de415bc1c51e38158ab378",
+      "bytes": 558
+    },
+    {
+      "source": "src/utils/console-device.ts",
+      "path": "src/utils/console-device.ts",
+      "sha256": "a512f73f95f18bc0bf667ea63b6f4e44cdb2d4121ab29f4406ffe7e0c6d0f2a7",
+      "bytes": 822
+    },
+    {
+      "source": "src/utils/custom-menu.ts",
+      "path": "src/utils/custom-menu.ts",
+      "sha256": "b70269f1f073b940f01f06d22cacf4fe805d1eadce4635821565c56b88f982d7",
+      "bytes": 279
+    },
+    {
+      "source": "src/utils/debug-shallow-equal.ts",
+      "path": "src/utils/debug-shallow-equal.ts",
+      "sha256": "93cf27585a513041ef8a7a8c28d7110eb015cd6e178e1cf22c1ecaee81fe88c9",
+      "bytes": 260
+    },
+    {
+      "source": "src/utils/definition-name.ts",
+      "path": "src/utils/definition-name.ts",
+      "sha256": "db947753c5cffa18d570c7bc6ddc21d67fbc9dc61ee29b3857dc046f3759bf3d",
+      "bytes": 904
+    },
+    {
+      "source": "src/utils/definition-revision.ts",
+      "path": "src/utils/definition-revision.ts",
+      "sha256": "66cdfb887d75fb9d7521c41a3656554db5c35f27a1e26af406c8b5f7ad6440c4",
+      "bytes": 519
+    },
+    {
+      "source": "src/utils/device-display-name.ts",
+      "path": "src/utils/device-display-name.ts",
+      "sha256": "3735f806d297987792e63e231662c544adc636654e510fb46d6e39fbc124ed30",
+      "bytes": 472
+    },
+    {
+      "source": "src/utils/device-store.ts",
+      "path": "src/utils/device-store.ts",
+      "sha256": "ec2111bf63aecf8d8655bf2863a21cdb5354f4c57fe6e6b3bb143e07f56a7dcd",
+      "bytes": 6168
+    },
+    {
+      "source": "src/utils/format.ts",
+      "path": "src/utils/format.ts",
+      "sha256": "83b5c17b2096abe281b5f0547a04444ad5953933ddd6a0ad9ca9ed1a00bb2893",
+      "bytes": 129
+    },
+    {
+      "source": "src/utils/github.ts",
+      "path": "src/utils/github.ts",
+      "sha256": "6cf1a2418e8fac8cee116c0689a17cea32fd1a7b449218b8b43b6ba0db078d79",
+      "bytes": 1886
+    },
+    {
+      "source": "src/utils/hid-keyboards.ts",
+      "path": "src/utils/hid-keyboards.ts",
+      "sha256": "b52b5bc5ecd05ef0c31570b11eefe2deccda932a2e3d124dbf58bbac1cb0d557",
+      "bytes": 1560
+    },
+    {
+      "source": "src/utils/key-event.ts",
+      "path": "src/utils/key-event.ts",
+      "sha256": "00e4e396073658b9dc7b1f8527102ca746c6882ee53174d348bea0b9d767274a",
+      "bytes": 14672
+    },
+    {
+      "source": "src/utils/key-to-byte/default.ts",
+      "path": "src/utils/key-to-byte/default.ts",
+      "sha256": "5bbf047a71f804c70e4c04bf1705480f200737adaf2834783e26e4ecab0177f8",
+      "bytes": 6403
+    },
+    {
+      "source": "src/utils/key-to-byte/deprecated-keycodes.ts",
+      "path": "src/utils/key-to-byte/deprecated-keycodes.ts",
+      "sha256": "742ef9481a18e31a1446686bfff309d390e9e13ef907437ab18096a50a63059b",
+      "bytes": 1418
+    },
+    {
+      "source": "src/utils/key-to-byte/dictionary-store.ts",
+      "path": "src/utils/key-to-byte/dictionary-store.ts",
+      "sha256": "e893157fffa792649b95717bbf083da47260c022ad8295aad0316196e3db3721",
+      "bytes": 783
+    },
+    {
+      "source": "src/utils/key-to-byte/v10.ts",
+      "path": "src/utils/key-to-byte/v10.ts",
+      "sha256": "727e2d43a6ea73ecf7564012940197e4a1df2ffc2c144ed286dcdcc559a0c69f",
+      "bytes": 6403
+    },
+    {
+      "source": "src/utils/key-to-byte/v11.ts",
+      "path": "src/utils/key-to-byte/v11.ts",
+      "sha256": "31036fa1d8c178c04857d133a413bc7af445b161eae97bd6f562298167494caa",
+      "bytes": 10377
+    },
+    {
+      "source": "src/utils/key-to-byte/v12.ts",
+      "path": "src/utils/key-to-byte/v12.ts",
+      "sha256": "0f3cc13f3b5230399f7a34692436cafe44052cb7e93ebcbfb7f76d38e75bc204",
+      "bytes": 10634
+    },
+    {
+      "source": "src/utils/key-to-byte/v13.ts",
+      "path": "src/utils/key-to-byte/v13.ts",
+      "sha256": "253e03e6bd2c8e7420522d4f9c88febf6ba9f32b6b980bd2026b1198a7ee2bb7",
+      "bytes": 1058
+    },
+    {
+      "source": "src/utils/key.ts",
+      "path": "src/utils/key.ts",
+      "sha256": "0d631a975dc4cfbae82c7277fce3a81b0037eb2b5f619c0d28e082834616ffed",
+      "bytes": 41436
+    },
+    {
+      "source": "src/utils/keyboard-api.ts",
+      "path": "src/utils/keyboard-api.ts",
+      "sha256": "3c6b54a99f763858b651062a0bcc633c28a7e5c00e5eab97e2f0b45be31aa76a",
+      "bytes": 23897
+    },
+    {
+      "source": "src/utils/keyboard-rendering.ts",
+      "path": "src/utils/keyboard-rendering.ts",
+      "sha256": "6dc2ccab04394e005ea2729d46a6bf7c4a9c89a7b5f1cbe561eb9f3af48ef052",
+      "bytes": 14828
+    },
+    {
+      "source": "src/utils/keyboard-values.ts",
+      "path": "src/utils/keyboard-values.ts",
+      "sha256": "8ec1820dd0883e37508b8319a8cb4211b0574509fcd65f2140e6fec192c5cb1f",
+      "bytes": 192
+    },
+    {
+      "source": "src/utils/keycodes-version.ts",
+      "path": "src/utils/keycodes-version.ts",
+      "sha256": "61d53dba43f6b8e7dfc25dfe181d8aa9f35216bdbf15ee78ef8c027f3bcc7224",
+      "bytes": 2320
+    },
+    {
+      "source": "src/utils/keymap-extras/index.ts",
+      "path": "src/utils/keymap-extras/index.ts",
+      "sha256": "3043ffbf3af74d9dc8c8aec43f48bd2f42fe23d2b2b178931e30eafd3235c2aa",
+      "bytes": 14651
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_belgian.ts",
+      "path": "src/utils/keymap-extras/keymap_belgian.ts",
+      "sha256": "f4476bea736e2ac976e1432a37b9e6d64015848c422f96af0d3ae6c16bcc5202",
+      "bytes": 12815
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_bepo.ts",
+      "path": "src/utils/keymap-extras/keymap_bepo.ts",
+      "sha256": "8c4932d020fd2af55868b0e7e646b1c5f904fbe9df6887d3635dee1b9bae1fa1",
+      "bytes": 18837
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_brazilian_abnt2.ts",
+      "path": "src/utils/keymap-extras/keymap_brazilian_abnt2.ts",
+      "sha256": "715ce36016b3d0b79e729fbdd39d38f7f2043c5974de7b36c48364110b0a15ed",
+      "bytes": 12983
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_canadian_multilingual.ts",
+      "path": "src/utils/keymap-extras/keymap_canadian_multilingual.ts",
+      "sha256": "8c939599e53f0368729a36d9f90bc9d04743c04b402f7b2e252dad5bffa98cb8",
+      "bytes": 20379
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_colemak.ts",
+      "path": "src/utils/keymap-extras/keymap_colemak.ts",
+      "sha256": "891cdb2eedcd67b0dcd146bca4c02a6db1b6710d3b39673e34c0f8d505868f2a",
+      "bytes": 10183
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_croatian.ts",
+      "path": "src/utils/keymap-extras/keymap_croatian.ts",
+      "sha256": "a11d939cea9f86f1a1483098e6d3871610e46413c5dc70158928b7d2e7b1211e",
+      "bytes": 13326
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_czech.ts",
+      "path": "src/utils/keymap-extras/keymap_czech.ts",
+      "sha256": "2d74ac922e0d671fed4359f3c90e388bc7a16ccbd5396cf2b4d8189f5d37c6bc",
+      "bytes": 13905
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_danish.ts",
+      "path": "src/utils/keymap-extras/keymap_danish.ts",
+      "sha256": "bfbd7ae5f5f7c782e89159aa2321bd93641da6ecf9596d26031e0fb3fbb1bee8",
+      "bytes": 12595
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_dvorak.ts",
+      "path": "src/utils/keymap-extras/keymap_dvorak.ts",
+      "sha256": "7321cdf91809b951679c8a6533451336caebbfdcbf9bb9399261a29a60669c6f",
+      "bytes": 10175
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_dvorak_fr.ts",
+      "path": "src/utils/keymap-extras/keymap_dvorak_fr.ts",
+      "sha256": "1b8baa533f7a2bf47388c7f178b8293fbf8194a5bfa17c1781f6241735a6a87c",
+      "bytes": 10421
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_dvorak_programmer.ts",
+      "path": "src/utils/keymap-extras/keymap_dvorak_programmer.ts",
+      "sha256": "ad9fe837434c2a3a103d44edc4701bfbdc4c65571bf1c138b26df562de13e3df",
+      "bytes": 10147
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_estonian.ts",
+      "path": "src/utils/keymap-extras/keymap_estonian.ts",
+      "sha256": "1d6175f61572b55016acccc482f47b2d322a3819cf628708f9dae1578780210b",
+      "bytes": 12736
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_finnish.ts",
+      "path": "src/utils/keymap-extras/keymap_finnish.ts",
+      "sha256": "83ed286fe992751b801ff8fb2caed8733a02516b3c900acc0b2a5f552e7db71d",
+      "bytes": 12602
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_french.ts",
+      "path": "src/utils/keymap-extras/keymap_french.ts",
+      "sha256": "6fca7075216f215ba1af20d9b9dbf4ae50b08b925a4e4f96d1854fb184663b8d",
+      "bytes": 12651
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_french_afnor.ts",
+      "path": "src/utils/keymap-extras/keymap_french_afnor.ts",
+      "sha256": "a4120650740eb482970598aa89e54f77ab3d29475c47bbb80175c626f89d081c",
+      "bytes": 19520
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_french_mac_iso.ts",
+      "path": "src/utils/keymap-extras/keymap_french_mac_iso.ts",
+      "sha256": "b0c82e5e5540865d5b5f13571b7d34f6421e1388cf0ed34c717d73989089e06a",
+      "bytes": 18957
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_german.ts",
+      "path": "src/utils/keymap-extras/keymap_german.ts",
+      "sha256": "d61aaadce42f60aae47e977877bd686db56e05a811c2bfbf3b403ef20ffb56e8",
+      "bytes": 12629
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_greek.ts",
+      "path": "src/utils/keymap-extras/keymap_greek.ts",
+      "sha256": "e48fd82e654f39fd316919295d2590e268dc99939e309ee9821ad042ad26772c",
+      "bytes": 13340
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_hebrew.ts",
+      "path": "src/utils/keymap-extras/keymap_hebrew.ts",
+      "sha256": "7d5e369e285fa730a59048de59271db0974420dc2918c71c48e9a818c587f725",
+      "bytes": 12376
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_hungarian.ts",
+      "path": "src/utils/keymap-extras/keymap_hungarian.ts",
+      "sha256": "9a222c4ea24467c437c91899abf6440856d9b7ee58c717c7b5d4259ac5f3ddc5",
+      "bytes": 13856
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_icelandic.ts",
+      "path": "src/utils/keymap-extras/keymap_icelandic.ts",
+      "sha256": "41002ea1fdb5d097f14e3e4357b318ca87c9644a5b14a86583535c850f2fa4a8",
+      "bytes": 12521
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_irish.ts",
+      "path": "src/utils/keymap-extras/keymap_irish.ts",
+      "sha256": "7f965fe977be540034462b2600a82ca0f62646561d3b2e7007153beac3454d3a",
+      "bytes": 12431
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_italian.ts",
+      "path": "src/utils/keymap-extras/keymap_italian.ts",
+      "sha256": "c1cdf74702be551380add97fcfe86867a3ef43f1c67cceef194f1fe67bedd411",
+      "bytes": 14044
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_italian_mac_ansi.ts",
+      "path": "src/utils/keymap-extras/keymap_italian_mac_ansi.ts",
+      "sha256": "b69220288883273974b80fe573e92609edc79fc34756f605171b356ae2447762",
+      "bytes": 19138
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_italian_mac_iso.ts",
+      "path": "src/utils/keymap-extras/keymap_italian_mac_iso.ts",
+      "sha256": "c1707eb15f215a8b967ae987e75ac5d2d870a8f4e8e7b87f8315bb538ce6ca81",
+      "bytes": 19204
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_japanese.ts",
+      "path": "src/utils/keymap-extras/keymap_japanese.ts",
+      "sha256": "f69ba53a59c2da25cbb4df6bfc85b72345c5375d28d7069410b8566adcca637f",
+      "bytes": 11221
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_korean.ts",
+      "path": "src/utils/keymap-extras/keymap_korean.ts",
+      "sha256": "8006c2b747977053b0cb8223344bcf787ae6f92a0e8982dd57f9e3d675ffeaec",
+      "bytes": 10397
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_latvian.ts",
+      "path": "src/utils/keymap-extras/keymap_latvian.ts",
+      "sha256": "afbeaa4f4318d6fd8a2f4f0262d5ba24c3644e373dbdb43d9765ea2451673912",
+      "bytes": 15403
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_lithuanian_azerty.ts",
+      "path": "src/utils/keymap-extras/keymap_lithuanian_azerty.ts",
+      "sha256": "11651132f7bf154a4581535ba14e7a8fa42eb4aa3e87ebe07adc98366376c20c",
+      "bytes": 12732
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_lithuanian_qwerty.ts",
+      "path": "src/utils/keymap-extras/keymap_lithuanian_qwerty.ts",
+      "sha256": "2481ec671d746f56246dc3ba552c9d459b12b608957aa46e7a02d3d39805a2d5",
+      "bytes": 14249
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_neo2.ts",
+      "path": "src/utils/keymap-extras/keymap_neo2.ts",
+      "sha256": "be86edd7eecb0e4dbd072e7b6e6bf537be582ee936471cc24be035d4d54f3139",
+      "bytes": 7274
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_norman.ts",
+      "path": "src/utils/keymap-extras/keymap_norman.ts",
+      "sha256": "dee5ac4223e435be93ad5bde608f4d342ac344e6214dadd72446ac3cb048cb59",
+      "bytes": 10183
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_norwegian.ts",
+      "path": "src/utils/keymap-extras/keymap_norwegian.ts",
+      "sha256": "21b657d0485eea196b9927eee7df233c81b81c2d79b0e3a09121b0ca3db62b7c",
+      "bytes": 12527
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_polish.ts",
+      "path": "src/utils/keymap-extras/keymap_polish.ts",
+      "sha256": "44f6040cde7f014c3f0409b052b55383d854cfb236353578eba1b021eb68ff54",
+      "bytes": 12516
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_portuguese.ts",
+      "path": "src/utils/keymap-extras/keymap_portuguese.ts",
+      "sha256": "3904df8b46a5dc7218831fcf0e760cc8682ad606be81d0c6b8e88fd4a8dd990a",
+      "bytes": 12532
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_portuguese_mac_iso.ts",
+      "path": "src/utils/keymap-extras/keymap_portuguese_mac_iso.ts",
+      "sha256": "bb073b4f8a703ad0f3dcb44168c6fa7e6b2dcdf1ab0340cd1bc658ac803f9e4e",
+      "bytes": 18165
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_romanian.ts",
+      "path": "src/utils/keymap-extras/keymap_romanian.ts",
+      "sha256": "de6b255d7d0cc0523c8da2c7e181604b30083351738d4120419c622b223e4c94",
+      "bytes": 15534
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_russian.ts",
+      "path": "src/utils/keymap-extras/keymap_russian.ts",
+      "sha256": "401e1da31e1a391bbedbafc6eebd39863bb2d12ec50907fe2388e11dc02f368a",
+      "bytes": 11711
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_serbian.ts",
+      "path": "src/utils/keymap-extras/keymap_serbian.ts",
+      "sha256": "2a0b882dc74e87cac960ddc2e443b0d8884d8d6304749a97ca2356ab731743c1",
+      "bytes": 11746
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_serbian_latin.ts",
+      "path": "src/utils/keymap-extras/keymap_serbian_latin.ts",
+      "sha256": "475254c3050432c787118b2f85c521945a611f468bc7f8e59d73fdfb904de852",
+      "bytes": 13379
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_slovak.ts",
+      "path": "src/utils/keymap-extras/keymap_slovak.ts",
+      "sha256": "417b0906e10033c951129705705d651c66f95703ee7effbeaf1d58bb24d50210",
+      "bytes": 13998
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_slovenian.ts",
+      "path": "src/utils/keymap-extras/keymap_slovenian.ts",
+      "sha256": "1779cbd37a9c8bef4b016a6069ccc4c3ca497cd9d53c4840cfa5ad5796974dee",
+      "bytes": 13323
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_spanish.ts",
+      "path": "src/utils/keymap-extras/keymap_spanish.ts",
+      "sha256": "c138cd06ba5159442e1206e24988bab8a7bb72824395ff95ac85107aad4b6814",
+      "bytes": 12591
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_spanish_dvorak.ts",
+      "path": "src/utils/keymap-extras/keymap_spanish_dvorak.ts",
+      "sha256": "1e388b62b421ba609ad817f0fda2b731de1806f4d91974865044121fb53fd9f5",
+      "bytes": 12578
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_spanish_latin_america.ts",
+      "path": "src/utils/keymap-extras/keymap_spanish_latin_america.ts",
+      "sha256": "c3a4f8c2c08440c4fc58a87c49f35ba7eef14e5b765a651cb53b5841101661c5",
+      "bytes": 12276
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_swedish.ts",
+      "path": "src/utils/keymap-extras/keymap_swedish.ts",
+      "sha256": "bbddcdf0786e291464845bfde8ac10bbb8ee1d3417f2462e4a3cbd49394a974d",
+      "bytes": 12602
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_swedish_mac_ansi.ts",
+      "path": "src/utils/keymap-extras/keymap_swedish_mac_ansi.ts",
+      "sha256": "8a789b4ac41c6d77c9b018274b8a8be081165ac03688701cf7720b60f63b41fa",
+      "bytes": 18519
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_swedish_mac_iso.ts",
+      "path": "src/utils/keymap-extras/keymap_swedish_mac_iso.ts",
+      "sha256": "8c79e31f121bdf25c27dce810e0fe7b0f43f8610b14c9f09126b5988dbe8cf46",
+      "bytes": 18444
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_swedish_pro_mac_ansi.ts",
+      "path": "src/utils/keymap-extras/keymap_swedish_pro_mac_ansi.ts",
+      "sha256": "d173fad5f2a1d48748fde2da94296e885da62526b369433a63417c269e3f58f9",
+      "bytes": 18519
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_swedish_pro_mac_iso.ts",
+      "path": "src/utils/keymap-extras/keymap_swedish_pro_mac_iso.ts",
+      "sha256": "5e56a1512636b53b54ed8107aa8dce0eaec9d580a8f7ca825545ee68c1bb8681",
+      "bytes": 18444
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_swiss_de.ts",
+      "path": "src/utils/keymap-extras/keymap_swiss_de.ts",
+      "sha256": "7c3ca6efb868ce98b0efb48bab8e6f3574bee17bb26dcc08e0f367d63063e22e",
+      "bytes": 12935
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_swiss_fr.ts",
+      "path": "src/utils/keymap-extras/keymap_swiss_fr.ts",
+      "sha256": "bb395cfc8bd19fcfe86d7c3a95463e919bc616ae73e946d7f58c037e54cabf32",
+      "bytes": 12935
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_turkish_f.ts",
+      "path": "src/utils/keymap-extras/keymap_turkish_f.ts",
+      "sha256": "1b2e412fe2af8c63a58a6b68d287d5dae52376b0b95c25850ccffdf405156cee",
+      "bytes": 16020
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_turkish_q.ts",
+      "path": "src/utils/keymap-extras/keymap_turkish_q.ts",
+      "sha256": "8a93e7785c7b285a5bf9b11823d72e04d3c93f3a39ab26f5030086771247563d",
+      "bytes": 12830
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_uk.ts",
+      "path": "src/utils/keymap-extras/keymap_uk.ts",
+      "sha256": "3422cec315c0dcad200e77278129ba45bfe35c30c637ac86a2f54c3e8bc8e224",
+      "bytes": 12353
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_ukrainian.ts",
+      "path": "src/utils/keymap-extras/keymap_ukrainian.ts",
+      "sha256": "34e979820a7287fcdd088823f3dcb8709092c5039533b9a09358b7eec0b613eb",
+      "bytes": 11704
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_us.ts",
+      "path": "src/utils/keymap-extras/keymap_us.ts",
+      "sha256": "d38c34345b4f6356d239d6d2b2962e1dea7c9bf27373ddaaa87d9205a53f3625",
+      "bytes": 8713
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_us_extended.ts",
+      "path": "src/utils/keymap-extras/keymap_us_extended.ts",
+      "sha256": "b5dbf5f65a64dcb6232ba32fc23f18aa173819d85abe951ba366a9e00b1317e3",
+      "bytes": 18082
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_us_international.ts",
+      "path": "src/utils/keymap-extras/keymap_us_international.ts",
+      "sha256": "d34bee421c1533acd255bdd9cf735cf073edfd4ab7b3d51cb78ff5611351e197",
+      "bytes": 16698
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_us_international_linux.ts",
+      "path": "src/utils/keymap-extras/keymap_us_international_linux.ts",
+      "sha256": "d774a49f907262145ff1bd7a12e00a867730789615440d13bc3ee354549a67d0",
+      "bytes": 17977
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_workman.ts",
+      "path": "src/utils/keymap-extras/keymap_workman.ts",
+      "sha256": "1eb698f9d23c9d9efaa4e1d52411706a3ca0162252c598c9dc2ac47e3b1bb9fa",
+      "bytes": 10183
+    },
+    {
+      "source": "src/utils/keymap-extras/keymap_workman_zxcvm.ts",
+      "path": "src/utils/keymap-extras/keymap_workman_zxcvm.ts",
+      "sha256": "161a4660818a4fc3a613431273319d57fa0f96bf38cd2117e8995e5fe9931a24",
+      "bytes": 10183
+    },
+    {
+      "source": "src/utils/macro-api/index.ts",
+      "path": "src/utils/macro-api/index.ts",
+      "sha256": "f25a231c0555953573f14b63c8bd30db54e76961e544133f66411cb09387cc7c",
+      "bytes": 902
+    },
+    {
+      "source": "src/utils/macro-api/macro-api.common.ts",
+      "path": "src/utils/macro-api/macro-api.common.ts",
+      "sha256": "9909e6260b2645842fb60245c12d937075a7aba145b3659ec3eaa35cb9cbb45c",
+      "bytes": 13339
+    },
+    {
+      "source": "src/utils/macro-api/macro-api.ts",
+      "path": "src/utils/macro-api/macro-api.ts",
+      "sha256": "6bcf0658efff9b940e74cc6973d3c5665be5b8003bec4c0e875e0dfe2fa8a34d",
+      "bytes": 5789
+    },
+    {
+      "source": "src/utils/macro-api/macro-api.v11.ts",
+      "path": "src/utils/macro-api/macro-api.v11.ts",
+      "sha256": "91618149035b68af38dfa60a1d8e156633a4c2364de0e29df385cd6c36ed0841",
+      "bytes": 7662
+    },
+    {
+      "source": "src/utils/macro-api/types.ts",
+      "path": "src/utils/macro-api/types.ts",
+      "sha256": "182df1e3f710f872677fe03f4b5f28e9bdc33753a1f96b6a1ef8e7028eb4d431",
+      "bytes": 614
+    },
+    {
+      "source": "src/utils/model-definitions.ts",
+      "path": "src/utils/model-definitions.ts",
+      "sha256": "8d5928893b92eb26e7d48a03117f90ee5376eddf27e380739beab1487593870f",
+      "bytes": 3285
+    },
+    {
+      "source": "src/utils/note.ts",
+      "path": "src/utils/note.ts",
+      "sha256": "7e60ad91a974fa9b80be72e932da17e85f2ce09c608047f36cfd1103d4d3bc2e",
+      "bytes": 3671
+    },
+    {
+      "source": "src/utils/override.ts",
+      "path": "src/utils/override.ts",
+      "sha256": "dd56b5f4738209da9fd54f6a18c7c744be5fb107b5d9742f089a5a9f043aeb8b",
+      "bytes": 344
+    },
+    {
+      "source": "src/utils/pane-config.ts",
+      "path": "src/utils/pane-config.ts",
+      "sha256": "4d92edc3413781bac60cabcf9ba7344beb37af59a7aace5e6557c0f7a9a5097d",
+      "bytes": 1319
+    },
+    {
+      "source": "src/utils/pipeline.ts",
+      "path": "src/utils/pipeline.ts",
+      "sha256": "a429fd42d38e6f447492f51db32b80dc9bbcdeb43ae1b367add60070771fc459",
+      "bytes": 120
+    },
+    {
+      "source": "src/utils/range-constraints.ts",
+      "path": "src/utils/range-constraints.ts",
+      "sha256": "e6417bc108fb468cb3e68b3e0cd775488ac0da7febe41ffb3b19525e6213e0c6",
+      "bytes": 5029
+    },
+    {
+      "source": "src/utils/retry.ts",
+      "path": "src/utils/retry.ts",
+      "sha256": "fa1d0c56f79d8e7068669e70bae94650623c6abeba8cc4fc98c50bf6802947f2",
+      "bytes": 738
+    },
+    {
+      "source": "src/utils/running-context.tsx",
+      "path": "src/utils/running-context.tsx",
+      "sha256": "de50506eede9c72cb23c9045d079614b47cc2e921dbcca5da72e7817e0b7dada",
+      "bytes": 65
+    },
+    {
+      "source": "src/utils/test-keyboard-definition.json",
+      "path": "src/utils/test-keyboard-definition.json",
+      "sha256": "7485aa4f1d6c914e4f3ffb629e60e7ade5df195f85447f4605d01d342d8702e4",
+      "bytes": 22845
+    },
+    {
+      "source": "src/utils/test-webgl.ts",
+      "path": "src/utils/test-webgl.ts",
+      "sha256": "7f34384be22ea711e0e737c651103254ccd548c55ed9429337be73b6b933c9f2",
+      "bytes": 335
+    },
+    {
+      "source": "src/utils/themes.ts",
+      "path": "src/utils/themes.ts",
+      "sha256": "9351c5a2d001d70b023bbf54a289175795c64f1f534a1f76de8ea01a3f8a2728",
+      "bytes": 5324
+    },
+    {
+      "source": "src/utils/type-predicates.ts",
+      "path": "src/utils/type-predicates.ts",
+      "sha256": "fb62c80c80b470661af5f964d335d88e417d2c3bf66cadfdd61cc8b66ef09bb4",
+      "bytes": 624
+    },
+    {
+      "source": "src/utils/usb-hid.ts",
+      "path": "src/utils/usb-hid.ts",
+      "sha256": "393291c7e62e4d3dc740aabd3798e2838918c25afc9de74f97ef4df0547cad6a",
+      "bytes": 688
+    },
+    {
+      "source": "src/utils/use-color-painter.tsx",
+      "path": "src/utils/use-color-painter.tsx",
+      "sha256": "37957ad22cd82f22b163b868e25e5a5539a10717b95af6aedf3ef3e153715f09",
+      "bytes": 2157
+    },
+    {
+      "source": "src/utils/use-global-keys.ts",
+      "path": "src/utils/use-global-keys.ts",
+      "sha256": "ed80127fdc37a4492ecd0383ccbcc97ae64f5b28bcadf92e0915d3b6cd1a4237",
+      "bytes": 1160
+    },
+    {
+      "source": "src/utils/use-keycode-recorder.ts",
+      "path": "src/utils/use-keycode-recorder.ts",
+      "sha256": "61fae39aefb541c2e2e55a36676f5a5cf63ea233b864424fcbcc11bd024455de",
+      "bytes": 2535
+    },
+    {
+      "source": "src/utils/use-matrix-test.ts",
+      "path": "src/utils/use-matrix-test.ts",
+      "sha256": "fa7d1c4d69526bc6d11df32b12492ad0f0a1e4a72287b9145e72c993f311d687",
+      "bytes": 4079
+    },
+    {
+      "source": "src/utils/use-size.ts",
+      "path": "src/utils/use-size.ts",
+      "sha256": "43489857d7e258ada68e53eae216dc949c502c6ff00efd8c5214fcf8f0e6a6c8",
+      "bytes": 501
+    },
+    {
+      "source": "src/utils/use-skip-font-check.ts",
+      "path": "src/utils/use-skip-font-check.ts",
+      "sha256": "c6f3a1bb5e93cdf746123ec207e74739d6237ef4d9ec5f170000b845fd6d17bc",
+      "bytes": 496
+    },
+    {
+      "source": "src/vite-env.d.ts",
+      "path": "src/vite-env.d.ts",
+      "sha256": "424faf9241dd699dda995b367ed36665732da1e6ec1f33b2fd40394488ecac92",
+      "bytes": 39
+    },
+    {
+      "source": "third_party/GPL-SOURCES.json",
+      "path": "third_party/GPL-SOURCES.json",
+      "sha256": "34a54da7325e8d6fb24065d2879c7254ddcecb12a8ebc1815651f301c49451bc",
+      "bytes": 4269
+    },
+    {
+      "source": "third_party/source-archives/keyboards-79ae8d2f.zip",
+      "path": "third_party/source-archives/keyboards-79ae8d2f.zip",
+      "sha256": "444b5f88d8106d15feae0f2c91a809c0a791dab328a378644d7deeccf40e27ed",
+      "bytes": 4125724
+    },
+    {
+      "source": "third_party/source-archives/pelpi-0.0.3-1a239b5c.zip",
+      "path": "third_party/source-archives/pelpi-0.0.3-1a239b5c.zip",
+      "sha256": "d82a5d8e4cdd9066a709763c0e69cdc2f10ad707328521b1f94bfe73771c33e2",
+      "bytes": 61595
+    },
+    {
+      "source": "third_party/source-archives/reader-1.14.3-12d1e5fb.zip",
+      "path": "third_party/source-archives/reader-1.14.3-12d1e5fb.zip",
+      "sha256": "ba870cf393f986e990f0f006bf69a9b6bc6f6801147f8b01cc88379b3458d86c",
+      "bytes": 79703
+    },
+    {
+      "source": "third_party/source-archives/reader-1.14.4-c2600999.zip",
+      "path": "third_party/source-archives/reader-1.14.4-c2600999.zip",
+      "sha256": "2e960061fde758218ff1c4ee9358d25b99b9755090dacb6898e7ce8f7dc706a7",
+      "bytes": 80568
+    },
+    {
+      "source": "tsconfig.json",
+      "path": "tsconfig.json",
+      "sha256": "b696ebe89c202a13d3e58d42e9dab11e37ba4e8ca51f3d7ab223ce424b14084d",
+      "bytes": 612
+    },
+    {
+      "source": "tsconfig.node.json",
+      "path": "tsconfig.node.json",
+      "sha256": "015b7ab21eed3624dae10b4e2229d9516826d211df090287812c98be48a0ee2e",
+      "bytes": 193
+    },
+    {
+      "source": "types/static.d.ts",
+      "path": "types/static.d.ts",
+      "sha256": "42c88cf120c5cea45d80d1b56bd24faaa21e3ac401ddab39dd027c220830147a",
+      "bytes": 1083
+    },
+    {
+      "source": "vite.config.ts",
+      "path": "vite.config.ts",
+      "sha256": "5d8033a89c0af2a920422ff5932221f225e9093ec92076558cb9fbcefe616ea8",
+      "bytes": 1797
+    }
+  ],
+  "generated": [
+    {
+      "path": "SOURCE_SNAPSHOT.json",
+      "sha256": "d1508902d22af13159df0d7170ee533c59368faacf060d2f7910c4c952e504ae",
+      "bytes": 617
+    }
+  ]
+}

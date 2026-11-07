@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "includeDirectories": ["src", "types", "definitions", "patches", "scripts", "public", "licenses", "third_party", "resources/branding"],
+  "includeFiles": [
+    ".bun-version", ".node-version", ".gitattributes", ".gitignore", ".prettierrc", "AGENTS.md",
+    "LICENSE", "UPSTREAM.json", "package.json", "bun.lock", "tsconfig.json", "tsconfig.node.json", "vite.config.ts", "index.html",
+    "BUILDING.md", "THIRD_PARTY_NOTICES.md", "docs/TESTING_RULES.md", "docs/RELEASE_WORKFLOW.md",
+    "resources/restricted-fonts.json", "resources/public-assets.json", "resources/upstream-resource-provenance.json", "resources/upstream-asset-history.json", "resources/morgrie-resource-overrides.json", "resources/public-source-policy.json",
+    ".github/workflows/pr-build.yml"
+  ],
+  "excludeDirectories": ["public/definitions", "node_modules", "dist", ".git", ".local", ".tools"],
+  "excludeFiles": ["docs/FAVICON.md", "scripts/download-definition.js", "src/assets/react.svg", "src/logo.svg"],
+  "requiredDirectories": ["src", "types", "definitions", "patches", "scripts", "public", "licenses", "third_party/source-archives"],
+  "mappings": [
+    {"source": "docs/public/README.md", "destination": "README.md"},
+    {"source": "docs/public/FAVICON.md", "destination": "docs/FAVICON.md"},
+    {"source": "docs/public/ISSUES.md", "destination": "docs/ISSUES.md"},
+    {"source": "docs/public/SNAPSHOT.md", "destination": "docs/SNAPSHOT.md"},
+    {"source": "docs/public/ASSET-PROVENANCE.md", "destination": "docs/ASSET-PROVENANCE.md"},
+    {"source": "docs/public/VALIDATION.md", "destination": "docs/VALIDATION.md"}
+  ]
+}

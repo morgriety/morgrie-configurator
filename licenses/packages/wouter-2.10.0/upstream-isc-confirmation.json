@@ -1,0 +1,20 @@
+[
+  {
+    "author": "molefrog",
+    "date": "2021-07-30T09:07:31Z",
+    "body": "Hi, @TheoBr, wouter is licensed [with the ISC](https://github.com/molefrog/wouter/blob/master/package.json#L56). I made a decision to ship it without a LICENSE.md file, since specifying it in package.json should legally be enough.\r\n\r\nThough we could add a short section to the README.",
+    "url": "https://github.com/molefrog/wouter/issues/205#issuecomment-889753654"
+  },
+  {
+    "author": "molefrog",
+    "date": "2021-07-30T09:08:48Z",
+    "body": "Just to make sure I checked the npmjs.org and it picks up the license properly: https://www.npmjs.com/package/wouter",
+    "url": "https://github.com/molefrog/wouter/issues/205#issuecomment-889754463"
+  },
+  {
+    "author": "t3dotgg",
+    "date": "2021-07-30T09:13:25Z",
+    "body": "My bad - ty!",
+    "url": "https://github.com/molefrog/wouter/issues/205#issuecomment-889757357"
+  }
+]

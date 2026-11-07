@@ -1,0 +1,366 @@
+{
+  "checkedAt": "2026-11-07",
+  "upstreamCommit": "935106a990af39bdd1ade881c02366eac486240d",
+  "sourceTree": "https://api.github.com/repos/the-via/app/git/trees/935106a990af39bdd1ade881c02366eac486240d?recursive=1",
+  "licenseUrl": "https://raw.githubusercontent.com/the-via/app/935106a990af39bdd1ade881c02366eac486240d/LICENSE",
+  "packageUrl": "https://raw.githubusercontent.com/the-via/app/935106a990af39bdd1ade881c02366eac486240d/package.json",
+  "nestedLicenseFiles": [
+    {
+      "path": "LICENSE",
+      "sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "size": 35149
+    }
+  ],
+  "editableModelSourcePaths": [],
+  "resources": [
+    {
+      "path": "public/android-chrome-192x192.png",
+      "localGitBlob": "0c7a859128f718f328302f8598be8fae82943aaa",
+      "upstreamGitBlob": "0c7a859128f718f328302f8598be8fae82943aaa",
+      "matchesUpstream": true,
+      "sha256": "680aab7cd2579012cc0fdf011f6e0034e03815f94486c61699d5070307659176"
+    },
+    {
+      "path": "public/android-chrome-512x512.png",
+      "localGitBlob": "b8c6ebac0b3af96d21c7c395aaae05961268888c",
+      "upstreamGitBlob": "b8c6ebac0b3af96d21c7c395aaae05961268888c",
+      "matchesUpstream": true,
+      "sha256": "e2406dab22231445b4e4a0463497466d809cc1d90e83474c9827d65322e7e263"
+    },
+    {
+      "path": "public/apple-touch-icon.png",
+      "localGitBlob": "893f414db5f8f84547f8f07b155405428b1cd670",
+      "upstreamGitBlob": "893f414db5f8f84547f8f07b155405428b1cd670",
+      "matchesUpstream": true,
+      "sha256": "e73ba27eca382b2d2bf67233a12527495fde0e3d4c1b2f26e08b172aca5628b7"
+    },
+    {
+      "path": "public/assets/404.html",
+      "localGitBlob": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "upstreamGitBlob": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "matchesUpstream": true,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "public/browserconfig.xml",
+      "localGitBlob": "b3930d0f047184047cb81d620436d91653438b8b",
+      "upstreamGitBlob": "b3930d0f047184047cb81d620436d91653438b8b",
+      "matchesUpstream": true,
+      "sha256": "4fbd84fac0ee65f57d0e65dd57573955ed5fdd082e83a6dc5bdcb03ed144c7ba"
+    },
+    {
+      "path": "public/favicon-16x16.png",
+      "localGitBlob": "f78d5ee62a11c9f24390cc410a691d58c9d5548b",
+      "upstreamGitBlob": "f78d5ee62a11c9f24390cc410a691d58c9d5548b",
+      "matchesUpstream": true,
+      "sha256": "c918e95bcaa7e49aa606dfb5f20b97aca29e85bd3daf1167d5774739148167b7"
+    },
+    {
+      "path": "public/favicon-32x32.png",
+      "localGitBlob": "ffa1e7cdb760986c909296267e106a59c59c45fc",
+      "upstreamGitBlob": "ffa1e7cdb760986c909296267e106a59c59c45fc",
+      "matchesUpstream": true,
+      "sha256": "aa6bb8a9b61a3992ff121410a4fe3f06cb2ba9090fc78a02f85a8899f17b1526"
+    },
+    {
+      "path": "public/favicon.ico",
+      "localGitBlob": "b7cef5e11d3a448e41a2c0f85f4d760ed934c4f1",
+      "upstreamGitBlob": "b7cef5e11d3a448e41a2c0f85f4d760ed934c4f1",
+      "matchesUpstream": true,
+      "sha256": "cba35d3dc3dd77a020cd5e78773e3fb7ec682c4cd3c07b1bdb6b56643579ea24"
+    },
+    {
+      "path": "public/fonts/GothamRounded-Bold.otf",
+      "localGitBlob": "b604674c843a165edb8ed997fc8b9068af3fe374",
+      "upstreamGitBlob": "b604674c843a165edb8ed997fc8b9068af3fe374",
+      "matchesUpstream": true,
+      "sha256": "c1f708bc087c693b719d0983dcfa318fd30a68e00f6f2f0d572e40e00fb8de13"
+    },
+    {
+      "path": "public/fonts/GothamRounded-BoldItalic.otf",
+      "localGitBlob": "ff1ed80dbf31b96c575a6a8fc721efca4f931a33",
+      "upstreamGitBlob": "ff1ed80dbf31b96c575a6a8fc721efca4f931a33",
+      "matchesUpstream": true,
+      "sha256": "553451b68f16a1cab10ee1280f0e72e8f6b60077d446227a2a9f821729e20c4f"
+    },
+    {
+      "path": "public/fonts/GothamRounded-Book.otf",
+      "localGitBlob": "6c4dc524b3d63fd3e0c032655339674cdd7364e4",
+      "upstreamGitBlob": "6c4dc524b3d63fd3e0c032655339674cdd7364e4",
+      "matchesUpstream": true,
+      "sha256": "b249bb0dc7fefa3b241411870542836d07e5a650b54a7d17a2322025220a482d"
+    },
+    {
+      "path": "public/fonts/GothamRounded-BookItalic.otf",
+      "localGitBlob": "89777d7613c859f49717c87469fa7e15938ea6c7",
+      "upstreamGitBlob": "89777d7613c859f49717c87469fa7e15938ea6c7",
+      "matchesUpstream": true,
+      "sha256": "f551ee24d56c44313138e2bbdb6dba9f76e8c8c8f47ccc40f9887f9a2e08c459"
+    },
+    {
+      "path": "public/fonts/GothamRounded-Light.otf",
+      "localGitBlob": "2e8efc12551d5a7a2bea26c2687fb4700f134589",
+      "upstreamGitBlob": "2e8efc12551d5a7a2bea26c2687fb4700f134589",
+      "matchesUpstream": true,
+      "sha256": "a76af0de89a8526292d9fe9b8b00d39cab554ada249a74f29aeaabc04bdc64b4"
+    },
+    {
+      "path": "public/fonts/GothamRounded-LightItalic.otf",
+      "localGitBlob": "443112d7daafa027faac914ebc4616bd38b480f8",
+      "upstreamGitBlob": "443112d7daafa027faac914ebc4616bd38b480f8",
+      "matchesUpstream": true,
+      "sha256": "0af6987e500ca71c0dc050c52352d2a595ae92edbe642ff3a7a42f0c151a0866"
+    },
+    {
+      "path": "public/fonts/GothamRounded-Medium.otf",
+      "localGitBlob": "b728ffb76894ca2f2f8dab191868d00153484964",
+      "upstreamGitBlob": "b728ffb76894ca2f2f8dab191868d00153484964",
+      "matchesUpstream": true,
+      "sha256": "c4bcf6fc289dc683bada65d21456f0a45ff71173e7e8798d78c2b5c7efed2293"
+    },
+    {
+      "path": "public/fonts/GothamRounded-MediumItalic.otf",
+      "localGitBlob": "785de7a10a302f5f5ab591230bd7067139e2278a",
+      "upstreamGitBlob": "785de7a10a302f5f5ab591230bd7067139e2278a",
+      "matchesUpstream": true,
+      "sha256": "bd78e8400b0d743af8abca2975eb828a2c13e5653de607501fe8e96cf74d14f4"
+    },
+    {
+      "path": "public/fonts/GothamRoundedBold_21016.ttf",
+      "localGitBlob": "8f3c358a8588e70d607b31c0eb7eae0c830cc8cc",
+      "upstreamGitBlob": "8f3c358a8588e70d607b31c0eb7eae0c830cc8cc",
+      "matchesUpstream": true,
+      "sha256": "a310a4420dcab453ce6f408a32ce1ed639de321c96b47f54140c74feea74b764"
+    },
+    {
+      "path": "public/fonts/GothamRoundedBook_21018.ttf",
+      "localGitBlob": "0293008103a902ffb7236a254a970dba37609b54",
+      "upstreamGitBlob": "0293008103a902ffb7236a254a970dba37609b54",
+      "matchesUpstream": true,
+      "sha256": "18964c80b28cca8aa17f5195778f968e933f0599b32850ac51642ed3c197d5f3"
+    },
+    {
+      "path": "public/fonts/GothamRoundedLight_21020.ttf",
+      "localGitBlob": "4181a78d413d03de832466d709aa2dbbeefbf3d1",
+      "upstreamGitBlob": "4181a78d413d03de832466d709aa2dbbeefbf3d1",
+      "matchesUpstream": true,
+      "sha256": "d7ae5d51226e7dd3f15728cb67db87b159df64fe94b4a7a18a2ce1dff2f7528b"
+    },
+    {
+      "path": "public/fonts/GothamRoundedMedium_21022.ttf",
+      "localGitBlob": "2f5a16a261712d55cafd1454b9c547efaa392c65",
+      "upstreamGitBlob": "2f5a16a261712d55cafd1454b9c547efaa392c65",
+      "matchesUpstream": true,
+      "sha256": "778d97da6e0d2f466f3d6e3a895654e1f11d735af087f55d6e7f98427f1534d5"
+    },
+    {
+      "path": "public/fonts/Symbola.ttf",
+      "localGitBlob": "25d0acbf244efe420853462b4619276976b33c61",
+      "upstreamGitBlob": "25d0acbf244efe420853462b4619276976b33c61",
+      "matchesUpstream": true,
+      "sha256": "77e5defb1f4dd781fc0900f8d87249f9cd12a0b65e57ce1c0061d88a361252a4"
+    },
+    {
+      "path": "public/fonts/blenderspacecap.glb",
+      "localGitBlob": "e3b43b9aa6e09e151159591c82189a24a868146e",
+      "upstreamGitBlob": "e3b43b9aa6e09e151159591c82189a24a868146e",
+      "matchesUpstream": true,
+      "sha256": "407de2dd85f1cdd05d4cc2549870a1964890e0269eb826ae151c1e0ab71e5c28"
+    },
+    {
+      "path": "public/github_oauth.html",
+      "localGitBlob": "21426138052e6bae63c6bf1fda7ae0c967570f53",
+      "upstreamGitBlob": "21426138052e6bae63c6bf1fda7ae0c967570f53",
+      "matchesUpstream": true,
+      "sha256": "abc9467347fac40756464b48c632c103a7abfae1030673045210cc066875a523"
+    },
+    {
+      "path": "public/images/_0.gif",
+      "localGitBlob": "d15054109cf01d33b65df617efe7e9ef3bacaa96",
+      "upstreamGitBlob": "d15054109cf01d33b65df617efe7e9ef3bacaa96",
+      "matchesUpstream": true,
+      "sha256": "350a82b8224881fb2af69fc0d75d6d3febd0688a52a1d2c541add707fc11451a"
+    },
+    {
+      "path": "public/images/_1.gif",
+      "localGitBlob": "f4a19158db4f4964522afebb351ed87d76d8dc93",
+      "upstreamGitBlob": "f4a19158db4f4964522afebb351ed87d76d8dc93",
+      "matchesUpstream": true,
+      "sha256": "e9f0895810138001561179e7ade9277ae6715a0e6b4c0a93e1b42ba820aed635"
+    },
+    {
+      "path": "public/images/_10.gif",
+      "localGitBlob": "4ca9a0b86f34b2d062aa0c404586d29f3704aff4",
+      "upstreamGitBlob": "4ca9a0b86f34b2d062aa0c404586d29f3704aff4",
+      "matchesUpstream": true,
+      "sha256": "5d00b68a95a0442adfa78c6316687dbb8a1374c4d5496e79475920976626d014"
+    },
+    {
+      "path": "public/images/_2.gif",
+      "localGitBlob": "9606f7cdbd9f737e77bd14a2032639bb6232bdc7",
+      "upstreamGitBlob": "9606f7cdbd9f737e77bd14a2032639bb6232bdc7",
+      "matchesUpstream": true,
+      "sha256": "181e447727dc782d5572f886673ba1648f627fdcaf277e6dbda545f8ec3856b8"
+    },
+    {
+      "path": "public/images/_3.gif",
+      "localGitBlob": "368eddd154287867c99d59b2b31119dda55a1f4d",
+      "upstreamGitBlob": "368eddd154287867c99d59b2b31119dda55a1f4d",
+      "matchesUpstream": true,
+      "sha256": "eb47e5647cb8e36dfb2302697e5c6ac3d8c333beff4b67ede33a33b171c31728"
+    },
+    {
+      "path": "public/images/_4.gif",
+      "localGitBlob": "579ae39fc4ada8c921d5036b5b5e09f3e3304230",
+      "upstreamGitBlob": "579ae39fc4ada8c921d5036b5b5e09f3e3304230",
+      "matchesUpstream": true,
+      "sha256": "85b3f5ec7661891fef9d6890d8447c904d315d30417583df221cd514571cd1e7"
+    },
+    {
+      "path": "public/images/_5.gif",
+      "localGitBlob": "c2a9e6c168f12361f5497ed653fe963bca39765c",
+      "upstreamGitBlob": "c2a9e6c168f12361f5497ed653fe963bca39765c",
+      "matchesUpstream": true,
+      "sha256": "e67e1b53488cc4b01923106e18aead596e812ba09b4b3a0ea01043fd92c3aca3"
+    },
+    {
+      "path": "public/images/_6.gif",
+      "localGitBlob": "3d6228efad669deaa25f4bca1b26eb273151355f",
+      "upstreamGitBlob": "3d6228efad669deaa25f4bca1b26eb273151355f",
+      "matchesUpstream": true,
+      "sha256": "249696c27e53f44ee7158cc1926c01170166297b78d017dd71ef44b4ce81051d"
+    },
+    {
+      "path": "public/images/_7.gif",
+      "localGitBlob": "d20c38495b377031543a3a5e9a3c27a2eea9308f",
+      "upstreamGitBlob": "d20c38495b377031543a3a5e9a3c27a2eea9308f",
+      "matchesUpstream": true,
+      "sha256": "4694e54e2ee8299946130134b178eb43adb1784ea3ef302f1c5a47c40bcd1dd0"
+    },
+    {
+      "path": "public/images/_8.gif",
+      "localGitBlob": "08a81f8bef3a4ebc7d3211e78593fb65f5237f7e",
+      "upstreamGitBlob": "08a81f8bef3a4ebc7d3211e78593fb65f5237f7e",
+      "matchesUpstream": true,
+      "sha256": "d662d2012d43e8b1fd2e7262acbcb3b89b18845b9354d588072b8edc28975102"
+    },
+    {
+      "path": "public/images/_9.gif",
+      "localGitBlob": "2f605d87f7ac68d1c2bddd83a59048c54904de48",
+      "upstreamGitBlob": "2f605d87f7ac68d1c2bddd83a59048c54904de48",
+      "matchesUpstream": true,
+      "sha256": "24ed41eead17880669f5ebb042887ddff0f75364111932187a70751e80b51304"
+    },
+    {
+      "path": "public/images/chippy.png",
+      "localGitBlob": "c41884367dd2f78ffcdb73d6ed063b16424e14c3",
+      "upstreamGitBlob": "c41884367dd2f78ffcdb73d6ed063b16424e14c3",
+      "matchesUpstream": true,
+      "sha256": "dd6cc202eaad4b042e78898227bb90f3fa4fa74a2925504f2ea4018a5fbca407"
+    },
+    {
+      "path": "public/mstile-144x144.png",
+      "localGitBlob": "a8903ce86409d2399b5272825bd965fa29ee884f",
+      "upstreamGitBlob": "a8903ce86409d2399b5272825bd965fa29ee884f",
+      "matchesUpstream": true,
+      "sha256": "7bff509cb21fb2d9e3ba6a7a5854c47bd11346bdd8ce593a199eacfdf40cdb7d"
+    },
+    {
+      "path": "public/mstile-150x150.png",
+      "localGitBlob": "b3db88ab7f4948ed8846e4cb4fe756093cc994bb",
+      "upstreamGitBlob": "b3db88ab7f4948ed8846e4cb4fe756093cc994bb",
+      "matchesUpstream": true,
+      "sha256": "66ea05ba149871f99394464fd5ecb54f141c97f967a41822ae5f940e299f42bb"
+    },
+    {
+      "path": "public/mstile-310x150.png",
+      "localGitBlob": "3d9ffd2f03bbd7ccebec3ade7dbd163f86fd16ee",
+      "upstreamGitBlob": "3d9ffd2f03bbd7ccebec3ade7dbd163f86fd16ee",
+      "matchesUpstream": true,
+      "sha256": "cae8fbf54f896759efca4b90868317d6b2a8e8021c1fd9b561f1edb2b9473f47"
+    },
+    {
+      "path": "public/mstile-310x310.png",
+      "localGitBlob": "f663751e35ed335ee0eb6c5a5dc2b38b8280730a",
+      "upstreamGitBlob": "f663751e35ed335ee0eb6c5a5dc2b38b8280730a",
+      "matchesUpstream": true,
+      "sha256": "6b1a22f8e29e3860ad5d64edd201dac8b13b2e9ecfaaa6feffa901d42bcbc923"
+    },
+    {
+      "path": "public/mstile-70x70.png",
+      "localGitBlob": "3a8fea51e564667d08b0796b98e95974ba1aba5f",
+      "upstreamGitBlob": "3a8fea51e564667d08b0796b98e95974ba1aba5f",
+      "matchesUpstream": true,
+      "sha256": "f68b03e4087d829bfcc5ff7ce8011f15cb3ae2ff473c7a07c7ea762cf841b75f"
+    },
+    {
+      "path": "public/robots.txt",
+      "localGitBlob": "e9e57dc4d41b9b46e05112e9f45b7ea6ac0ba15e",
+      "upstreamGitBlob": "e9e57dc4d41b9b46e05112e9f45b7ea6ac0ba15e",
+      "matchesUpstream": true,
+      "sha256": "e5ab0d231eeb01b4a982d1c79a6729cac9797ad15a69247e4f28ba6afc149b4c"
+    },
+    {
+      "path": "public/safari-pinned-tab.svg",
+      "localGitBlob": "5d98c7daf77df83fcea4e7bf57b12082309bd3d9",
+      "upstreamGitBlob": "5d98c7daf77df83fcea4e7bf57b12082309bd3d9",
+      "matchesUpstream": true,
+      "sha256": "210b7659a1f760735fdd4bf8f8bd4ad1a53c79e3d6d7483c14fb5ce19f951413"
+    },
+    {
+      "path": "public/site.webmanifest",
+      "localGitBlob": "b67c52306cac470b60ea047d23d7e9cf32e1e84b",
+      "upstreamGitBlob": "cf1e19ba1b273601c2eced278275253baced63dd",
+      "matchesUpstream": false,
+      "sha256": "e5209bca07fc4b5b9f04e642d3df8e10d638808a0b52341024121d693deb1ec4"
+    },
+    {
+      "path": "src/assets/images/chippy_600.png",
+      "localGitBlob": "730ad5f80373782c097001cb3825fc972e0cb9cf",
+      "upstreamGitBlob": "730ad5f80373782c097001cb3825fc972e0cb9cf",
+      "matchesUpstream": true,
+      "sha256": "902171c5ce364fc146c8106a01f56e20b75bf0dfddf90e27905df5e2de1bb6a7"
+    },
+    {
+      "path": "src/assets/images/morgrie-logo.png",
+      "matchesUpstream": false,
+      "note": "Not present in upstream fixed tree",
+      "sha256": "105f6ef47587df1ac2655e01657517b820e9ebb32035659878e2ac969e5af97b"
+    },
+    {
+      "path": "src/assets/images/squarey.svg",
+      "localGitBlob": "1b7b75e6480fca3f44697e3828cb88faa0b528ad",
+      "upstreamGitBlob": "1b7b75e6480fca3f44697e3828cb88faa0b528ad",
+      "matchesUpstream": true,
+      "sha256": "e7d7c3a0e4b9362db397c9d8dbcf985110bc588e1cd32eb9dcdcb32d906c27a1"
+    },
+    {
+      "path": "src/assets/models/cubey.glb",
+      "localGitBlob": "ec6fa250c8e8218240cb443e01cef0f341336c5c",
+      "upstreamGitBlob": "ec6fa250c8e8218240cb443e01cef0f341336c5c",
+      "matchesUpstream": true,
+      "sha256": "495d68a6545d2d69917edda7928fc6e0d4c89d3d39c091b79279b5f29ed4359d"
+    },
+    {
+      "path": "src/assets/models/keyboard_components.glb",
+      "localGitBlob": "31defb9706ceaaed4b62ed7745e923e4e458dfd5",
+      "upstreamGitBlob": "31defb9706ceaaed4b62ed7745e923e4e458dfd5",
+      "matchesUpstream": true,
+      "sha256": "1a09821acb6c239a1b9fb02b5fbd8f00e265a1699afa8639f0d5e3f3e10f9ed0"
+    },
+    {
+      "path": "src/assets/react.svg",
+      "localGitBlob": "6c87de9bb3358469122cc991d5cf578927246184",
+      "upstreamGitBlob": "6c87de9bb3358469122cc991d5cf578927246184",
+      "matchesUpstream": true,
+      "sha256": "35ef61ed53b323ae94a16a8ec659b3d0af3880698791133f23b084085ab1c2e5"
+    },
+    {
+      "path": "src/logo.svg",
+      "localGitBlob": "bab44e73797fedaf5da436cfb08051e397c0f07f",
+      "upstreamGitBlob": "bab44e73797fedaf5da436cfb08051e397c0f07f",
+      "matchesUpstream": true,
+      "sha256": "5145a50598fa49578714eb8673866313d0d6d5265f5490444bf186240e5616a3"
+    }
+  ]
+}
