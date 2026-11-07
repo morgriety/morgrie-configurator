@@ -1,8 +1,8 @@
 {
   "status": "CLEAN_GIT_SOURCE_NOT_RC_APPROVAL",
-  "originalDevelopmentHead": "4a2b3c90268bb2a715d95460778aaf9e3718cacd",
+  "originalDevelopmentHead": "f0cf347ec56c1807fb05cfbb6420ce959eaa9f09",
   "originalWorkingTreeWasDirty": false,
-  "sourceFingerprint": "baf77e068f18b9182021d874b29893a1da714e96b79128c70dde2c19a31b2d2b",
+  "sourceFingerprint": "0b467aa6728f53dc47396fa82c1e3497a467e5520225949b3f7dd4ef2680f4b5",
   "note": "The inventory excludes itself. All source/path mappings are explicit and byte-preserving. SOURCE_SNAPSHOT.json is generated provenance, not an application source edit.",
   "files": [
     {
@@ -1538,8 +1538,8 @@
     {
       "source": "src/components/menus/about-dialog.tsx",
       "path": "src/components/menus/about-dialog.tsx",
-      "sha256": "badfa255689107493cb631164c5c96cdd21f8cee5d11347bab01330865186785",
-      "bytes": 2597
+      "sha256": "a4e214dad5d0f80f2619d85d168035702b24517e0b14ebe4ea4b2ea4463661d0",
+      "bytes": 3476
     },
     {
       "source": "src/components/menus/external-links.tsx",
@@ -2030,8 +2030,8 @@
     {
       "source": "src/locales/zh.json",
       "path": "src/locales/zh.json",
-      "sha256": "1ca96dec1b0484c14b92eab580653789b0ae9cfcd9bc6de19ace3a72afff33ff",
-      "bytes": 21166
+      "sha256": "12c1c1cfa9d868cb6ccf6099def3443935a02f8ef745430f0ac1ed4936d0f872",
+      "bytes": 21516
     },
     {
       "source": "src/shims/node-hid.ts",
@@ -2943,7 +2943,7 @@
   "generated": [
     {
       "path": "SOURCE_SNAPSHOT.json",
-      "sha256": "d1508902d22af13159df0d7170ee533c59368faacf060d2f7910c4c952e504ae",
+      "sha256": "f62dcf201a4c4682a1d438b4237d8062db3f7957541f9f53d57880c2dfb4b3b5",
       "bytes": 617
     }
   ]

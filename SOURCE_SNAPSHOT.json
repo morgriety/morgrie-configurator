@@ -1,10 +1,10 @@
 {
   "status": "CLEAN_GIT_SOURCE_NOT_RC_APPROVAL",
-  "originalDevelopmentHead": "4a2b3c90268bb2a715d95460778aaf9e3718cacd",
+  "originalDevelopmentHead": "f0cf347ec56c1807fb05cfbb6420ce959eaa9f09",
   "originalWorkingTreeWasDirty": false,
-  "sourceDateEpoch": 1794078825,
+  "sourceDateEpoch": 1794082662,
   "bunLockSha256": "a8a90d42d76e2b41c0b5fdabfac4bffe2b08c5adbb96629e7d3b22538de672e9",
-  "sourceFingerprint": "baf77e068f18b9182021d874b29893a1da714e96b79128c70dde2c19a31b2d2b",
+  "sourceFingerprint": "0b467aa6728f53dc47396fa82c1e3497a467e5520225949b3f7dd4ef2680f4b5",
   "frozenRelease": false,
   "note": "Exported from one development source. Application/build files are byte-preserved; only explicit public documentation mappings and generated provenance differ. Clean Git identity is not release approval."
 }

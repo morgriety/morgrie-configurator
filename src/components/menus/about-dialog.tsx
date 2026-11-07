@@ -88,9 +88,37 @@ export const AboutDialog = ({
       <h2 id="morgrie-about-title">MORGRIE Configurator</h2>
       <p>
         {t(
+          'MORGRIE Configurator is a browser-based tool for configuring supported MORGRIE keyboards.',
+        )}
+      </p>
+      <p>
+        {t(
           'MORGRIE Configurator is built on VIA, the open-source keyboard configuration application.',
         )}
       </p>
+      <nav aria-label={t('Open-source resources')}>
+        <a
+          href="https://github.com/morgriety/morgrie-configurator"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {t('Source Code')}
+        </a>
+        <a
+          href="https://github.com/morgriety/morgrie-configurator/blob/main/LICENSE"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {t('GPL-3.0 License')}
+        </a>
+        <a
+          href="https://github.com/morgriety/morgrie-configurator/blob/main/THIRD_PARTY_NOTICES.md"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {t('Third-party Notices')}
+        </a>
+      </nav>
       <nav aria-label={t('VIA resources')}>
         <a href="https://caniusevia.com/" target="_blank" rel="noreferrer">
           VIA
